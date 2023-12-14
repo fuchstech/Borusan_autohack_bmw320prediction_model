@@ -1,0 +1,4080 @@
+Table of Contents
+AUTOMATIC TRANSMISSIONS
+Subject
+
+Page
+
+A5S 360R GM 5. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+System and Components Overview
+Components
+Case and Pan . . . . . . . . . . . . . . . .
+Torque Converter . . . . . . . . . . . . . .
+Vane Pump . . . . . . . . . . . . . . . . . .
+Electro/Hydraulic Valve Body . . . . .
+Accumulator Chambers . . . . . . . . .
+Multi plate Drive and Brake Clutches
+Free Wheel Clutches . . . . . . . . . . .
+Planetary Gearset . . . . . . . . . . . . .
+Transmission Fluid Heat Exchanger .
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.6
+.6
+.7
+.8
+.9
+10
+11
+12
+14
+
+A5S 360R Power Flow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+GS 20 Control System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+GS 20 IPO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+GS 20 Input Signals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+GS 20 Output Control Signals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+CAN Bus Communication . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+GS 20 Program Features Overview
+AGS (Adaptive Transmission Control)
+Non AGS Functions . . . . . . . . . . . . .
+Adaptive Hydraulic Pressure Control .
+Emergency Program . . . . . . . . . . . .
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+22
+22
+25
+26
+
+Service Information
+Transmission Fluid . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+Checking Transmission Fluid . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+Service & Replacement Parts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+
+Subject
+
+Page
+
+Diagnosis & Programming
+Fault Codes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+Programming . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+Basic Troublshooting. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+A5S 325Z 5HP 19. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .33
+Converter Clutch. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+Oil Pump. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .38
+Clutches. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+Transmission Diagram. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+Planetary Gear Set. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .42
+Oil Pan. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+Transmission Weight. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .43
+Position of Selector lever and Steptronic Function. . . . . . . . . . . . . . . . . . 43
+Modifications to Electro-hydraulic Control System. . . . . . . . . . . . . . . . . . 43
+Solenoid Valve and Clutch Logic. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .45
+Electronic Control Unit. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .46
+Recording Turbine Speed. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .48
+Programming. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .49
+Modifications to the Adaptive Transmission Control. . . . . . . . . . . . . . . . . 50
+System Overview with Steptronic for E46. . . . . . . . . . . . . . . . . . . . . . . . 51
+Service Information. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .52
+Transmission Application Chart. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+Review Questions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+
+A5S 360R GM 5
+Model: E46 All Versions
+Production Dates: 323i/Ci/Cic : 6/98 to 3/00, 323it: 1/00 to 3/01,
+328i/Ci/Cic: 6/98 to 6/00, 330Xi: from 6/00,
+325Xi: from 9/00
+Objectives
+After completing this module you should be able to:
+•
+
+List the electronic solenoids used in the valve body of the transmission.
+
+•
+
+Explain the purpose of the accumulator chambers.
+
+•
+
+Describe the installed location and operation of the range selector switch.
+
+•
+
+Identify the communication between the AGS and other modules in the vehicle.
+
+•
+
+Describe the features of the AGS driving programs.
+
+•
+
+Recognize the symptoms of a vehicle in the transmission emergency program.
+
+•
+
+Know how to check and fill the transmission fluid.
+
+•
+
+Understand the scope of repairs possible on the A5S 360R transmission.
+
+INTRODUCTION
+The E46 introduces a new 5 speed automatic transmission manufactured by General
+Motors Powertrain division of Strasbourg, France. The transmission is designated:
+•
+•
+
+A5S 360R - BMW Designation
+5 L40-E: GM Designation
+
+The transmission will be available as an option in both the 323i and 328i models from start
+of production. The A5S 360R will also be available in the 1999 528i (9/98 production).
+
+SYSTEM OVERVIEW
+The A5S 360R transmission offers the following features and benefits:
+•
+
+The A5S 360R’s has a maximum torque rating of 360Nm.
+
+•
+
+Designed and manufactured to provide maintenance free lifetime operation,
+
+•
+
+Transmission fluid is designated as “sealed for life”.
+
+•
+
+Gradual torque converter lock up providing a controlled degree of clutch slippage and
+smooth transition to full lock.
+
+•
+
+Torque converter variable lock up control can occur in 3rd, 4th and 5th gears.
+
+•
+
+New GS 20 control system designed and manufactured via a joint effort with BMW,
+Siemens and GM.
+
+•
+
+AGS shift program logic controlled,
+
+•
+
+Transmission diagnostics improved due to the new E46 diagnostic concept,
+
+•
+
+Drivetrain management system communication via CAN
+
+• Emergency Program (Safety Mode) activates if certain faults are present
+4
+Automatic Transmissions
+
+OVERVIEW OF COMPONENTS
+The A5S 360R is an assembly of the following:
+•
+
+Four case housing design (Torque converter bell housing, pump cover plate, main and
+extension cases)
+
+•
+
+Single piece sump pan
+
+•
+
+Replaceable oil filter unit
+
+•
+
+Four element torque converter assembly with variably controlled lock up clutch.
+
+•
+
+Vane type oil pump.
+
+•
+
+Four multi-plate drive clutches with single sided friction plates
+
+•
+
+Five multi-plate brake clutches with single sided friction plates,
+
+•
+
+Four Free Wheel One Way Clutches (sprag type)
+FW1
+
+CD
+
+CC1
+
+CR
+
+FW3
+
+C1
+
+COD
+
+FW4
+
+CI
+
+FW2
+
+LBC
+
+CC2
+
+C2
+
+•
+
+One Planetary Gearset Assembly
+
+•
+
+One Valve Body with solenoids for pressure regulation, shift control, torque converter
+regulated lock up and reverse lock out (combined function).
+
+5
+Automatic Transmissions
+
+COMPONENTS
+Transmission Cases and Pan:
+Made of aluminum alloy, the cases are light weight. The single piece oil pan is made of single wall sheet metal. It includes a drain plug on the bottom surface at the rear .
+
+The oil pan is mounted to the main case by 20 bolts. Oil pan sealing integrity is ensured
+by a controlled compression gasket. Cross tightening is required to ensure an even seal.
+Final torque of pan bolts is 10-12 Nm.
+Torque Converter:
+The 4 element torque converter consists of the Turbine, Rotor,
+Stator with one way clutch and Lock up clutch. Similar in
+function to previous torque converters, this unit’s lock up
+clutch is:
+•
+•
+•
+
+Fully disengaged
+Variable engagement providing precise slippage,
+Fully engaged (locked)
+
+The various clutch application hydraulic pressures are regulated by the control module activated torque converter lock up
+solenoid.
+The torque converter is manufactured specifically for the
+model it is installed in and is part number specific.
+6
+Automatic Transmissions
+
+Vane Pump:
+The A5S 360R uses a vane pump to provide the transmission main line oil supply for operation and cooling requirements. The pump rotor is mechanically driven by the torque converter oil pump drive tangs at 1:1 engine speed rotation providing pump operation.
+PIVOT PIN
+
+SLIDE
+
+The rotor with 13 vanes is located in a recess on
+the rear surface of the bell housing covered by the
+pump cover plate. The rotor and vanes are
+placed inside a slide mechanism. As the rotor
+spins, the vanes “sweep” the oil from the pump
+intake to the output along the mating surface of
+the vane ends and the interior surface of the slide.
+The slide is mounted on a pivot pin. As it pivots, it
+changes the eccentricity of the rotor to slide mating
+surface changing the pump output volume.
+
+ROTOR &
+VANES
+
+CALIBRATED SPRING
+
+The slide’s position is influenced by a calibrated
+spring and hydraulic input pressure from the main
+pressure regulator solenoid in the valve body.
+
+The benefit of changing the slide position is to optimize pump output volume to meet the
+needs of the operating conditions.
+•
+
+Max volume during
+engine startup. This
+condition provides a
+fast priming action
+of the pump for
+immediate lubrication and hydraulic
+pressure for operation.
+
+•
+
+Regulated output
+volume for varied
+driving conditions.
+Maximum volume is
+not required at all
+times.
+
+The GS 20 regulates the pump output volume as well as main line pressure regulation
+7
+Automatic Transmissions
+
+Electro/Hydraulic Valve Body:
+Located in the oil sump, the valve body is the electro/hydraulic control center for regulating
+and distributing pressurized transmission fluid for activating the various clutches, torque
+converter variable lock up, and regulation of main line oil pressures.
+Sub components of the valve body assembly include:
+•
+
+Manual valve
+
+•
+
+One main pressure regulator solenoid (Pressure Regulator Force Motor Solenoid - "GM
+term")
+
+•
+
+One torque converter regulator solenoid (also serves the Reverse Lock out function)
+
+•
+
+Three MV shift solenoids (When activated in a coded sequence provide shifts for 1-2,23,3-4,4-5)
+
+•
+
+The spool valves and springs for controlling apply pressures, activating shifts, regulating torque converter lock up, etc.
+
+•
+
+Four accumulator chambers for "cushioning" the transmission fluid apply pressure during upshifts 1-2, 2-3, 3-4, 4-5.
+
+TORQUE CONVERTER
+LOCKUP REGULATOR
+SOLENOID
+
+MANUAL VALVE
+SHIFT
+VALVE
+"C"
+
+SHIFT
+VALVE
+"B"
+SHIFT
+VALVE
+"A"
+
+MAIN PRESSURE REGULATOR
+
+8
+Automatic Transmissions
+
+ACCUMULATORS
+
+DO NOT REMOVE THESE
+TWO SCREWS WHEN REMOVING
+VALVE BODY FROM TRANSMISSION
+
+Accumulator Chambers:
+The accumulator chambers are similar in function to "fluid dampers". The accumulators are
+used to improve shift quality by absorbing apply pressures on the multiplate clutches providing a cushioned clutch engagement.
+
+Clutch apply fluid pressure
+directed to an accumulator
+piston and helped by a
+spring force opposes an
+accumulator fluid line pressure creating an action
+similar
+to
+a
+shock
+absorber.
+
+BLEED
+LINE PRESSURE
+FROM OIL PUMP
+NO PRESSURE
+FROM SHIFT VALVE
+
+The apply pressure pushes the clutch piston
+against the steel/friction plates causing initial engagement.
+
+NO PRESSURE
+TO CLUTCH
+
+Once the clearance between the clutch plates is taken up by the piston travel and the
+plates begin complete engagement the fluid pressure builds very rapidly.
+The accumulator is connected to the clutch
+apply circuit which at this
+point starts to absorb the LINE PRESSURE
+FROM OIL PUMP
+rapidly building pressure.
+
+BLEED
+
+APPLY PRESSURE
+FROM SHIFT VALVE
+
+The accumulator piston
+moves upward accommodating the high pressure
+fluid causing a delayed
+complete engagement.
+
+SOFTENED APPLY
+PRESSURE TO CLUTCH
+
+9
+Automatic Transmissions
+
+Multi plate Drive and Brake Clutches:
+Located in the main case are four drive
+and five brake clutches. When cushioned hydraulic control pressure is
+applied, the clutches engage smoothly
+with a slight delay.
+
+CLUTCH HOUSING
+
+FRICTION DISC
+
+CLUTCH HUB
+
+APPLY PISTON
+
+The valve body activates the various
+drive and brake clutches in a coded
+sequence to transmit engine drive
+torque to the planetary gear set providing the various output shaft ratios.
+OIL PASSAGE
+
+The clutches are multiplate units with
+both steel and friction plates. The friction plates are single sided.
+
+RELEASE SPRING
+INPUT SHAFT
+
+CLUTCH RELEASED
+CLUTCH
+HOUSING
+
+CLUTCH DISCS SEPERATED
+
+APPLY
+PISTON
+
+OIL PASSAGE
+
+CLUTCH APPLIED
+ALL CLUTCH DISCS FORCED TOGETHER
+OIL FORCES
+PISTON TO
+APPLY CLUTCH
+
+10
+Automatic Transmissions
+
+PRESSURIZED OIL FOR APPLY
+
+STEEL DISC
+
+Free Wheel Clutches (Sprag Type):
+Free wheel clutches spin freely in one
+direction and lock in the opposite
+direction.
+
+SPRAGS
+
+They consist of an inner race, an
+outer race and the sprag assembly.
+The sprag assembly contains individual, asymmetrically shaped wedges
+(sprags).
+•
+
+•
+
+When the inner race is driven, the
+sprags allow free wheel rotation.
+There is no effect on the outer
+race.
+
+END BEARING
+RETAINER RING
+
+When the outer race is driven, the
+(OUTER RACE)
+sprags wedge between the inner SPRAG RACE ASSEMBLY
+and outer races causing them to
+lock. The inner race is then driven
+by the outer race.
+A
+
+Free wheel clutches are used to:
+B
+
+•
+
+hold components stationary,
+
+•
+
+drive components when driven
+
+•
+
+SPRAG CAGE
+free wheel, allowing power to spin ASSEMBLY
+the inner or outer race without an
+output reaction.
+
+(INNER RACE)
+INPUT SUN GEAR
+
+The A5S 360R utilizes four Free Wheel clutches to perform various shifting and component
+holding functions during the delayed, cushioned multi plate clutch engagement preventing
+an interruption in the power flow during upshifts.
+The clutches are identified as FW1, FW2, FW3 and FW4.
+
+11
+Automatic Transmissions
+
+Planetary Gearset (Ravigneaux)
+Based on the Ravigneaux design, the A5S 360R planetary gearset is made up of two sections; front & rear. It functions as a single integral assembly with a common planetary carrier and a set of common long planetary gears. It consists of the following components:
+•
+•
+•
+•
+•
+•
+
+Two separate ring gears,
+Two separate input sun gears (one front, one rear)
+One set of three long planetary gears common to both sections (front-rear).
+One set of three short planetary gears (rear)
+One set of three short planetary gears (front)
+One common planetary carrier.
+
+The gearset has three possible torque inputs:
+1. Planetary carrier
+2. Front input sun gear
+3. Rear input sun gear
+Three possible reaction components:
+1. Planetary carrier
+2. Front ring gear
+3. Front input sun gear
+and one torque output:
+1. Rear ring gear.
+
+Planetary Gearset “Input - Reaction - Output” Chart
+Gear
+
+Input
+
+Reaction
+
+Output
+
+Ratio
+
+First
+
+Rear Input Sun Gear
+
+Planetary Carrier
+
+Rear Ring Gear
+
+3.45:1
+
+Second
+
+Rear Input Sun Gear
+
+Front Ring Gear
+
+Rear Ring Gear
+
+2.21:1
+
+Third
+
+Rear Input Sun Gear
+
+Front Input Sun Gear
+
+Rear Ring Gear
+
+1.59:1
+
+Fourth
+
+Rear Input Sun Gear
+& Planetary Carrier
+
+None
+
+Rear Ring Gear
+
+1.00:1
+
+Fifth
+
+Planetary Carrier
+
+Front Input Sun
+
+Rear Ring Gear
+
+0,76:1
+
+12
+Automatic Transmissions
+
+LONG PINION
+
+FRONT INPUT SUN
+REAR INPUT SUN
+
+FRONT SHORT PINION
+REAR SHORT
+PINION
+
+RING GEAR FRONT
+
+RING GEAR REAR
+
+FRONT VIEW
+
+REAR VIEW
+REAR PLANETARY PINION
+(SHORT)
+
+RING GEAR FRONT
+
+PLANETARY CARRIER
+
+FRONT PLANETARY PINION
+(SHORT)
+
+PLANETARY PINION
+(LONG)
+INPUT SUN FRONT
+
+INPUT SUN REAR
+OUTPUT SHAFT GEAR
+
+13
+Automatic Transmissions
+
+Transmission Fluid Heat Exchanger:
+A transmission fluid heat exchanger is
+located on the bottom edge of the radiator.
+Transmission fluid inlet and outlet hose
+fittings are located on the driver’s side of
+the transmission.
+The heat exchanger provides two functions:
+
+•
+
+After initial start up, the transmission
+fluid is warmed up by the engine
+coolant as it passes through the heat
+exchanger. The heat exchanger is
+controlled by an integral thermostat
+which regulates the transmission fluid
+flow into the radiator exchanger. In
+this state the heat exchanger acts as
+a transmission oil heater.
+
+•
+
+During operation at higher temperatures, the hot transmission fluid loses heat to the
+engine coolant when it passes through the heat exchanger and into the core of the radiator.
+
+14
+Automatic Transmissions
+
+A5S 360R POWER FLOW
+The GS 20 module controls the hydraulic valve body through electrical activation of the various solenoids. Electrical activation is based on a programmed operation map and transmission operating conditions (vehicle speed, engine load, throttle position, range selection,
+AGS program logic, etc).
+Engine torque is transferred by the various drive clutches when activated. The various
+torque paths enter the planetary gearset as input. Simultaneously, the planetary gearset
+is provided with reactionary input (held components) from the various brake clutches and
+Free Wheel clutches.
+The output result is five forward drive gears with progressive ratios and a single reverse
+gear.
+TORQUE CONVERTER
+LOCK UP CLUTCH
+TORQUE
+CONVERTER
+
+CI COD
+
+LBC C2 CC2
+
+TRANSMISSION CASE
+CC1
+
+C1
+
+CD
+
+CR
+FRONT RING
+
+FW4
+
+REAR RING
+
+SMALL
+FRONT
+PLANET
+
+FW2
+
+PLANETARY
+CARRIER
+LARGE COMMON
+PLANET GEAR
+
+FW3
+FRONT INPUT SUN
+
+PUMP
+
+SMALL
+REAR
+PLANET
+
+FW1
+
+ONE WAY
+CLUTCH
+
+REAR INPUT SUN
+
+INPUT
+
+Range
+
+OUTPUT
+
+Gear Ratio
+
+Clutches
+
+Free Wheels
+
+C1 C2 CI CD COD CC1 LBC CC2 CR
+D/4/3/2
+
+1
+
+3.45:1
+
+X
+
+X
+
+2
+
+2.21:1
+
+X
+
+X
+
+D/4/3
+
+3
+
+1.59:1
+
+X
+
+X
+
+X
+
+D/4
+
+4
+
+1.00:1
+
+X
+
+X
+
+X
+
+X
+
+D
+
+5
+
+0.76:1
+
+X
+
+X
+
+X
+
+X
+
+P/N
+
+/
+
+/
+
+X
+X
+
+X
+
+X
+
+1
+
+2
+
+3
+
+X
+X
+
+X X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+Solenoids
+
+4
+
+A
+
+B
+
+C
+
+X
+
+TCC
+
+OFF
+
+ON
+
+ON
+
+NO
+
+ON
+
+ON
+
+ON
+
+NO
+
+ON
+
+OFF
+
+ON
+
+Y/N
+
+OFF
+
+OFF ON
+
+Y/N
+
+OFF
+
+OFF OFF
+
+Y/N
+
+OFF
+
+ON
+
+OFF
+
+15
+Automatic Transmissions
+
+TRANSMISSION CONTROL SYSTEM (GS 20)
+The A5S 360R automatic transmission is
+controlled by the GS 20 control module.
+The acronym (GS) comes from the German
+word "Getriebesteurung", meaning
+Gearbox Control.
+
+GS 20
+CONTROL
+
+The design, program development and
+manufacturing of the GS 20 control system
+is the result of the combined efforts of
+BMW, Siemens and GM.
+The GS 20 control module is located in the
+E box in the engine compartment. It utilizes
+the 134 pin, "SKE" (standard shell construction), modular connector, enclosure.
+BMW PRODUCTION LINE LABEL
+IDENTIFICATION LABEL:
+•
+•
+•
+•
+•
+•
+•
+
+BMW Part Number
+Version Identification
+Software Level
+Production Date
+Serial Number
+Siemens Part Number
+GM Part Number
+
+Its blue connector color designates it a Transmission Control Module. The GS 20 utilizes 3
+of the 5 modular connectors.
+Connector 1: (X70001) 9 pins
+= Power and ground connections.
+
+Connector 4: X70004, 40 pins = Input and output control signal connections to transmission components in
+the transmission and CAN to MS 42.0.
+
+Connector 3: (X70003) uses 26 of the 52 pins = Input and output control signal connections to
+components in interior compartment (shift lock, EWS interface, brake light switch).
+
+16
+Automatic Transmissions
+
+ENGINE CONTROL POWER KL 87
+
+BACK UP LIGHTS
+CONTROL RELAY
+
+TCM
+(GS 20)
+
+TO BACK UP LIGHTS
+& REVERSE SIGNAL
+(PDC, NAV, Electrochromatic rearview mirror)
+
+SHIFT LOCK
+
+KICK DOWN
+
+MK20
+EI
+
+MS42
+CAN
+
+BRAKE LIGHT
+SWITCH
+BRAKE TEST
+SWITCH
+
+P/N SIGNAL
+TO EWS 3.3
+20
+
+SHIFT VALVE "A" (MV1)
+
+10
+
+SHIFT VALVE "B" (MV2)
+
+9
+
+SHIFT VALVE "C" (MV3)
+
+3
+
+VALVE BODY POWER
+HSD2
+
+MoD
+
+iC
+
+DIAGNOSIS &
+PROGRAMMING
+
+DIS
+
+MoDiC
+
++
+RANGE
+SELECTION
+SWITCH
+
+TC LOCK UP
+REGULATOR
+
+SUPPLY
++
+
+TRANS.
+INPUT
+SPEED
+
+C
+
+6
+
+S
+
+11
+8
+
+B
+VALVE BODY
+A
+
+MAIN
+PRESSURE
+REGUALTOR
+
+TRANS.
+OIL TEMP.
+
+TRANS.
+OUTPUT
+SPEED
+
+S
+
+17
+Automatic Transmissions
+
+GS 20 INPUT SIGNALS
+Power Supply and Grounds:
+The GS 20 receives:
+•
+•
+•
+•
+
+KL 30 (constant battery power),
+KL 15 (terminal 15 of the ignition switch)
+KL 87 (operating power from the Engine Control Main Relay)
+KL 31 (ground connection for the control module electronics and peripheral component
+operation)
+
+The GS 20 monitors the power/ground inputs for shorts (B+ and B-), open circuits and battery voltage levels (high and low).
+
+Range Selector Switch:
+The switch is mounted inside the transmission main case on the driver’s side. This location provides precise monitoring of the Manual
+valve position and is sheltered from the harsh environment under the
+vehicle external of the main case. Adjustment is not required.
+The range selector switch has 6 wires. The GS 20 provides the switch with 12 volts on one
+wire (pin 2 of connector X70004).
+X70004
+
+Depending on the range selector posi- Park
+tion, the switch provides coded high Reverse
+signals over five wires to the GS 20. Neutral
+The addition of the fifth wire (pin 1) is Drive
+4
+new compared with previous four wire
+3
+range selectors providing a redundant
+2
+P/N signal circuit.
+
+Pin 1
+X
+
+Pin 14
+X
+X
+
+X
+X
+X
+
+Pin 15
+X
+X
+X
+X
+
+Pin 16
+
+Pin 17
+X
+X
+
+X
+X
+X
+X
+
+X
+X
+
+X = High Signal
+Electronic Brake and Brake Test Switch:
+The GS 20 monitors the brake pedal position to activate sport mode, down hill recognition
+and for the shift lock operation. The control module receives both the brake and brake test
+hall effect sensor signals. When pressed;
+· the brake light switch pulls a standing voltage in the GS 20 low,
+· the brake test switch provides a high signal to a circuit monitor in the GS 20.
+18
+Automatic Transmissions
+
+Kick Down Switch:
+When the throttle pedal is pressed fully to
+the floor, the kick down switch closes providing a ground signal to the GS 20.
+The GS 20 recognizes the ground as a
+request to provide an immediate down shift
+and to switch to the AGS sport mode shifting program.
+Transmission Fluid Temperature Sensor:
+Located in the transmission oil sump, the NTC oil temperature sensor’s
+ohmic value decreases as the temperature increases. The GS 20 monitors
+the fluid temperature by sensing the voltage drop across the sensor causing a standing monitor voltage to "bleed" to ground. Rise and fall of the
+standing voltage value is a direct correlation of the fluid temperature.
+Detection of high fluid temperature modifies the torque converter regulation control and
+modifies the shift program to aid in reducing transmission fluid temperature.
+If the signal becomes impaired, the GS 20 applies a substitute temperature value based on
+Engine Temperature via CAN and stores a specific fault code.
+Transmission Input and Output Speed Sensors:
+The transmission speed sensors (turbine and output shaft) are analog inductive sensors that produce an AC sine wave similar to an ABS/ASC wheel
+speed sensor. The AC signal frequency is proportional to the rotation speed
+of the monitored components .
+•
+
+The turbine speed sensor scans a pulse wheel attached to the forward clutch housing.
+
+•
+
+The output shaft speed sensor scans a pulse wheel attached to the rear ring gear.
+
+The GS 20 monitors these signals along with the engine speed signal (CAN) to calculate
+transmission slip ratio for plausibility and for the adaptive pressure control function.
+The sensors are monitored for plausible signals, opens and shorts. Specific fault codes are
+stored for defects with these sensors.
+
+19
+Automatic Transmissions
+
+GS 20 OUTPUT CONTROL SIGNALS
+Valve Body Solenoid and Pressure Regulator Control
+The GS 20 activates the 3 shift solenoids by individual switched
+ground output control signals.
+The Main Oil Pressure and Torque Converter Lock up regulators are
+controlled by a Pulse Width Modulated (PWM) control to ground.
+PWM control modulates the hydraulic control pressures based on the
+current AGS shift program and maintains adaptive pressure control.
+Shift Lock Solenoid Control:
+The shift lock feature prevents the unintentional movement of the shifter from Park or
+Neutral.
+When KL 15 is switched on, the shift lock is
+engaged, when the brake pedal is pressed,
+the GS 20 releases the ground control circuit of the shift lock solenoid unlocking the
+shift gate. Additionally, above 2500 RPM,
+the selector lever remains locked in Park
+even if the brake pedal is applied.
+P/N Signal:
+As an output function, the GS 20 provides the EWS 3.3 with a switched high/low signal for
+P/N status.
+•
+•
+
+P or N = high
+all other ranges = low.
+
+The EWS 3.3 provides the P/N safety feature preventing the starter motor from operating
+unless the shifter is in P/N (high signal).
+Back Up Light Relay Control:
+As an output function, the GS 20 provides a switched ground to activate the control circuit
+of the back up light relay when the range selector is in R. The Back Up Light Relay provides power directly to the back up lights. The lighting circuit is also used as a high signal
+indicating Reverse status for PDC, NAV and the electro chromatic rearview mirror systems.
+20
+Automatic Transmissions
+
+CAN BUS COMMUNICATION:
+The E46 utilizes the now familiar “twisted pair” CAN bus wiring configuration for drivetrain
+and instrument cluster communication interface. The MS 42.0 to GS 20 link is a dedicated CAN circuit. The MS 42.0 is the gateway for data exchange between the GS 20 and
+Mark 20 EI (traction control) and the Instrument cluster.
+
+80
+100
+
+12
+0
+
+20
+
+2
+
+120 140
+160
+180
+
+80
+60
+
+4
+5
+
+1/min
+x1000
+
+120
+
+6
+
+1
+
+200
+
+40
+
+11
+
+3
+
+100
+
+60
+40
+
+220
+240
+
+20
+
+UNLEADED GASOLINE ONLY
+km/h
+
+140
+
+0
+
+50 30 20 15
+
+7
+12
+
+MPH
+
+CAN bus data exchange for the GS 20
+includes:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Engine Speed (input),
+Engine Temperature (input),
+Accelerator pedal position and rate of
+application (input),
+Engine intervention signalling (input and
+output)
+Shift delay for traction control and warm
+up phase (input)
+Active shift program (output)
+Cruise control requirements (input)
+Turn recognition (input)
+Current Range and program selection (output)
+Torque Converter lock up signalling (output)
+Transmission fault indication lamp (output)
+etc..
+
+21
+Automatic Transmissions
+
+GS 20 Program Features Overview
+AGS (ADAPTIVE TRANSMISSION CONTROL)
+The GS 20 adaptive transmission control feature automatically selects suitable shifting programs based on driving style, selected range, monitored signal activity and road/environmental conditions. Advantages to the AGS shift control include:
+•
+•
+•
+•
+
+Shift points adapted to the driving style
+Improved safety - no unwanted up shifting while in a tight curve,
+Automatic determination and selection of the winter program for better driveaway traction and reduced shift activity.
+Improved comfort - Starting in second gear in stop and go traffic.
+
+The AGS can be divided into two functional groups:
+1. Driver influenced features
+2. Features that react automatically to the driving style and environmental conditions.
+DRIVER INFLUENCED FEATURES OF AGS
+The adaptive drive program is based primarily on throttle input from the MS 42.0 control
+module via the CAN bus. The calculated rate of pedal position change influences the selection of the shift points.
+Moderate movement
+causes moderate
+downshifts while a
+quick application of
+the throttle initiates a
+downshift.
+The GS 20 also
+monitors braking
+and kickdown
+request.
+Economical driving: Shifter in D. Drive with slow application of throttle. This provides low
+and comfortable shift points providing high fuel efficiency.
+Quick accelerator pedal activity automatically leads the GS 20 into the intermediate power
+mode. Based on this input data, the AGS automatically selects a sporty shift strategy.
+Sport: Shifter in "D", shift points are higher to take advantage of the full engine performance. The sport program is also immediately activated by a kick down request or excessive braking.
+22
+Automatic Transmissions
+
+The AGS driving programs are not adapted on a long term basis - nor is it stored
+in the GS 20 control module memory when the ignition key is switched off.
+The GS 20 continuously monitors the driving style and adapts to meet the current
+driver requirements.
+AGS FEATURES THAT REACT TO OPERATING CONDITIONS
+Stop and Go Driving: This feature is activated by a defined sequence of shifts which are
+as follows:
+•
+
+Upshift from first to second - followed by a downshift from second to first - followed by
+another upshift from first to second. This is then followed by the vehicle coming to a
+complete stop.
+
+After this sequence, the transmission will stay in second gear. The GS 20 AGS program
+has recognized stop and go driving and this function prevents excessive shifting during
+heavy traffic conditions. The second gear start is cancelled when:
+•
+•
+
+The throttle pedal movement exceeds limits (quick step on the pedal)
+The range selector is moved to P, N or R.
+
+Curve Recognition: This feature is activated when the GS 20 detects a variation of front
+wheel speeds via the CAN bus. The Mark 20 EI control module broadcasts the wheel
+speed sensor signals and their speed variations for any control module programmed to
+monitor this condition. When curves are recognized, the GS 20 inhibits up shifting until the
+front wheel speed signals equalize indicating the vehicle is driving straight ahead. This feature enhances the vehicle handling characteristics when cornering at higher speeds.
+Winter Drive Program: Wheel slip is calculated by the GS 20 based on wheel rotation
+data provided by the traction control system via CAN bus. The GS 20 modifies shift characteristics to match winter mode for better traction. When active, the transmission will
+start in second gear and the shift points are lowered. The purpose of this program is to
+improve the drivability of the vehicle with slippery road conditions.
+Cruise Control Program: When cruise control is activated, the MS 42.0 control module
+communicates this status via the CAN bus. The GS 20 activates a program suitable for
+active cruise control operation preventing pendulum locking/unlocking of the torque converter and minimizes up/down shifting. Additionally, the MS 42.0 can request a downshift if
+the vehicle speed exceeds the set speed limit when coasting downhill.
+Hill Recognition Program: The GS 20 activates this feature when it detects a high engine
+load condition at lower road speeds. When the vehicle is traveling up hill the shift points
+are raised to prevent repetitive up/down shifting.
+23
+Automatic Transmissions
+
+NON AGS FUNCTIONS
+The following features are part of the GS 20 automatic control system - but not AGS specific control features.
+Manually Selected Extra Sport Program: Longer delay shift pattern with higher engine
+RPM. This program is similar to the AGS detected sport program but requires the driver to
+move the range selector from D to 4th gear or lower.
+This program automatically returns to AGS shift program selection when the shifter is
+returned to the D position.
+Engine Warm Up Cycle: Based on the detected engine coolant temperature (CAN), the
+shift points are raised during cold engine operation. This is implemented to speed up the
+warm up cycle of the catalytic converter.
+Downshift protection: If the driver moves the range selector to a lower gear at higher
+vehicle speeds, the GS 20 delays the down shift until the road speed drops below a programmed value. This feature protects the powertrain from unnecessary loads ensuring long
+life operation.
+
+24
+Automatic Transmissions
+
+ADAPTIVE HYDRAULIC PRESSURE CONTROL:
+The GS 20 monitors engine speed via the CAN bus along with the transmission input and
+output speed signals simultaneously to determine the slip ratio and slip time during a shift.
+Slip ratio and slip time are influenced by production related differences between transmissions and by aging.
+The comparison of target & real slip allow the GS 20 to perform the adaptive pressure control function by modifying the PWM control of the main pressure regulator solenoid increasing the clutch apply pressures to compensate for internal slip. The adaptive pressure control function optimizes the shift quality and increases the life span of the clutch plates.
+The adaptive pressure control feature is not an AGS function.
+Clearing adaptation values with the DIS or
+MoDiC only clears this pressure control
+adaptation values. Clearing these values
+can lead to bad shift quality until the shift
+pressure is again optimized by the adaptation.
+
+25
+Automatic Transmisions
+
+EMERGENCY PROGRAM (SAFETY MODE)
+If a malfunction causes the GS 20 to activate the Emergency Program, the
+transmission fault indicator and the Check Engine Light in the instrument cluster
+both illuminate (CAN signal activation) and electronic control terminates.
+The transmission shifts manually in the following sequence:
+•
+•
+•
+
+For range selector lever positions D, 4, 3 or 2, Fifth gear is immediately activated (no
+electrical control). P, R and N positions operate normally.
+Torque converter lock up clutch is not functional
+Reverse lock out is also not functional.
+
+If the vehicle is stopped and restarted with this condition, the vehicle drives normally until
+the condition that initially caused the Emergency Program activation is once again detected.
+If the initial problem was a power down of the GS 20 control module, the transmission will
+shift manually in the following sequence:
+•
+•
+•
+
+For range selector lever position D, 4, 3 or 2, Fourth gear is immediately selected. P, R
+and N positions operate normally.
+Torque converter lock up clutch is not functional
+Reverse lock out is also not functional.
+
+26
+Automatic Transmissions
+
+SERVICE INFORMATION
+TRANSMISSION FLUID:
+•
+
+Initial production transmissions are factory filled with DEXRON III.
+
+•
+
+Later production transmissions will be factory filled with Texaco ETL-7045 lifetime oil.
+
+When the transition occurs, the fluid type will be noted by a label change on the transmission pan indicating the actual fluid type in the transmission.
+Transmissions filled with Texaco 7045 Dexron III can be "topped off" with the Texaco ETL7045 oil if required after performing the oil level checking procedure with the DIS/MoDiC.
+Fill Capacity:
+
+Approximately 7 liters (not including torque converter)
+Approximately 8 liters (including torque converter)
+
+CHECKING TRANSMISSION FLUID LEVEL:
+The Drain and Fill plugs are located as
+shown:
+Checking the transmission fluid level
+requires the fluid temperature be
+between 30OC and 50OC.
+•
+
+Connect the DIS or MoDiC to the 20 pin
+diagnostic connector of the vehicle.
+
+•
+
+From the diagnosis start screen identify
+the vehicle and press the continue arrow.
+
+•
+
+From the vehicle identification screen
+press the continue arrow.
+
+•
+
+From the Fault Symptom Selection Menu press the "Function Selection" button on the
+bottom left of the screen.
+
+•
+
+From the "Operations" column, select "Service Functions", then "Drive", then "Electronic
+transmission control"
+
+•
+
+Then select "Oil Level Check" from the Components list on the right side of the screen
+and press the "Test Schedule" button.
+
+•
+
+From the Test Schedule listing, select "Oil Level Check" and press the continue button.
+
+•
+
+Select 1. Oil Level Check by pressing the #1 button. Follow the instructions on screen
+to carry out the oil level check procedure.
+27
+Automatic Transmissions
+
+SERVICE AND REPLACEMENT PARTS
+For a severely malfunctioning A5S 360R transmission, the service procedure is to exchange
+it with a replacement core once an authorization has been obtained. However, there are
+replacement parts available for Limited Service Repairs.
+Transmission Identification:
+As with all BMW transmissions, an identification plate is attached to the transmission housing. The plate provides a two character alpha code signifying identification.
+Refer to the alpha code when ordering a replacement transmission. This code must be
+checked against the parts system verifying the code is correct for the specific vehicle and
+for possible code/part number supersession.
+The ID plate of the A5S 360R provides the following data:
+
+TWO CHARACTER
+ALPHA CODE
+BMW PART NUMBER
+
+GM PART NUMBER
+SERIAL NUMBER
+TRANSMISSION CONTROL
+CALIBRATION CODE
+
+Alpha codes for the E46 as introduced are
+“SW” for the 328i and “SX” for the 323i.
+
+28
+Automatic Transmissions
+
+SW
+
+Limited Service Repairs:
+Minor electrical and mechanical repairs can be performed on the A5S 360R. The following
+are included in the repair scope of the A5S 360R:
+Service Parts: Oil Filter unit, Pan Gasket, Oil Filler and Drain plugs with seals.
+Oil Leaks: Radial Seals and Gaskets
+Mechanical Faults: Torque converter core replacement, Parking Pawl mechanism,
+Hydraulic control faults - Valve Body Replacement
+Electrical Faults - Shift Solenoids. Torque converter pressure regulator and Main Line oil
+pressure regulator, Wiring harness (fluid temperature sensor), Range Selector Switch,
+Turbine and output speed sensors.
+
+29
+Automatic Transmissions
+
+DIAGNOSIS AND PROGRAMMING
+The E46 diagnostic concept provides an minimization of Fault Symptom selections based
+on areas of selection. Follow the test schedule provided by the DIS / MoDiC. The test
+schedule is based on the selected fault symptom and stored fault codes.
+
+FAULT CODES: The GS 20 monitors the A5S 360R and interfacing systems. When
+faults are detected, the GS 20 stores the following fault codes
+Fault Codes
+BMW Code
+
+30
+Automatic Transmissions
+
+Description
+
+DTC
+
+Hex code
+
+61
+
+None
+
+3D
+
+96
+
+P1750
+
+60
+
+System Voltage Low
+
+96
+
+P1751
+
+60
+
+System Voltage High
+
+Transmission Fluid Over Temperature
+
+80
+
+P1749
+
+50
+
+TCM Memory RAM/ROM/Programming fault
+
+81
+
+P1748
+
+51
+
+TCM NVM not Copied to RAM at Startup
+
+60
+
+P0705
+
+3C
+
+Position Switch Assembly
+(Range Switch signal not plausible or faulted)
+
+34
+
+None
+
+22
+
+Fluid temperature Sensor Circuit Voltage Low/High
+
+33
+
+P0715
+
+21
+
+Transmission Input Speed Sensor Circuit
+
+32
+
+P0720
+
+20
+
+Transmission Output Speed Sensor circuit
+
+150
+
+P0727
+
+96
+
+CAN - Engine Speed Signal
+
+50
+
+P0731
+
+32
+
+Incorrect 1st Gear Ratio
+
+52
+
+P0732
+
+34
+
+Incorrect 2nd Gear Ratio
+
+53
+
+P0733
+
+35
+
+Incorrect 3rd Gear Ratio
+
+54
+
+P0734
+
+36
+
+Incorrect 4th Gear Ratio
+
+55
+
+P0735
+
+37
+
+Incorrect 5th Gear Ratio
+
+48
+
+P0740
+
+30
+
+Torque Converter Clutch System - Mechanical
+
+0
+
+None
+
+1
+
+Main Pressure Control solenoid circuit
+
+129
+
+P1747
+
+81
+
+CAN Time out DME / TCM
+CAN Time out Instrument Cluster
+
+131
+
+None
+
+83
+
+130
+
+None
+
+82
+
+CAN Time out ASC
+
+144
+
+P1747
+
+90
+
+CAN BUS ERROR Protocol
+
+145
+
+None
+
+91
+
+CAN Torque Reduction Signal
+
+146
+
+None
+
+92
+
+CAN Engine Torque Signal
+
+19
+
+None
+
+13
+
+Shift Lock Control Solenoid/Circuit
+
+147
+
+P1765
+
+93
+
+CAN Throttle Position Signal
+
+148
+
+None
+
+94
+
+CAN Engine Coolant Temperature Signal
+CAN Wheel Speed
+
+149
+
+None
+
+95
+
+151
+
+None
+
+97
+
+CAN Brake Switch
+
+113
+
+None
+
+71
+
+Kickdown switch circuit malfunction
+
+83
+
+P1746
+
+53
+
+Shift Lock Power Control Solenoid Circuit High
+
+84
+
+P1746
+
+54
+
+TCC/Shift Solenoid Power Control Circuit High
+
+16
+
+P0753
+
+10
+
+Shift Solenoid ‘A’ Control Circuit Low/High Voltage
+
+17
+
+P0758
+
+11
+
+Shift Solenoid ‘B’ Control Circuit Low/High Voltage
+
+4
+
+P0743
+
+4
+
+Torque Converter Clutch PWM Solenoid Control
+Circuit
+
+18
+
+P0763
+
+12
+
+Shift Solenoid ‘C’ Control Circuit Low/High Voltage
+
+GS 20 PROGRAMMING:
+The control module must be programmed to update resident program data in an existing
+or after replacing a defective GS 20 control module. As with previous systems, the fault
+memory must be cleared and the system fully functional.
+Connect a battery charger to the vehicle prior to programming to ensure adequate voltage
+supply during the programming procedure. When programming is completed, clear the
+system adaptation values using the DIS or MoDiC.
+Always make sure the programming software is the latest version.
+
+31
+
+BASIC TROUBLESHOOTING
+• Always personally verify the customer complaint.
+•
+
+Always verify that the complaint is truly a system malfunction.
+
+• Perform a Quick Test to determine if the vehicle systems have logged fault codes.
+•
+
+Call up the faulted system or appropriate test schedule to verify the correct control
+module is installed in the car.
+
+•
+
+Follow the Diagnostic Information System (DIS) on screen instructions and perform all
+tests as specified.
+
+•
+
+Use the DIS and fault symptom diagnostic procedures as trained.
+
+•
+
+Follow the appropriate test module procedures for systems that malfunction but fail to
+set faults in memory.
+
+•
+
+To get a thorough understanding of automatic transmission issues, a GM or ZF
+Technical Specialist must be contacted whenever a vehicle is brought into the workshop
+with an automatic transmission related concern. Always have the printouts of fault
+codes stored in the DME and EGS and the transmission serial number available when
+calling.
+
+•
+
+If there is no Service Information Bullitin published which addresses the specific
+complaint, do not make any repairs to a 5 speed automatic transmission prior to
+contacting a GM or ZF Technical Specialist. Contacts may be made by calling the
+BMW Technical Hotline: 1-800 472-7222
+
+32
+Automatic Transmissions
+
+A5S 325Z 5HP 19 ZF TRANSMISSION
+Model: E46 All Versions
+Production Dates: 323i/Ci/Cic : 3/00 to 8/00, 323it: from4/01,
+330i/Ci/Cic: from 6/00, 325i/Ci/Cic: from 9/00
+Objectives
+After completing this module you should be able to:
+•
+
+Recognize the differences between the torque converters used in the 323i/325i and
+the 330i.
+
+•
+
+Understand the purpose of overlap shifts.
+
+•
+
+Describe the method used to program the control unit.
+
+•
+
+Know how to check and fill the transmission fluid.
+
+1. A5S325Z Automatic Transmission
+
+1.1 Automatic
+Transmission
+A5S325Z
+
+The A5S325Z automatic transmission was jointly designed
+by BMW and ZF for BMW six-cylinder models with a power
+output of up to 150 kW/204 bhp. It has electronic-hydraulic
+control and operation, as is usual for BMW. In addition, it is
+fitted with an adaptive transmission control system of the
+kind used, for instance, in the A5S440Z.
+The new automatic transmission offers:
+-
+
+Better shifts
+Enhanced dynamics
+Improved fuel economy
+Quieter operation
+
+KT-2352
+
+Fig. 1: A5S325Z Automatic Transmission
+
+34
+Automatic Transmissions
+
+3
+
+5
+
+7
+
+6
+
+8
+
+9
+
+11
+
+12
+
+13
+
+10
+
+14
+
+1
+
+4
+2
+3
+15
+22
+
+21
+
+2019
+
+18 1716
+KT-2507
+
+Fig. 2: A5S325Z Transmission
+
+1
+
+Torque converter housing
+
+12
+
+Clutch G
+
+2
+
+Turbine
+
+13
+
+Clutch F
+
+3
+
+Impeller
+
+14
+
+Output flange
+
+4
+
+Torque converter clutch
+
+15
+
+Output speed sensor
+
+5
+
+Transmission case
+
+16
+
+Single planetary gear set
+
+6
+
+Clutch C
+
+17
+
+Oil filler plug in side of oil pan
+
+7
+
+Clutch B
+
+18
+
+Oil pan
+
+8
+
+Clutch E
+
+19
+
+Turbine speed sensor
+
+9
+
+Clutch A
+
+20
+
+Oil filter
+
+10
+
+Planetary gear set
+
+21
+
+Drain plug
+
+11
+
+Clutch D
+
+22
+
+Shift unit
+
+35
+4
+
+Automatic Transmissions
+
+Technical Data:
+Transmission
+type
+
+automatic passenger-car transmission with five
+gears as standard.
+
+Torque capacity
+
+max. torque
+
+300 Nm at
+
+3500 rpm
+
+max. output
+
+150 kW/204 bhp at
+
+6000 rpm
+
+Torque converter
+
+Transmission
+ratios
+
+2.8 lt.
+
+W254 with double CTC
+
+2.5 lt.
+
+W254 with single CTC
+
+2.0 lt.
+
+W254 with single CTC
+
+first gear
+
+3.67
+
+second gear 2.00
+
+third gear
+
+1.41
+
+fourth gear
+
+1.00
+
+fifth gear
+
+reverse
+
+4.10
+
+0.74
+
+Selector
+positions
+
+P-R-N-D and Steptronic
+
+Control
+
+electronic-hydraulic with adaptive control
+
+Weight
+
+On tow
+
+transmission
+
+61.7 kg
+
+torque
+converter
+
+10.4 kg
+
+oil
+
+06.9 kg
+
+total approx.
+
+79.0 kg
+
+200 km at 70 km/h
+
+36
+Automatic Transmissions
+
+5
+
+1.2
+
+Converter
+clutch
+
+As in all automatic transmissions, power is transmitted via
+the torque converter with converter clutch and via the drive
+and brake clutches to the planetary gear and on to the
+output flange.
+The basic functions of the torque converter and the torque
+converter clutch are described in the training manual "BMW
+Automatic Transmission: Design and Function".
+The features in which the torque converter and torque
+converter clutch differ from the A5S310Z are as follows.
+- The weight of the torque converter has been reduced and
+the converter clutch has no torsion dampers, so the mass
+moment of inertia has been optimised.
+- No torsion damper in the torque converter clutch, further
+optimising the mass moment of inertia.
+- This transmission permits oil flow to continue when the
+torque converter clutch closed. This reduces the oil
+temperature in the torque converter.
+The torque converter clutch linings have small ducts to
+permit this flow of oil.
+- The torque converter clutch is closed in third, fourth and
+fifth gears. As in the A5S440Z, clutch closure is slipcontrolled.
+Control is in the speed range from approximately
+25 km/h to approximately 120 km/h, depending on the
+load situation. The torque converter clutch is always
+closed at speeds in excess of 120 km/h.
+- The torque converter clutch for the 2.8 litre has two
+linings (as in the A5S440Z). The version for 2.5 litre and
+2.0 litre models has only one lining. This lining is on the
+torque converter housing, not (as in the A5S310Z) on the
+clutch.
+
+KT-2506
+
+KT-2510
+
+Fig. 3: Torque converter clutch 2.5 litre (left) and 2.8 litre (right)
+
+37
+Automatic Transmissions6
+
+1.3
+
+Oil pump
+
+The basic clutch functions are described in the training
+manual "BMW Automatic Transmission: Design
+and Function".
+The delivery rate of the oil pump has been increased from
+16 cm per revolution to 24 cm per revolution. This higher
+delivery rate means that a controlled converter clutch can
+be used.
+The pump draws in oil via a filter and discharges the pressurized oil via a flow control valve which returns excess oil
+not needed at high engine speeds to the pump intake side.
+The flow control valve directs the pressurized oil via the
+main pressure valve in the hydraulic shift unit. This valve
+regulates the oil pressure and returns excess oil to the
+intake duct, releasing energy to increase pressure on the
+intake side in the same way as the flow control valve. This
+increase in pressure prevents cavitation and reduces noise.
+
+5
+7
+
+KT-2487
+
+Fig. 4: Oil pump
+
+1
+
+Retaining ring
+
+6
+
+Needle bearing
+
+2
+
+Shaft seal
+
+7
+
+Impeller
+
+3
+
+Round seal
+
+8
+
+Centring pin
+
+4
+
+Pump housing
+
+9
+
+Corrugated washer
+
+5
+
+Pump ring gear
+
+38
+Automatic Transmissions
+
+7
+
+1.4
+
+Clutches
+
+The basic clutch functions are described in the training
+manual "BMW Automatic Transmission: Design
+and Function".
+The ring-type multi-disc clutches A-B-E and F are drive
+clutches which transmit engine power to the planetary gear
+set. Clutches C-D and G are brake clutches which brace the
+torque against the transmission case.
+Shifts from first to second gear are assisted by a freewheel.
+In these shifts, therefore, there is no clutch overlap.
+Shifts from second to third, from third to fourth and from
+fourth to fifth are overlap shifts. This means that one clutch
+must continue to transmit drive at reduced main pressure
+until the other clutch engages.
+The transmission dispenses with brake bands, which has
+led to improved shift quality.
+
+39
+Automatic Transmissions
+
+8
+
+3
+
+2
+
+1
+
+5
+
+4
+
+7
+
+6
+
+KT-2493
+
+Fig. 5: A5S325Z clutches
+
+1
+
+Clutch A
+
+5
+
+Clutch E
+
+2
+
+Clutch B
+
+6
+
+Clutch F
+
+3
+
+Clutch C
+
+7
+
+Clutch G
+
+4
+
+Clutch D with freewheel
+
+Tolerance limits for the dished-spring forces were reduced
+for all clutches, so fill-pressure tolerance is down. The gap
+is now set by the snap ring so fill volume tolerances are
+narrower. The increase in wear reserves boosts operational
+dependability and transmission durability.
+
+40
+Automatic Transmissions
+
+9
+
+1.5
+
+Transmission
+diagram
+
+D
+CTC
+
+C
+
+G
+F
+
+B
+
+A
+
+E
+
+KT-2381
+
+Fig. 6: A5S325Z transmission diagram
+
+Closed shift elements:
+Gear
+
+Clutch
+A
+
+B
+
+Brake
+C
+
+1
+
+●
+
+2
+
+●
+
+●
+
+3
+
+●
+
+●
+
+4
+
+●
+
+❍
+
+E
+
+F
+
+❍
+
+●
+
+G
+
+1
+
+●
+
+●
+
+●
+●
+
+●
+
+5
+R
+
+D
+
+Freewheel
+
+●
+
+●
+
+●
+
+●
+
+●
+
+= depending on operating status
+
+41
+10
+Automatic Transmissions
+
+1.6
+
+Planetary
+gear set
+
+The basic functions of the planetary gear set are described
+in the training manual "BMW Automatic Transmission:
+Design and Function".
+As in the A5S310Z, the A5S325Z transmission uses a
+Ravigneau planetary gear set.
+The bearings of the planetary gears have been improved in
+this transmission (e.g. double bearings for short planet
+gears and cage bearings for long planet gears). These
+design modifications reduce gear noise and improve driving
+characteristics.
+Tail planetary gear set
+The tail planetary gear set consists of a sun gear with its
+four planet gears, a planet spider and a ring gear.
+
+KT-2488
+
+Fig. 7: Planetary gear set with tail planetary gear set
+
+The planetary gear set consists of the following
+components:
+-
+
+Ring gear
+Small sun gear
+Large sun gear
+Planetary gears
+
+The tail planetary gear set consists of the following
+components.
+-
+
+Ring gear
+Planetary gears
+Spider
+Sun gear
+
+42
+Automatic Transmissions
+
+11
+
+1.7
+
+Oil pan
+
+As in the A5S440Z, the A5S325Z has a flat gasket for the oil
+pan. This modification maximizes the sealing properties.
+In order to enhance accessibility for maintenance
+personnel, the oil filler plug is in the side of the oil pan.
+
+1.8
+
+Transmission
+weight
+
+At approximately 79.0 kg, the A5S325Z is about 5 % lighter
+than the A5S310Z. This increases fuel economy.
+
+1.9
+
+Position of
+selector lever
+and Steptronic function
+
+The position of the selector lever and the Steptronic
+function are the same as in the A5S310Z.
+
+1.10 Modifications
+to electronichydraulic
+control
+system
+
+The basic functions of the electronic-hydraulic control
+system are described in the training manual
+"BMW Automatic Transmission: Design and Function".
+
+Hydraulic shift unit
+
+The A5S325Z has three solenoid valves and four electrical
+pressure control valves to control the shift unit. Two of the
+pressure control valves are for gear shifts. One controls the
+modulation pressure and one operates the torque converter
+clutch. Controlled converter clutch operation would not be
+possible without a pressure control valve.
+
+43
+12
+
+Automatic Transmissions
+
+D
+
+B
+
+A
+
+E
+
+C
+
+F
+
+G
+HV-G
+
+HV-C
+
+KV-G
+
+D-EDS3
+
+SV-2
+
+KV-C
+
+D-EDS2
+
+1
+
+RG-V
+SV-3
+
+ZS-V
+ZV 5-4
+
+SV-1
+
+MOD-V
+F1
+SCHM.-V
+
+DR-V2
+
+MV 1
+
+MV 2
+
+D-EDS1
+
+ZV 4-5
+
+MV 3
+
+2
+HD-V
+
+EDS-1
+
+WD-V
+SV-WD
+
+EDS-2
+
+WS
+
+WK-V
+DR-V1
+
+EDS-3
+
+F1
+
+D
+
+N
+
+R
+
+3
+
+P
+EDS-4
+5
+
+D-EDS4
+
+6
+
+4
+
+7
+1 23DNR P
+
+KT-2619
+
+Fig. 8: Hydraulic system
+
+Key
+1
+
+Clutch valve with damper
+
+2
+
+Torque converter
+
+3
+
+Oil cooler
+
+4
+
+Lubrication
+
+5
+
+Electronic control unit
+
+6
+
+Pump
+
+7
+
+Position switch
+
+Key to abbreviations
+MV
+
+Solenoid valve
+
+EDS
+
+Pressure switch
+
+WS
+
+Selector lever
+
+D-EDS
+
+Damper for pressure actuator
+
+HV
+
+Retaining valve
+
+KV
+
+Clutch valve
+
+SV
+
+Shift valve
+
+ZS
+
+Thrust/coasting valve
+
+ZV
+
+Thrust valve
+
+MOD-V
+
+Modulation valve
+
+SCHM.-V
+
+Lube-oil valve
+
+RG-V
+
+Valve for reverse lockout
+
+DR-V
+
+Pressure relief valve
+
+HD-V
+
+Main valve
+
+WD-V
+
+Torque converter pressure valve
+
+WK-V
+
+Torque converter clutch valve
+Breather
+Restrictor
+Baffle
+Branch
+
+44
+13
+Automatic Transmissions
+
+1.11 Solenoid
+valve and
+clutch logic
+
+A5S325Z
+SOLENOID VALVE LOGIC
+
+POS/
+GEAR
+
+MV
+
+CLUTCH LOGIC
+
+EDS
+
+Clutch
+
+Freewheel
+
+Brake
+
+1
+
+2
+
+3
+
+1
+
+2
+
+3
+
+4
+
+A
+
+B
+
+E
+
+F
+
+C
+
+D
+
+G
+
+1g
+
+R=
+Reverse
+
+★
+
+-
+
+-
+
+★
+
+-
+
+★
+
+-
+
+-
+
+★
+
+-
+
+-
+
+-
+
+★
+
+★
+
+-
+
+N = Neutral
+
+★
+
+★
+
+-
+
+★
+
+-
+
+★
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+★
+
+-
+
+D, 1st gear
+
+★
+
+★
+
+-
+
+★
+
+-
+
+★
+
+-
+
+★
+
+-
+
+-
+
+-
+
+-
+
+-
+
+★
+
+★
+
+D, 2nd gear
+
+★
+
+★
+
+-
+
+★
+
+★
+
+★
+
+-
+
+★
+
+-
+
+-
+
+-
+
+★
+
+-
+
+★
+
+-
+
+D, 3rd gear
+
+-
+
+★
+
+-
+
+★
+
+★
+
+-
+
+(★)
+
+★
+
+-
+
+-
+
+★
+
+★
+
+-
+
+-
+
+-
+
+D, 4th gear
+
+-
+
+-
+
+-
+
+★
+
+-
+
+-
+
+(★)
+
+★
+
+-
+
+★
+
+★
+
+-
+
+-
+
+-
+
+-
+
+D, 5th gear
+
+★
+
+-
+
+★-★
+
+★
+
+★
+
+-
+
+(★)
+
+-
+
+-
+
+★
+
+★
+
+★
+
+-
+
+-
+
+-
+
+2, 1st gear
+
+★
+
+-
+
+-
+
+★
+
+-
+
+★
+
+-
+
+★
+
+-
+
+-
+
+-
+
+-
+
+★
+
+★
+
+(★)
+
+D, 5-4 drive
+
+★
+
+-
+
+★
+
+★
+
+★
+
+-
+
+(★)
+
+✪
+
+-
+
+★
+
+★
+
+✪
+
+-
+
+-
+
+-
+
+TC
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+★
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+45
+14
+
+Automatic Transmissions
+
+1.12 Electronic
+control unit
+
+A new control unit is used for A5S325Z transmissions. This
+control unit has also been fitted to A5S440Z transmissions
+since model year '98. The new control unit has a modular
+plug-in system with five chambers. Not all the plug modules
+are used in the automatic transmission control unit. The
+ground connections in module 1 are longer. This ensures
+that these pins are the first to make contact when the plug
+is pushed onto the control unit.
+
+M1
+
+M2
+
+M3
+
+M4
+
+M5
+
+KT-1468
+
+Fig. 9: Plug
+
+Key
+M1
+
+Module 1
+
+M4
+
+Module 4, automatic transmission
+
+M2
+
+Module 2
+
+M5
+
+Module 5
+
+M3
+
+Module 3, body
+
+1
+
+Pins used
+
+2
+
+Pins not used
+
+These new high-end standard control units have shorter
+access times on account of a new, more powerful 32-bit
+processor with 256 k memory and a program run time of
+approx. 10 ms. The old control units had an 8-bit processor
+with 64 k memory and a run time of approx. 24 ms.
+The new control units exclude the possibility of skip downshifts, for example from fifth to third. Downshifts can only be
+sequential through the gears.
+The control units optimise shift quality. The transmission
+reacts faster to load changes when, for example, the driver
+allows the car to coast and then immediately presses the
+accelerator pedal to the floor. Under these conditions, the
+A5S310Z transmission shifted up a gear and then shifted
+back down. The A5S325Z transmission cancels the upshift,
+so the transmission remains in the original gear. Shift
+transition control, too, has been improved, and clutch
+draining and filling are better matched. These measures
+have considerably enhanced levels of shift comfort.
+
+46
+Automatic Transmissions
+
+15
+
+①
+
+②
+
+KT-2490
+
+Fig. 10: Shift transition
+
+Key
+1
+
+Gear signal
+
+2
+
+Turbine speed
+
+3
+
+Clutch opening under pressure
+
+4
+
+Clutch closing under pressure
+
+5
+
+Slip speed
+
+6
+
+Synchronization point
+
+①
+
+Controlled load transfer (CLT)
+
+②
+
+Controlled load shift (CLS)
+
+47
+16
+
+Automatic Transmissions
+
+1.13 Registering
+turbine speed
+
+A Hall sensor (1) registers turbine speed (spider speed) in
+the A5S325Z transmission. The magnetic pole wheel (3) at
+cylinder A (4) rotates at turbine speed and generates a pulse
+frequency. This pulse frequency is registered by the Hall
+sensor through the non-magnetic bowl (2).
+This innovation enables speed to be measured much more
+accurately than was the case with the A5S310Z transmission.
+Synchronisation, in turn, can be calculated to a much finer
+degree of precision. Shift quality benefits accordingly.
+
+to EGS
+
+Distance a
+
+KT-2354
+
+Fig. 11: Registering turbine speed
+
+Key
+1 Hall sensor
+
+4
+
+Cylinder A, rotating at
+turbine speed
+
+2 Non-magnetic bowl
+
+5
+
+Turbine speed
+
+3 Magnetic ring with 18 pole pairs
+uniformly spaced around the
+circumference
+
+6
+
+Bowl speed
+
+48
+Automatic Transmissions
+
+17
+
+1.14 Programming
+
+Flashcode programming is the same as that used for the
+GS 8.55 control unit for the A5S440Z automatic transmission. The programming procedure is largely an adaptation of digital engine management programming with
+features tailored to electronic transmission control. As in
+digital engine management, flashcode control units can be
+programmed 14 times.
+Note:
+
+The adaptation values always have to be
+deleted once the electronic transmission
+control unit has been programmed. The control
+unit has to re-adapt after the adaptation values
+have been deleted. The control unit adapts
+automatically when the car is on the road.
+It is, however, advisable to perform a test run
+covering upshifts and downshifts through all
+the gears.
+The CAN bus is interrupted during programming, with the result that a CAN error
+is stored in the control units connected
+(ABS/ASC, DME etc.). Programming should
+always be followed by diagnosis to clear
+the fault memories of all the control units
+connected to the CAN bus.
+
+49
+18
+
+Automatic Transmissions
+
+1.15 Modifications
+to adaptive
+transmission
+control
+
+How adaptive transmission control for A5S325Z transmissions differs from the implementation for A5S310Z
+transmissions.
+
+The basic function of adaptive transmission control is
+described in the training manual "Adaptive transmission
+control unit".
+
+Adaptive transmission control is the same as that implemented for the A5S440Z transmission. This transmission,
+therefore, has two adaptation modes for the A and S programs.
+
+A program
+Basic shift characteristic XE and shift characteristic E
+are selected in the A program.
+It is not possible to switch to the S or XS shift
+characteristics.
+
+S program
+Basic shift characteristic S and performance-oriented
+shift characteristic XS are selected in the S program.
+It is not possible to switch to the XE or E shift
+characteristics.
+
+50
+Automatic Transmissions
+
+19
+
+1.16 System
+overview
+with Steptronic for E46
+
+KT-2351
+
+Fig. 12: System overview with Steptronic for E46
+
+Key
+1
+
+Ignition
+
+11
+
+Solenoid valves
+
+2
+
+DME master relay
+
+12
+
+Pressure regulator
+
+3
+
+Starter motor
+
+13
+
+Hall sensor
+
+4
+
+Electronic immobiliser
+
+14
+
+Inductive sensor
+
+5
+
+Shift lock
+
+15
+
+Temperature sensor
+
+6
+
+Selector lever and Steptronic
+
+16
+
+Selector lever switch
+
+7
+
+Auto down
+
+17
+
+Reversing light in E46
+
+8
+
+Manual gate
+
+18
+
+Instrument cluster
+
+9
+
+Auto up
+
+19
+
+ASC
+
+10
+
+Transmission control unit
+
+20
+
+DME
+
+51
+20
+
+Automatic Transmissions
+
+2
+
+Service
+Information
+INFORMATION
+5HP19 for M52B25 Specifications
+Transmission Type
+Transmission Torque Capacity
+Torque Converter
+Transmission Weight
+Transmission Ratio
+
+Transmission Oil
+Filler plug torque
+Drain plug torque
+
+5 speed automatic, AGS 8.60.4 adaptive transmission control
+Torque(max) at 3500 RPM = 300NM
+254 mm dia. with slip controlled lock-up clutch
+78.9 kg (with oil)
+1st gear
+3.67
+2nd gear
+2.00
+3rd gear
+1.41
+4th gear
+1.00
+5th gear
+0.74
+Reverse
+4.10
+Lifetime Fill – Esso ATF LT 71141
+BMW P/N 83 22 9 407 807
+35NM
+30NM
+
+Fluid checking procedure is the same as A5S560Z, A5S440Z or A5S310Z. Refer to SIB 24 07 98.
+
+The 5HP19 can be identified by the “ribbed” pan(1).
+Drain plug location (2).
+
+The 5HP19 identification tag (1) is located on the left
+rear of the transmission.
+The filler plug (2) is located on the left-rear side
+(driver-side) of the transmission.
+
+52
+Automatic Transmissions
+
+Transmission Application Chart
+Trans.
+Model
+4HP 24 E9
+A4S 310R
+
+Vehicle
+750iL (E32)
+850i, Ci
+525i (E34)
+
+M50,
+M50 TU
+M50
+M50 TU
+M42
+M52
+M52/TU
+M52
+M44
+M52/TU
+M52TU
+M54
+M54
+M54
+M52TU
+M54
+M54
+
+1997-99
+1999-2000
+9/00-3/01
+200120019/99-9/00
+9/00-3/00
+2001-
+
+A5S 360R
+390R
+
+A5S 310Z
+
+530i, it, (E34)
+M3
+M3
+323i (E46)
+325i/330i (E46)
+525i/530i (E39)
+840Ci (E31),
+540i (E39),
+740i/iL (E38)
+X5 4.4i
+740i/iL (E32)
+540i (E34)
+840Ci
+740i/iL (E38)
+
+M60
+S50 US
+S52
+M52TU
+M54
+M54
+M62
+M62/TU
+M62/TU
+M62TU
+M60
+
+1994-95
+1995
+1996-99
+3/00-9/00
+6/003/019/96-End prod.
+19971/97-2001
+20001993-94
+1994-1995
+1994-1995
+1995-1996
+
+A5S 325Z
+A5S 440Z
+
+A5S 560Z
+
+750iL (E38)
+
+M73/TU
+
+1995-2001
+
+840Ci (E31)
+
+M62
+
+1996-8/96
+
+850Ci (E31)
+
+M73
+
+1995-End prod.
+
+318i,is,ic (ti 95)
+328i,(is,ic, -97)
+Z3 2.3/2.8
+323is,ic
+318i,(is,ic, -97),ti,
+Z3 1.9
+528i (E39)
+323i/328i (E46)
+325it (E46)
+325xi/it/330xi (E46)
+Z3 2.5/3.0
+528i (E39)
+525i/530i (E39)
+X5 3.0i (E53)
+
+M70
+
+Model Year
+1988-94
+1990-94
+1990-92
+1993-95
+1992
+1993-95
+1992-95
+1996-98
+1997-2000
+1998-99
+1996-99
+
+325i,is,ic
+
+A4S 270R
+
+Engine
+
+M60
+
+53
+Automatic Transmissions
+
+Review Questions
+1. How does the vane pump of the A5S 360R transmission regulate fluid volume?
+
+2. What type of signal is used to control the pressure regulator solenoid? What happens
+to the fluid pressure if the control signal is switched off?
+
+3. Describe how the transmission fluid heat exchanger operates.
+
+4. How can the AGS/TCM module be distinguished from the DME/ECM?
+
+5. Why does the AGS module monitor the brake pedal switch?
+
+6. If no repairs are performed to the transmission, why is clearing the adaptation values not
+recommended?
+
+7. What steps must be performed before determining a transmission needs to be
+replaced?
+
+8. What is the difference between the torque converter lockup clutch between the two
+engine displacements?
+
+54
+Automatic Transmissions
+
+

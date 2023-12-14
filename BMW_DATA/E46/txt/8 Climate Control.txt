@@ -1,0 +1,1630 @@
+Table of Contents
+E46 CLIMATE CONTROL
+Subject
+
+Page
+
+E46 IHKA. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+Control Panel. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+Fresh Air Micro Filter. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+Temperature Regulation - Heating. . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+Temperature Regulation - Cooling. . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+Compressor Control. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+Stepper Motor M-Bus Control. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .9
+Convertible Rear Window Defroster. . . . . . . . . . . . . . . . . . . . . . . . . . 10
+IHKA Personalization. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .12
+System Operation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .13
+Diagnosis and Troubleshooting. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+E46 IHKA I.P.O. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+Solar Sensor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+Purpose of the System.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .16
+Solar Radiation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+Solar Sensor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+Components. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+System Operation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .20
+
+Initial Print Date:10/30/00
+
+Revision Date:12/05/00
+
+Subject
+
+Page
+
+Control Curves
+Blower Intervention. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+Temperature Intervention. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+Ventilation Intervention. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+Diagnosis. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+Workshop Hints. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+E46 IHKR. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+Purpose of the System. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+System Components. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .28
+IHKR I.P.O. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+IHKR Control Unit. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+IHKR Housing. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+Principle of operation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .31
+Blower adjustment. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .31
+Air Distribution. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+Temperature Control. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+Engine Map Cooling. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .33
+Service Station Feature. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+Air Conditioning Control. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+Air Intake. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .35
+Ram Effect Air Compensation. . . . . . . . . . . . . . . . . . . . . . . . . . . .35
+Rear Window Defroster. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+Workshop Hints. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+
+Review Questions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+
+E46 IHKA
+Model: E46
+Production Date: From 6/98
+Objectives
+After completing this module you should be able to:
+•
+
+Know how to replace the Fresh Air Micro Filter.
+
+•
+
+Describe the climate control functions performed by the IHKA control unit.
+
+•
+
+Explain the compressor activation circuit.
+
+•
+
+Recognize Car and Key Memory programming possibilities.
+
+3
+E46 Climate Control
+
+E46 IHKA Climate Control
+The IHKA heater/air conditioner in the E46 is similar to the system previously installed in the
+E36. Design and component changes were made to improve the overall performance and
+operation of the system. This module will deal with the changes and highlights of the E46
+IHKA system. Features of the IHKA system include:
+•
+•
+•
+•
+•
+•
+•
+
+Control Panel/Module
+Single heater core for temperature regulation
+M-Bus Control of all stepper motors
+Fresh air micro filter
+Regulated A/C compressor
+Regulated auxiliary fan operation
+Heater Control Personalization
+
+A
+
+CONTROL PANEL
+All heating and air conditioning functions are carried out at the control panel. The panel is
+constructed as follows:
+• The three manual air distribution buttons are located on the left side of the panel for
+upface vent and footwell distribution.
+• The automatic air distribution button is located on the bottom of the panel along with
+the temperature control - blower speed control and recirculation control buttons.
+• The defrost, air conditions request and rear window defogger buttons are located on
+the right side of the panel.
+• The LCD matrix displays the requested temperature setting and blower speeds as on
+the previous system. There is now only one setting for temperature control.
+• The interior temperature sensor and blower fan are located on the left side of the LCD
+matrix.
+4
+E46 Climate Control
+
+FRESH AIR MICRO FILTER
+The fresh air micro filter is installed in the fresh air inlet of the engine compartment. The filter can be serviced quickly by removing the plastic cover and removing the filter.
+
+5
+E46 Climate Control
+
+TEMPERATURE REGULATION-HEATING
+The E46 uses one water valve/heater core as part of interior temperature regulation. The
+water valve is pulsed to control the flow of coolant through the heater core as on other systems.
+Temperature regulation is based on the inputs from:
+•
+•
+•
+•
+•
+•
+
+Temperature control switch
+Interior temperature sensor
+Ambient temperature signal
+Heater core sensor
+Evaporator temperature signal
+"Y" factor
+
+The rocker switch is used to select the desired cabin temperature which is displayed in the
+matrix of the control panel. The range for temperature display is from 60 to 90 ° F.
+
+SERVICE STATION FEATURE - The "Service Station" feature introduced with the E38 IHKA
+is integrated into the E46 IHKA. This prevents the heater core from being flooded with hot
+coolant when refueling the vehicle.
+6
+E46 Climate Control
+
+TEMPERATURE REGULATION - COOLING
+Air conditioning control on the E46 is similar to the E39 IHKA system. The system uses the
+variable displacement compressor. The swash plate of the compressor is hinged so that is
+can vary the piston travel based on the output requirements of the system.
+
+AUX. FAN
+
+MS42.0
+
+COMPRESSOR
+
+A
+
+EVAPORATOR
+
+PRESSURE
+SENSOR
+
+7
+E46 Climate Control
+
+COMPRESSOR CONTROL
+Control of the A/C compressor is a function of the Engine Control Module as in the E36.
+However, the control has changed to include the regulated auxiliary fan operation.
+Pressing the snowflake button is a request for A/C activation. As long as the evaporator
+temperature is Above 36° F, the IHKA will signal the DME control module to activate the
+compressor.
+The IHKA control module sends the following signals to the DME over the K-Bus and CAN
+Bus via the instrument cluster:
+
+• Request for A/C activation (signal KO)
+• Load torque for switching the compressor on
+• Requested auxiliary fan speed
+The IHKA determines the load torque for compressor activation and required auxiliary fan
+speed from the pressure sensor mounted on the receiver/dryer.
+The pressure sensor provides a linear voltage input signal (0 - 5 volts) to the IHKA control
+module. The IHKA processes this signal and determines the load torque of the system (0
+to 30 Nm with a variable displacement compressor). The higher the pressure in the system,
+the higher the voltage input signal to the IHKA.
+The output signal to the DME will enable the engine control module to modify the idle
+speed, timing and fuel injection amount based on the load that will be imposed when the
+compressor is activated.
+The auxiliary fan is now a variable speed fan (15 stages) based on the system load. The
+DME will activate the fan through a pulse modulated final stage control.
+
+8
+E46 Climate Control
+
+STEPPER MOTOR M-BUS CONTROL
+The E46 uses the M-Bus for stepper motor control. All five stepper motors of the IHKA
+are bus controlled including:
+•
+•
+•
+•
+
+Two fresh air/recirc-air flap motors
+Face vent flap motor
+Footwell flap motor
+Defrost flap motor
+
+Due to the requirement for a fast acting motor for the fresh/recirc flaps, two different stepper motors (slow/fast) are used in the system.
+
+9
+E46 Climate Control
+
+CONVERTIBLE REAR WINDOW DEFROSTER
+Purpose of the System:
+A two relay system was designed for the E46iC that supplies power to either rear window
+defogger grid. The two relay system will also communicates with the audio system amplifier to change the dynamics of the sound for either top up/hard top installed or top down
+driving
+Components of the System:
+
+Two relays, located on the right side rear quarter panel behind the interior trim cover, are
+used for rear defroster operation.
+
+•
+
+Relay K-13 receives KL 30 and the activa
+tion signal from the IHKA control module.
+The output from the relay will switch the
+rear defroster ON if the hard top is installed.
+
+•
+
+Relay K-99 receives KL 30 from relay K-13
+and it supplies the rear defogger grid in the
+soft top glass window when the top is
+raised.
+
+10
+E46 Climate Control
+
+System Operation
+The rear defroster operation is a function of the IHKA system, with the control module
+responsible for switching the system ON/OFF. Two rear defrosted grids are used, one
+installed in the soft top rear glass and the other in the optional hard top rear glass.
+When the button is pressed on the IHKA control panel, Relay K-13 is energized. If the hard
+top is installed, power is supplied to the grid through the connector strip on the hard top
+lock.
+CVM
+Top Closed and
+locked to frame.
+12V
+
+30
+30
+
+15
+
+Open and
+unlocked.
+0V
+Audio
+Amp.
+
+K-13
+Rear window
+defogger relay
+(for hard top).
+
+To hard top rear
+window contact.
+
+IHKA
+Control Unit
+
+K-99
+Rear window
+defogger relay.
+31
+
+Rear window
+defroster grid
+
+KL 31
+
+61E46DEFROSTER0200
+
+Relay K-13 also supplies KL 30 to relay K-99 when the button is pressed on the IHKA control panel. Relay K-99 is energized when KL R is switched ON and the soft top is closed
+and locked to the windshield frame. This allows the grid in the soft top window to be heated. When the soft top is lowered, KL R to relay K-99 is interrupted by the CVM to prevent
+the grid from heating when the top is lowered into the storage compartment.
+
+11
+E46 Climate Control
+
+IHKA PERSONALIZATION
+The features of Car/Key Memory allow various functions/features of the IHKA control to be
+tailored to the individual owner's/driver's wishes.
+The functions of the IHKA that can be programmed to the owner's/driver's wishes include:
+•
+•
+•
+•
+•
+•
+•
+•
+
+Automatic activation of recirc when the vehicle is started
+Adjustment (raising/lowering) of the blower speed
+Automatic opening of the ventilation flaps with warm coolant
+Automatic closing of the footwell flap with A/C activation
+Automatic closing of the defroster flaps with A/C activation
+Correction of the set temperature (raise/lower)
+Automatic activation of the compressor control when the ignition is switched on
+Auto program for the blower control when the ignition is switched on
+
+These features are programmed using the coding/programming function of the DIS/MoDiC.
+
+Units Display Change
+80
+100
+
+D-BUS
+
+0
+
+20
+
+2
+
+120 140
+160
+180
+
+80
+60
+
+4
+5
+
+1/min
+x1000
+
+120
+
+6
+
+1
+
+200
+
+40
+
+11
+
+3
+
+100
+
+60
+40
+12
+
+220
+240
+
+20
+
+140
+
+UNLEADED GASOLINE ONLY
+km/h
+
+0
+
+50 30 20 15
+
+7
+12
+
+MPH
+
+20 PIN
+DIAGNOSTIC
+CONNECTION
+DiC
+
+• Recirc
+Air Memory
+
+Mo
+
+DIS
+
+A
+
+MoDiC
+
+12
+E46 Climate Control
+
+IHKA
+
+SYSTEM OPERATION
+The balance of the E46 IHKA system's features and operation carry over from the E36
+including:
+•
+•
+•
+•
+•
+•
+•
+
+Maximum defrost operation
+Rear window defogger operation
+Final stage blower control
+Road speed dependent fresh air flap operation
+Air distribution control
+Stepper motor calibration run
+Cold start interlock
+
+DIAGNOSIS AND TROUBLESHOOTING
+The "self diagnostics" of the IHKA control module monitors the status of inputs and outputs
+of the system. If a fault is detected, it is initially entered in RAM and than in the EEPROM
+when the ignition is switched off. If available, a replacement value will be activated when
+various sensor faults are detected as with previous systems. A maximum of six faults can
+be stored in the EEPROM when the ignition is switched off.
+The E46 IHKA is connected to the diagnostic link via the K -Bus/instrument cluster. The
+system uses the E46 "Fault Symptom Troubleshooting " procedures for troubleshooting
+problems and faults with the system.
+
+When troubleshooting problems with the E46 IHKA, it is important to note that because the
+Car/Key Memory feature can change the functionality of the system, a review of the setting should be performed prior to condemning a component as faulty.
+
+13
+E46 Climate Control
+
+E46 IHKA I.P.O
+As introduced.
+
+14
+E46 Climate Control
+
+SOLAR SENSOR
+Model: E38, E39, E46
+Production Date: E38 3/99, E46 9/99, E39 9/00
+Objectives
+After completing this module you should be able to:
+•
+
+Describe the operation of the solar sensor as it applies to the IHKA systems.
+
+•
+
+List the output functions effected by the solar sensor input.
+
+•
+
+Describe how the solar sensor affects the various output functions.
+
+15
+E46 Climate Control
+
+Purpose of the System:
+The purpose of the solar sensor is to compensate the climate control system’s output for
+the radiant heating effect of the sun. This will aid the IHKA in maintaining a constant comfort level, in the vehicle’s interior, during all driving conditions.
+The function of heating and air conditioning systems in BMW vehicles is to provide the driver and passengers a comfortable atmosphere regardless of conditions outside of the vehicle. Based on the temperature signal inputs, blower setting, flaps portioning, program settings in the control module and influencing variables, the IHKA control module is able to
+process these inputs to achieve the desired comfort level.
+
+The following input variables are
+processed by the IHKA module:
+•
+•
+•
+•
+•
+•
+•
+
+Interior temperature
+Heat exchanger temperature
+Ventilation temperature (E38)
+Evaporator temperature
+Air volume setting
+Engine temperature and RPM
+Exterior temperature
+
+The processed variable “Y-factor” is determined by using the above inputs. The Y-factor
+then represents how much adjustment is necessary by the IHKA module to achieve the set
+temperature.
+
+16
+E46 Climate Control
+
+Solar Radiation
+Solar radiation, from the sun, passes through the earths atmosphere in the form of light
+(both visible and non-visible) and heat (sunshine). To date, the influence of solar radiation
+on the climate control system in the vehicle has only been compensated for by an average
+value stored in the control module and based on control settings and outside temperature
+values.
+
+Solar Sensor
+The solar sensor can detect the amount of solar radiation that is influencing the temperature and climate in the vehicles interior. The IHKA control module monitors the input from
+the solar sensor and adds the value to its processing factors. The settings of the climate
+control system are changed to compensate for this additional influence.
+The settings of the following IHKA components are adjusted to compensate for changes
+in solar radiation:
+
+• Blower - The blower curve is changed
+• Stratification (mixing flaps) - The stratification outlet air temperature is changed (not E46)
+• Ventilation - The opening angles of the ventilation flaps are changed.
+
+17
+E46 Climate Control
+
+Components:
+In the E38, The solar sensor is integrated in the housing of the anti-theft warning system
+LED. The warning indicator LED is installed on the outlet grille in the top center of the
+instrument panel where solar radiation can directly reach the solar sensor.
+The DWA LED with solar sensor is an additional wiring harness with a 4-pin plug connector.
+
+DWA LED with integrated solar sensor
+1
+DWA LED plug connector
+
+DWA LED/SOLAR
+SENSOR MODULE
+2
+
+4-pin solar 3sensor plug connector
+
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+18
+E46 Climate Control
+
+The solar sensor consists of two photoresistors, which are integrated on the left and right
+sides of the DWA housing next to the DWA LED. The photoresistors sense the different
+intensity levels of the solar radiation.
+
+2
+
+1
+
+3
+
+4
+
+DWA LED dismantled; housing and pc-board with LED and solar sensor housing
+1 The photoresistor on the right is fitted under
+the plastic cover
+2 The photoresistor on the left is fitted under the
+plastic cover
+3 PC-board, DWA LED and solar sensor
+4 DWA LED housing
+
+SOLAR SENSOR
+
+The E46 solar sensor is located in the right
+defroster outlet at the base of the windshield.
+The E46 sensor contains one photoresistor for
+sensing solar radiation.
+19
+E46 Climate Control
+
+System Operation
+The solar sensor receives power (5 volts) and ground from the IHKA control module. The
+module then reads the voltage drop across the photoresistor and determines the degree of
+solar heating based on the change in voltage. The voltage drop across the photoresistor
+increases as solar radiation increases. The IHKA control module monitoring voltage will
+decrease indicating an increase in solar heating. The module processes the input every 10
+seconds and checks it for plausibility based on a limit value monitoring function.
+Values outside the limit indicate a malfunction and the signal from the sensor is ignored by
+the module.
+As solar radiation levels increase, the control curves, stored in the IHKA module, for the
+blower fan, mixing flaps and ventilation (face vent) flaps are shifted to compensate for the
+additional heat.
+
+The solar sensor inputs to the IHKA control module can influence the settings on the relevant side (driver/front passenger) on the E38 and E39. No separate regulation is possible
+on the E46.
+When driving at night, during cloudy periods or through tunnels, the control maps are shifted back to their base settings.
+
+20
+E46 Climate Control
+
+CONTROL CURVES OPERATION
+Blower Intervention
+The graph below illustrates the solar influence on the blower fan with a constant Y factor
+and the solar influence changing from 0 th 100%.
+
+Blower power curves
+The middle curve illustrates a blower curve without any solar influence. At a constant Y factor of 20%, the solar influence on the IHKA control module will cause the blower curve to
+shift as the radiation increases from 0 to 100%.
+With a solar influence of 0%, curve “B” is used, providing 25% power to the blower.
+As the solar influence increases, the curve shifts upward until the solar influence reaches
+100%. At this point, curve “A” is used providing 36% power to the blower.
+During heating, the blower power decreases as solar influence increases.
+While cooling, the blower power will increase as solar influence increases.
+
+21
+E46 Climate Control
+
+Stratification (Temperature Intervention) E38 only
+The mixing flaps will open less in the direction of heat for blending air as the solar influence
+increases. The graph below represents the influence of the solar sensor on the stratification
+flap settings
+
+To illustrate the influence of the solar sensor on the mixing flap position, the Y factor remains
+constant at 20%.
+With a solar influence of 0% curve “A” is adopted for the various outside temperatures. As
+the outside temperature decreases, the mixing flap is moved toward the warmer setting
+blending more heat.
+With a solar influence of 100% curve “B” is adopted for the various outside temperatures.
+As the outside temperature decreases, the mixing flap is still moved toward the warmer setting but it does not move as far. The solar influence is compensating to provide the same
+comfort level.
+With the mixing flap thumbwheel at 100 or 0% (full hot or cold), the flaps are in the default
+position and there will be no solar influence.
+The left and right mixing flaps are controlled independently based on the individual settings
+and left and right solar sensor inputs.
+
+22
+E46 Climate Control
+
+Ventilation Intervention (Center Vent Air Distribution)
+The influence of the solar sensor on the ventilation flaps is shown in the graph below.
+
+The normal curve “B” applies when there is no solar sensor influence 0%, or if the sensor
+is defective.
+The maximum curve “A” applies when the solar influence is 100%.
+The ventilation flaps will close less as the solar influence increases. This allows more cool
+air from the center vents as the solar radiation increases.
+This adjustment is also independently adjustable on the E38 based on the left/right solar
+sensor inputs.
+
+23
+E46 Climate Control
+
+DIAGNOSIS
+Troubleshooting of the solar sensor (left/right) is carried out through the IHKA diagnostic
+program using the DIS or MoDiC.
+Status displays for the solar sensor input are available in percentages. The status displays
+can be checked while applying a light or heat source to the solar sensor to view the change
+in value.
+
+The E46 diagnostic program for the IHKA
+system contains a test module B645000011 for testing the operation of the solar
+sensor.
+
+The IHKA control module monitors the solar sensor and will set a fault code for:
+• Shorts to B+ or ground
+• Open circuits
+The IHKA control module will function as a system without solar influence correction if the
+sensor is defective.
+Recognition of the solar sensor and its influencing capabilities is enabled via ZCS coding.
+Remember to adopt the code whenever possible to avoid loosing car/key memory function
+changes. Also the IHKA control module must be disconnected from B+ before coding can
+become permanent.
+
+24
+E46 Climate Control
+
+Workshop Hints
+E38 vehicles
+To remove the solar sensor from an E38, refer to TIS - RM 6422161, removal of the center
+outlet grille at the top of the dash. After removal of the grille, disconnect the plug connector of the DWA indicator and solar sensor and pull the sensor from the grille.
+
+E46 vehicles
+Removal of the E46 solar sensor requires removal of the instrument panel. However, for
+testing purposes, the connector is located in-line, attached to the harness for connector
+X610.
+
+X18786
+in-line connector
+for Solar Sensor.
+
+25
+E46 Climate Control
+
+E46 IHKR
+Model: E46 (325i/it/Ci/Cic, M3)
+Production Date: From 9/00
+Objectives
+After completing this module you should be able to:
+•
+
+Recognize the climate control functions performed by the IHKR system.
+
+•
+
+Identify the changes compared to the E46 IHKA system.
+
+•
+
+Understand the method of temperature control used by the IHKR.
+
+•
+
+Describe how the A/C compressor is controlled.
+
+26
+E46 Climate Control
+
+Purpose of the system
+Beginning M.Y. 2001, the 325i/it/Ci/Cic and M3 are fitted with IHKR as standard
+equipment. The IHKA system is available as an option on these models.
+IHKR is a semi-automatically regulated heating
+and air-conditioning system, similar to the
+IHKR introduced for the 2001 E39 and E53.
+The purpose of the system is to allow the
+vehicle occupants to select the desired
+temperature, air outlet distribution and volume
+manually.
+The system then automatically regulates the
+temperature of the cabin based on the manual settings.
+
+The functions provided by the E46 IHKR are:
+•
+
+Control of the blower.
+
+•
+
+Air distribution control.
+
+•
+
+Stratification flap controlled by a bowden cable
+
+•
+
+Temperature Control
+
+•
+
+Service Station feature
+
+•
+
+Air conditioning request to DME
+
+•
+
+Recirculation air
+
+•
+
+Ram effect air compensation
+
+•
+
+Rear window defroster
+
+27
+E46 Climate Control
+
+System Components
+The E46 IHKR consists of the following components:
+•
+
+IHKR control unit with operating controls
+
+•
+
+IHKR integrated heater and air conditioning case
+
+•
+
+Heater core temperature sensor
+
+•
+
+Evaporator temperature sensor
+
+•
+
+Refrigerant circuit pressure sensor
+
+•
+
+Double cage blower motor and final stage
+
+•
+
+Water valve
+
+•
+
+Air distribution micro-switch
+
+•
+
+M-bus with 3 smart stepper motors:
+- Air distribution
+- Fresh air/re-circulation left (high speed motor)
+- Fresh air/re-circulation right (high speed motor)
+
+•
+
+Compressor relay (DME controlled)
+
+•
+
+Auxiliary fan (DME controlled)
+
+•
+
+Rear window defroster relay
+
+•
+
+K-bus interface
+The following signals are transmitted and received over the K-bus:
+- Vehicle speed
+- Engine speed
+- Coolant temperature
+- Outside temperature
+- Terminal 15, 61, 50,58G (panel lighting)
+- Compressor load
+- Diagnosis and coding
+- Compressor request
+
+•
+
+Fresh air Micro-filter
+
+28
+E46 Climate Control
+
+E46 IHKR I.P.O
+BLOWER MOTOR OUTPUT STAGE
+KL31
+
++
+
+KL30
+
+M
+
++
+
+-
+
+KL15
+
+0
+
+1
+
+2
+3
+4
+
+FAN SPEED
+WATER VALVE
+
+KL30
+
+A/C REQUEST
+
+M-BUS
+- FRESH AIR/RECIRC LEFT
+
+RE-CIRCULATION
+
+REAR DEFROST
+
+TEMPERATURE
+CONTROL
+
+- FRESH AIR/RECIRC RIGHT
+- AIR DISTRIBUTION
+
+E46
+IHKR
+
+REAR WINDOW DEFROST RELAY
+KL 15 KL 30
+
+AIR DISTRIBUTION
+POTENTIOMETER
+
+EVAPORATOR
+TEMPERATURE
+
+COMPRESSOR CONTROL
+KL30
+
+KO REL
+
+REFRIGERANT PRESSURE
+DME
+KL30
+
+AIR DISTRIBUTION
+MICRO-SWITCH
+
+M
+AUXILIARY FAN CONTROL
+
+HEATER CORE
+TEMPERATURE
+
+DSC III
+kjhsdfkhsdflkhsdlkfjhlkjghkg
+lkdkfljdflkjdsfljdslfjldskjflkjdflk
+ldsflsdfklhdsfhsdfhsdkhfkhsdf
+kldjfkljdfkjdskfkjdskfjkljdfkldsfk
+kjsdfkljsdfkdsfkjdsfkljsdfkjds
+ldjsfklkjsdfkldsjfkdsjfkdsfkdfklk
+
+K-BUS
+BMW DIS
+
+DIS
+BMW
+
+BMW DIS
+
+LSZ
+
+PANEL
+ILLUMINATION 58G
+
+29
+E46 Climate Control
+
+IHKR control unit with operating controls
+The IHKR control unit is incorporated into the control panel. The control panel consists of
+three buttons and three rotary dials. The control unit communicates over the K bus.
+1.
+2.
+3.
+4.
+
+Blower control potentiometer
+Recirculation button
+Temperature control potentiometer
+Air distribution potentiometer
+1
+
+2
+
+3
+
+5
+6
+5. Air conditioning request button
+6. Rear window defroster button
+
+X608
+6 pin
+
+X610
+18 pin
+
+4
+
+X613
+3 pin M-bus
+
+X18341
+6 pin
+
+IHKR Case
+The E46 IHKR case is similar in design to the E46 IHKA heating and A/C case.
+1. Heater Core Temp.
+Sensor
+2. Heater core
+3. Evaporator Temp
+Sensor
+
+4. Evaporator
+5. Double Cage Blower
+
+30
+E46 Climate Control
+
+Principle of operation
+Blower adjustment
+The blower rotary dial potentiometer has four settings. Each progressive step represents a
+25% increase in blower volume. The control unit determines the desired blower setting by
+the signal from the potentiometer and then sends a voltage signal to the final stage unit.
+The voltage signal to the final stage unit ranges from 1.8V to a maximum of 7.1V (Normal
+blower power in Key Memory).
+The final stage unit then regulates blower motor voltage to control the blower volume.
+There is no automatic influence on the blower setting.
+The blower control potentiometer is the master on/off switch for the IHKR system. The
+water valve is closed (energized) in the blower zero (off) position. The LEDs for re-circulated air and air conditioning are switched off and the compressor is switched off. The rear
+defroster operation is not affected by the system being switched off.
+
+Air distribution
+The selection of air distribution is carried out using the rotary dial potentiometer (42 steps).
+Each step of the potentiometer represents a percentage. The percentage indicates the
+desired air distribution setting.
+FULL
+DEFROST
+
+BLEND
+OF BLEND
+
+FULL
+FOOTWELL
+
+0
+
+90
+
+BLEND
+OF BLEND
+
+8
+
+82
+
+16
+
+74
+
+24
+66
+
+33
+57
+
+49
+
+41
+
+FULL
+VENT
+
+Movement of the stratification flap for face ventilation is carried out by rotating a thumb wheel
+between the face vent discharge nozzles. The
+thumb wheel is connected to a bowden cable
+that moves the flap.
+The air distribution for defrost, ventilation and
+footwell is performed by a single air distribution
+stepper motor that is connected to the M-bus
+and controlled by the IHKR control unit.
+
+BLEND
+OF BOTH
+
+31
+E46 Climate Control
+
+The stepper motor drives a cam/lever assembly (1) that articulates all three air distribution
+flaps. The position of the cam is confirmed by the air distribution micro-switch (2).
+The air distribution micro-switch is provided
+5V by the IHKR control unit. The micro
+switch is closed by the rotating cam lobe in
+two positions:
+•
+•
+
+Full defrost 97% to 0%
+Mixed face vent/footwell 37%
+(quick confirmation)
+
+When the switch is closed the signal at the
+control unit goes low, informing the control
+unit that it has reached that particular
+position. The display in diagnosis recognizes this position as “off”.
+
+Located on the right side of the IHKR case
+
+A reference run is initiated the first time KL30 is switched on to the IHKR control unit. The
+reference run is required to determine the position of the cam disc. The cam disc is
+rotated until the micro-switch sends a signal to the control unit. After the reference run is
+completed, the control unit recognizes what position the cam disc is in and thus the
+position of all three air distribution flaps.
+If the air distribution micro-switch is not able to produce a signal at the correct position, the
+control unit will continue to operate the stepper motor at an estimated position. Eventually
+the air distribution setting will not match the actual output. The air distribution micro-switch
+circuit is fault monitored.
+
+Temperature control
+The desired interior temperature is set with the rotary dial potentiometer (34 steps). The
+face of the dial itself has no marked temperatures, just a blue, white and red line that represents a comfort zone.
+All of the air flowing into the IHKR housing must pass through the evaporator first before
+being re-heated by the heater core. This is the principle used by all IHKR and IHKA systems.
+The IHKR maintains the temperature of the discharge air by cycling the water valve to regulate the temperature of the heater core. The duty cycle applied to the water valve is based
+on the “Y-factor” (correcting variable) and other variables.
+32
+E46 Climate Control
+
+The Y-factor of the E46 IHKR is determined by:
+•
+•
+•
+
+Setting of the temperature control dial
+Outside temperature (from Kombi via the K-bus)
+Heater core temperature
+
+Automatic temperature control is switched off when the temperature control dial is turned
+all the way to the left (blue: water valve closed) or right (red: water valve full open) stop.
+Each step of the potentiometer represents a temperature from max. cold (10oC) to max.
+warm (49.5oC). This temperature value is combined with the outside temperature to form
+a calculated set-point. The E46 IHKR does not use an interior temperature sensor.
+The Y-factor is then determined by comparing the calculated set-point to the actual value
+of the heater core sensor which is in the stream of air to the outlet ducts.
+In addition to the Y-factor, the control unit evaluates coolant temperature and engine RPM
+to determine water valve opening time. The valve opening times are:
+• 0 ms at max. COLD
+• 3600 ms at max. WARM
+Engine map cooling
+Map cooling is used by the DME MS 43.0 for the M54 engines. This can create very high
+coolant temperatures which could be damaging to the climate control system. If the heater
+core temperature exceeds 80oC, the water valve is closed until the temperature drops
+below 80oC.
+If the temperature at the heater core increases above 93oC (i.e. water valve faulty), the IHKR
+will signal the DME (via K-bus/Kombi/CAN) to energized the map cooling thermostat.
+
+Service Station Feature
+The service station feature prevents the vehicle occupants from getting a blast of hot air
+after the vehicle is restarted following a short stop. The water valve is powered closed by
+the IHKR control unit for three minutes after shut-off. This prevents the heater core from
+being flooded with hot coolant.
+
+33
+E46 Climate Control
+
+Air Conditioning control
+The air conditioning system is switched on by pressing the snow flake button and having
+the blower dial on position 1 or greater. The LED in the button signals that the A/C is in
+stand-by.
+The IHKR control module sends the following signals to the DME over the K-bus-KombiCAN -bus connection:
+•
+•
+•
+•
+
+IHKR on stand-by (signal AC)
+Request for A/C activation (signal KO)
+Calculated compressor load
+Request for auxiliary fan
+
+The IHKR determines the load torque for compressor activation and required auxiliary fan
+speed from the pressure sensor mounted on the high side line next to the receiver dryer.
+The refrigerant pressure sensor provides a voltage input signal (0-5 volts) to the IHKR. The
+voltage value increases as pressure in the high side refrigerant circuit increases. The IHKR
+processes this signal to determine the calculated load that will be placed on the engine
+when the compressor is switched on. Pressure values that are too high or too low will
+cause the compressor to be switched off.
+Once all of the criteria for compressor operation have been met, the DME control module
+will activate the compressor relay to energize the compressor magnetic clutch.
+Control of the evaporator temperature is carried out by the IHKR signalling the DME to shut
+off the compressor when the evaporator reaches the freezing point.
+60
+40
+
+12
+11
+
+0
+
+UNLEADED GASOLINE ONLY
+
+80
+
+80
+
+120 140
+100
+160
+180
+
+60
+
+200
+
+40
+
+20
+
+220
+240
+
+20
+
+2
+120
+
+3
+
+4
+
+5
+
+1/min
+x1000
+
+6
+
+1
+
+140
+
+0
+
+km/h
+
+MPH
+
+SERVICE
+ENGINE
+SOON
+
+100
+
+5030 20 15
+
+12
+
+!
+
+BRAKE
+
+miles
+
+0
+
+1
+
+2
+
+ABS
+
+EML
+
+CAN-Bus
+
+K-Bus: Signal AC/KO
+IHKR
+
+KOMBI
+
+7
+
+The IHKR cycles the compressor
+at 1oC if the outside temperature
+is above 68oF. The compressor
+is cycled at 3oC if the outside
+temperature is below 68oF.
+
+3
+4
+
+DME
+KL30
+
+Evaporator Temp.
+
+Refrigerant
+Pressure
+
+OUTPUT
+STAGE
+
+Auxiliary
+Fan
+
+34
+E46 Climate Control
+
+M
+
+K19 relay
+Compressor
+
+Air Intake
+The fresh air/re-circulation flaps are controlled
+by a separate stepper motor for the left and
+right side.
+
+Fresh air flaps
+
+The stepper motors are controlled by the Mbus and are located on the left and right sides
+of the housing inside the passenger compartment.
+The fresh air flaps are closed and the re-circ
+doors are opened when the re-circ. button is
+pressed with the system switched on.
+When the key is turned off with re-circulation on, the fresh air flaps will open. Re-circulation memory in the IHKR control unit is 15 minutes. If the vehicle is started within 15 minutes the re-circulation setting will be restored.
+If the system is shut off with the blower switch, the re-circulation function will have to be reenabled.
+Ram effect air compensation
+Similar to IHKA, when the fresh air flaps are open their position is affected by vehicle road
+speed. This is to prevent an increase in air volume to the cabin with increasing vehicle
+speed.
+The IHKR receives the vehicle speed input every 2 seconds over the K-bus from the Kombi.
+At a speed of 36mph the fresh air flaps will close progressively until the vehicle reaches
+96mph, at which time the opening of the flaps will be 20%.
+OPENING ANGLE OF
+FRESH AIR FLAPS
+
+100 %
+
+0
+
+60 %
+40 % 30 % 20 % -
+
+36 62
+
+96
+
+ROAD SPEED (MPH)
+
+35
+E46 Climate Control
+
+Rear window defroster operation (All models)
+The rear window defroster is controlled via a request from the button on the panel. After
+switching on for the first time, the rear window is heated for 17 minutes. Output voltage to
+the window is provided by the K13 rear defogger relay.
+After automatic switch off, if the button is pressed once again the control unit will provide
+another 17 minutes of operation. If the vehicle voltage drops below 11.4V during this second heating operation the function is stopped, however the LED on the button will not be
+extinguished. If voltage increases past 12.2V for at least one second, operation will
+resume. The control circuit of the convertible varies slightly due to the folding top.
+Defroster operation specific to Convertibles
+CVM
+Top closed and
+locked = 12V
+
+30
+30
+
+15
+
+K13
+Rear window
+defogger relay
+
+K99
+Rear defogger
+relay
+
+IHKR
+Control unit
+31
+
+Rear window
+defroster
+
+When the button is pressed on the IHKR control panel, relay K13 is energized. K13 supplies KL 30 to defroster relay K99. Relay K99 is energized when the KLR is switched on
+and the soft top is closed and locked to the windshield frame. This completes the circuit
+and allows the rear window to be heated.
+If the soft top is lowered during defroster operation, voltage to relay K99 is interrupted by
+the CVM to prevent the rear window grid from heating when the top is lowered into the storage compartment.
+
+36
+E46 Climate Control
+
+Workshop Hints
+Diagnosis
+Diagnosis of the E46 IHKR system is carried out using the DISplus or MoDiC. The IHKR is
+connected to the diagnostic bus via the K-bus/Kombi connection. The system uses the
+E46 test module driven diagnostic concept for troubleshooting faults with the system.
+Service Functions:
+Provides access to specialized test modules used as
+post repair procedures. To
+enter:
+• Function selection
+• Service Functions
+• Body
+• Heater- A/C control
+
+Control Unit Functions:
+Expert mode diagnosis available at
+any time during troubleshooting. To
+enter: press the Control Unit
+Functions button at the lower right
+corner of the screen.
+The contents are:
+• Identification
+• Clear Fault Memory
+• Read Fault Memory
+• Component Activation
+• Status Requests
+
+Deactivate transport-lock
+function
+
+DSC III
+kjhsdfkhsdflkhsdlkfjhlkjghkg
+lkdkfljdflkjdsfljdslfjldskjflkjdflk
+ldsflsdfklhdsfhsdfhsdkhfkhsdf
+kldjfkljdfkjdskfkjdskfjkljdfkldsfk
+kjsdfkljsdfkdsfkjdsfkljsdfkjds
+ldjsfklkjsdfkldsjfkdsjfkdsfkdfklk
+
+DIS
+
+BMW DIS
+
+BMW DIS
+
+BM W
+
+Test Modules: Faults with the E46 IHKR can be diagnosed using fault or symptom driven test
+modules. To begin diagnosis:
+• Perform the Short Test
+• Select a vehicle symptom from the Symptom Selection page
+• Select a test module from the Test Plan page
+• Press the Test Schedule button
+Test module are written in the E46 Diagnostic Concept.
+
+37
+E46 Climate Control
+
+Coding
+Coding must be performed if the IHKR control unit is replaced. ZCS coding is found in the
+Coding and Programming selection from the start screen or when pressing the Change
+button. Follow on-screen instructions to remove KL 30 power to the IHKR control unit.
+This step is necessary to complete the coding process.
+
+Car and Key Memory
+When troubleshooting complaints with the E46 IHKR it is important to note that because
+the Car/Key Memory feature can change the operation of the system, a review of the settings should be made prior to beginning troubleshooting.
+
+DSC III
+kjhsdfkhsdflkhsdlkfjhlkjghkg
+lkdkfljdflkjdsfljdslfjldskjflkjdflk
+ldsflsdfklhdsfhsdfhsdkhfkhsdf
+kldjfkljdfkjdskfkjdskfjkljdfkldsfk
+kjsdfkljsdfkdsfkjdsfkljsdfkjds
+ldjsfklkjsdfkldsjfkdsjfkdsfkdfklk
+
+60
+
+D-Bus
+
+40
+
+12
+11
+
+0
+
+20
+
+80
+
+80
+
+100
+
+120 140
+100
+160
+180
+
+60
+
+200
+
+40
+
+220
+240
+
+20
+
+UNLEADED GASOLINE ONLY
+
+4
+
+5
+
+1/min
+x1000
+
+140
+
+6
+0
+
+5030 20 15
+
+12
+
+7
+
+!
+
+miles
+
+BRAKE
+
+ABS
+
+EML
+
+W DIS
+
+BMW DIS
+
+K-Bus
+
+BMW DIS
+
+BM
+
+3
+
+1
+
+km/h
+
+MPH
+
+SERVICE
+ENGINE
+SOON
+
+2
+120
+
+0
+
+1
+
+2
+
+3
+4
+
+Print
+
+Change
+
+End
+
+Services
+
+BMW Coding/programming SELECTION
+
+1
+2
+3
+4
+5
+6
+
+CAR MEMORY
+KEY MEMORY
+ZCS CODING
+PROGRAMMING
+ALIGNMENT EWS-DME
+ALIGNMENT EWS-DDE
+
+Note
+
+Only Key Memory selections are possible for the E46 IHKR. The selections are:
+•
+•
+•
+
+Set Blower Power (Raise, Normal, Lower)
+Correction Set Temperature (raise/lower)
+A/C on at key on (Automatic activation of the compressor control when the ignition is
+switched on.)
+
+38
+E46 Climate Control
+
+Review Questions
+1. Where is the interior temperature sensor located in a vehicle equipped with IHKA? What
+is this input used for?
+
+2. How does the IHKA control the auxiliary fan? What inputs are used by the IHKA to
+determine the fan speed?
+
+4. A customer complains that every time he enters his car the AC compressor is switched
+on automatically. What could be causing his complaint?
+
+5. Describe briefly how the influence of Solar radiation affects the IHKA settings.
+
+6. How can a technicaian test for the correct operation of the Solar Sensor?
+
+7. What is the purpose for the RPM input to the IHKA?
+
+39
+E46 Climate Control
+
+Review Questions
+8. What is the Voltage range of the control signal from the IHKR to the blower final stage?
+
+9. Which components are responsible for the movement of the air distribution flaps? What
+role does the air distribution micro-switch play? (IHKR system)
+
+10. How does the IHKR determine a Y-factor if the system does not use an interior
+temperature sensor?
+
+11. How does the IHKR signal the DME when compressor activation is requested? Discuss
+what information is exchanged.
+
+12. What three stepper motors are located on the IHKR M-Bus? What is an M-Bus?
+
+13. Which additional component is used in the rear defrost circuit of a convertible E46, as
+compared to a hard top?
+
+40
+E46 Climate Control
+
+

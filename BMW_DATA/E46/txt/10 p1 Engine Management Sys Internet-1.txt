@@ -1,0 +1,2712 @@
+Table of Contents
+ENGINE MANAGEMENT SYSTEMS
+Subject
+
+Page
+
+SIEMENS MS 42.0 ENGINE CONTROL SYSTEM. . . . . . . . . . . . . . . . . . . . . . 3
+Overview/On Board Diagnostics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+Emission Compliance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .6
+Driving Cycle . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+Federal Test Procedure (FTP) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+“Check Engine” (MIL) Light . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .10
+Diagnostic Trouble Codes (DTC) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+20 Pin Diagnostic Socket Deletion. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+BMW Fault Codes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+Engine Management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+I-P-O . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .18
+Scope of Input Functions
+BOSCH Oxygen Sensor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+Camshaft Sensor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .21
+Crankshaft Sensor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .22
+Misfire Detection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .23
+Mass Air Flow (HFM) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+Scope of Output Functions
+VANOS control . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+Electric Fan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+Running Losses. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+Secondary Air Injection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .33
+Fuel Injection Valves. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .35
+Engine/Vehicle Speed Limitation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .35
+RZV Ignition System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .36
+Resonance/Turbulence Intake System. . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+Idle Speed Control . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+Cruise Control . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+Intake Jet Pump . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+Purge Valve . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44
+Torque Interfaces . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
+
+Subject
+
+Page
+
+Leakage Diagnosis Pump (LDP) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+Motor Driven Throttle Valve . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51
+Intake Air Flow Control. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55
+
+SIEMENS MS 43.0 ENGINE CONTROL SYSTEM. . . . . . . . . . . . . . . . . . . . . .57
+Introduction. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58
+I.P.O. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .59
+MS 43.0 New Functions
+Electronic Throttle Control (EML). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .60
+Accelerator Pedal Sensor (PWG). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+Electronic Throttle Valve (EDK). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+Main Relay Monitor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .65
+Engine Optimized ignition Key Off. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66
+Diagnosis Module Tank Leakage (DM-TL). . . . . . . . . . . . . . . . . . . . . . . . 67
+DM-TL Function. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .69
+DM-TL Test Procedure. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .70
+
+Review Questions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .74
+
+SIEMENS MS 42.0 ENGINE CONTROL SYSTEM
+Model: E46 equipped with M52TU Engine
+Production Dates: M52TU B28: 6/98 to 6/00, M52TU B25: 6/98 to 9/00
+Objectives
+After completing this module you should be able to:
+•
+
+Describe the engine management system monitoring required by OBD II regulation.
+
+•
+
+Explain what is required in-order for the ECM to illuminate the MIL.
+
+•
+
+Understand how the ECM monitors for misfires.
+
+•
+
+Explain the relationship between the MDK and idle control valve.
+
+•
+
+Describe the operation of the resonance charging manifold.
+
+•
+
+List the procedure the ECM uses to carry out the tank leakage test.
+
+•
+
+Recognize the fail-safe running characteristics of the MDK safety concept.
+
+OBD II FUNCTION: Overview (On Board Diagnosis)
+Since the 1996 model year all vehicles must meet OBD II requirements. OBD II requires the
+monitoring of virtually every component that can affect the emission performance of a vehicle plus store the associated fault code and condition in memory. If a problem is detected,
+the OBD II system must also illuminated a warning lamp (Malfunction Indicator Light - MIL/
+“Check Engine Light”” located on the vehicle instrument panel to alert the driver that a malfunction has occurred. In order to accomplish this task, BMW utilizes the Engine Control
+Module (ECM/DME) as well as the Automatic Transmission Control Module (EGS/AGS) and
+the Electronic Throttle Control Module (EML) to monitor and store faults associated with all
+components/systems that can influence exhaust and evaporative emissions.
+
+4
+Engine Management Systems
+
+OVERVIEW OF THE NATIONAL LOW EMISSION
+VEHICLE PROGRAM
+Emission Reduction Stages:
+While OBD II has the function of monitoring for emission related faults and alerting the operator of the vehicle, the National Low Emission Vehicle Program requires a certain number
+of vehicles produced (specific to manufacturing totals) currently comply with the following
+emission stages;
+TLEV: Transitional Low Emission Vehicle
+LEV: Low Emission Vehicle
+ULEV: Ultra Low Emission Vehicle.
+Prior to the National Low Emission Vehicle Program, the most stringent exhaust reduction
+compliancy is what is known internally within BMW as HC II. The benefit of exhaust emission reductions that the National Low Emission Vehicle Program provides compared with
+the HC II standard is as
+Cold Engine Startup - 50 O F
+follows:
+TLEV- 50% cleaner.
+LEV- 70% cleaner.
+ULEV-84% cleaner.
+
+Compliance
+Level
+TLEV
+LEV
+ULEV
+
+Compliance
+Level
+TLEV
+LEV
+ULEV
+
+Compliance
+Level
+TLEV
+LEV
+ULEV
+
+Grams/Mile - New
+NMHC
+CO
+
+NOx
+
+Non Methane
+Hydrocarbon
+
+Carbon Monoxide
+
+Oxide(s) of Nitrogen
+
+0.250
+0.131
+0.040
+
+3.4
+3.4
+1.7
+
+0.4
+0.2
+0.2
+
+Grams/Mile at 50,000 miles
+NMHC
+CO
+
+NOx
+
+Non Methane
+Hydrocarbon
+
+Carbon Monoxide
+
+Oxide(s) of Nitrogen
+
+0.125
+0.075
+0.040
+
+3.4
+3.4
+1.7
+
+0.4
+0.2
+0.2
+
+Grams/Mile at 100,000 miles
+NMHC
+CO
+
+NOx
+
+Non Methane
+Hydrocarbon
+
+Carbon Monoxide
+
+Oxide(s) of Nitrogen
+
+0.156
+0.090
+0.055
+
+4.2
+4.2
+2.1
+
+0.6
+0.3
+0.3
+
+5
+Engine Management Systems
+
+OBD II EVAPORATIVE EMISSION COMPLIANCE
+1995
+
+1996
+
+M44/
+E36
+
+HC II
+START 1/96
+
+M44/
+Z3
+
+1998
+
+TLEV
+BP 1/97
+
+HC II
+
+START 10/96
+
+M52/
+E36
+
+M52/
+M52TU
+E46
+
+1997
+
+TLEV
+
+BP 1/97
+
+TLEV
+START 10/95
+
+LEV
+START 6/98
+
+M52/
+M52TU
+E39
+
+TLEV
+START 3/96
+
+M52/
+M52TU
+Z3
+
+LEV
+TLEV
+
+START 1/97
+
+M62/
+M52TU
+E38/39
+
+BP 9/98
+
+LEV
+
+BP 9/98
+
+HC II
+
+M73/
+M52TU
+E38
+START 1/95
+
+LEV
+
+START 1/96
+
+BP 6/98
+
+HC II
+
+LEV
+
+è
+è
+è
+è
+è
+è
+è
+è
+
+BP 9/98
+
+OBD II EVAPORATIVE EMISSION COMPLIANCE
+1995
+M44/
+E36
+
+M44/
+Z3
+
+1996
+
+1997
+
+PURGE FLOW
+MONITORING
+START 1/96
+PURGE FLOW
+MONITORING
+è è
+3/2 VALVE
+
+1998
+
+PURGE FLOW MONITORING
+SMALL LEAK DETECTION (1mm) 3/2 VALVE
+BP 1/97
+PURGE FLOW MONITORING
+SMALL LEAK DETECTION (1mm) 3/2 VALVE
+
+START 10/96
+
+BP 1/97
+PURGE FLOW MONITORING
+SMALL LEAK DETECTION (1mm) 3/2 VALVE
+
+M52/
+E36
+START 10/95
+M52/
+E46
+
+M52/
+E39
+
+LDP 0.5mm
+ORVR 3/2
+
+PURGE FLOW MONITORING
+3/2 VALVE
+START 3/96
+
+M52/
+Z3
+
+M62/
+E38
+E39
+M73/
+E38
+
+6
+Engine Management Systems
+
+START 6/98
+LDP PUMP 1mm
+LDP 0.5mm
+LEAK ORVR 3/2
+ORVR 3/2
+VALVE
+
+BP 9/97
+BP 9/98
+PURGE FLOW MONITORING
+LDP 0.5mm
+SMALL LEAK DETECTION (1mm) 3/2
+ORVR 3/2
+VALVE
+
+START 1/97
+PURGE FLOW MONITORING
+3/2 VALVE
+START 1/96
+PURGE FLOW MONITORING
+3/2 VALVE
+
+LDP PUMP 1mm LEAK
+ORVR 3/2 VALVE
+
+BP 9/98
+LDP 0.5mm
+ORVR 3/2
+
+BP 5/97
+BP 6/98
+LDP PUMP 1mm LEAK ORVR
+LDP 0.5mm
+3/2 VALVE
+ORVR 3/2
+
+è
+è
+è
+è
+è
+è
+è
+è
+
+OBD II FUNCTION: DRIVING CYCLE
+As defined within CARB mail-out 1968.1:
+"Driving cycle" consists of engine startup and engine shutoff.
+"Trip" is defined as vehicle operation (following an engine-off period) of duration and driving style so that all components and systems are monitored at least once by the diagnostic
+system except catalyst efficiency or evaporative system monitoring. This definition is subject to the limitations that the manufacturer-defined trip monitoring conditions are all monitored at least once during the first engine start portion of the Federal Test Procedure (FTP).
+Within this text the term "customer driving cycle" will be used and is defined as engine
+start-up, operation of vehicle (dependent upon customer drive style) and engine shut-off.
+
+7
+Engine Management Systems
+
+FEDERAL TEST PROCEDURE (FTP)
+The Federal Test Procedure (FTP) is a specific driving cycle that is utilized by the EPA to
+test light duty vehicles and light duty truck emissions. As part of the procedure for a vehicle manufacturer to obtain emission certification for a particular model/engine family the
+manufacturer must demonstrate that the vehicle(s) can pass the FTP defined driving cycle
+two consecutive times while monitoring various components/systems. Some of the
+components/systems must be monitored either once per driving cycle or continuously.
+1. Components/systems required to be monitored once within one driving cycle:
+•
+
+Oxygen Sensors
+
+•
+
+Secondary Air Injection System
+
+•
+
+Catalyst Efficiency
+
+•
+
+Evaporative Vapor Recovery System
+
+NOTE: Due to the complexity involved in meeting the test criteria within the FTP defined
+driving cycle, all tests may not be completed within one "customer driving cycle". The
+test can be successfully completed within the FTP defined criteria, however customer
+driving styles may differ and therefore may not always monitor all involved components/systems in one "trip".
+Components/systems required to be monitored continuously:
+•
+
+Misfire Detection
+
+•
+
+Fuel system
+
+•
+
+Oxygen Sensors
+
+•
+
+All emissions related components/systems providing or getting electrical connections to
+the DME, EGS, or EML.
+
+8
+Engine Management Systems
+
+The graph shown below is an example of the driving cycle that is used by BMW to complete the FTP.
+
+The diagnostic routine shown above will be discontinued whenever:
+• Engine speed exceeds 3000 RPM
+• Large fluctuations in throttle angle
+• Road speed exceeds 60 MPH
+NOTE: The driving criteria shown can be completed within the FTP required ~11 miles in a
+controlled environment such as a dyno test or test track.
+A "customer driving cycle" may vary according to traffic patterns, route selection
+and distance traveled, which may not allow the "diagnostic trip" to be fully completed each time the vehicle is operated.
+
+9
+Engine Management Systems
+
+OBD II FUNCTION: "CHECK ENGINE" (MIL) LIGHT
+In conjunction with the CARB/OBD II regulations the "CHECK ENGINE" light (also referred to
+as the Malfunction Indicator Light - MIL) is to be illuminated:
+•
+
+Upon the completion of the second consecutive driving cycle where the previously faulted system is monitored again and the emissions relevant fault is again present.
+
+•
+
+Immediately if a catalyst damaging fault occurs (see Misfire Detection).
+
+The illumination of the check engine light is performed in accordance with the Federal Test
+Procedure (FTP) which requires the lamp to be illuminated when:
+•
+
+A malfunction of a component that can affect the emission performance of the vehicle
+occurs and causes emissions to exceed 1.5 times the standards required by the (FTP).
+
+•
+
+Manufacturer-defined specifications are exceeded.
+
+•
+
+An implausible input signal is generated.
+
+•
+
+Catalyst deterioration causes HC-emissions to exceed a limit equivalent to 1.5 times the
+standard (FTP).
+
+•
+
+Misfire faults occur.
+
+•
+
+A leak is detected in the evaporative system
+
+•
+
+The oxygen sensors observe no purge flow from the purge valve/evaporative system.
+
+•
+
+Engine control module fails to enter closed-loop operation within a specified time interval.
+
+•
+
+Engine control or automatic transmission control enters a "limp home" operating mode.
+
+•
+
+Key is in the "ignition" on position before cranking (Bulb Check Function).
+
+Within the BMW system the illumination of the check engine light is performed in accordance with the regulations set forth in CARB mail-out 1968.1 and as demonstrated via the
+Federal Test Procedure (FTP). The following information provides several examples of when
+and how the "Check Engine" Light is illuminated based on the "customer drive cycle" (DC):
+
+10
+Engine Management Systems
+
+1. A fault code is stored within the respective control module upon the first occurrence of
+a fault in the system being checked.
+2. The "Check Engine" (MIL) light will not be illuminated until the completion of the second
+consecutive "customer driving cycle" where the previously faulted system is again monitored and a fault is still present or a catalyst damaging fault has occurred.
+3. If the second drive cycle was not complete and the specific function was not checked
+as shown in the example, the engine control module counts the third drive cycle as the
+“next consecutive“ drive cycle. The check engine light is illuminated if the function is
+checked and the fault is still present.
+4. If there is an intermittent fault present and does not cause a fault to be set through multiple drive cycles, two complete consecutive drive cycles with the fault present are
+required for the Check Engine light to be illuminated.
+5. Once the "Check Engine" light is illuminated it will remain illuminated unless the specific function has been checked without fault through three complete consecutive drive
+cycles.
+6. The fault code will also be cleared from memory automatically if the specific function is
+checked through 40* consecutive drive cycles without the fault being detected or with
+the use of either the DIS, MODIC or Scan tool.
+* NOTE: In order to clear a catalyst damaging fault (see Misfire Detection) from memory, the condition under which the fault occurred must be evaluated for 80 consecutive
+cycles without the fault reoccurring.
+With the use of a universal scan tool, connected to the "OBD" DLC an SAE standardized
+DTC can be obtained, along with the condition associated with the illumination of the
+"Check Engine" light.
+Using the DIS or MODIC, a fault code and the conditions associated with its setting can
+be obtained prior to the illumination of the "Check Engine" light.
+11
+Engine Management Systems
+
+OBD II DIAGNOSTIC TROUBLE CODES (DTC)
+The Society of Automotive Engineers (SAE) established the Diagnostic Trouble Codes used
+for OBD II systems (SAE J2012). The DTC’s are designed to be identified by their
+alpha/numeric structure. The SAE has designated the emission related DTC’s to start with
+the letter “P” for Powertrain related systems, hence their nickname “P-code”.
+
+P
+
+For example:
+
+0
+
+4
+
+4
+
+0
+
+P-Powertrain, B-Body, C-Chassis
+DTC Source; 0-SAE, 1-BMW
+System; 0-Total System
+1-Air/Fuel Induction
+2-Fuel Injection
+3-Ignition System or Misfire
+4-Auxiliary Emission Control
+5-Vehicle Speed & Idle Control
+6-Control Module Inputs/Outputs
+7-Transmission
+
+Sequentially numbered
+fault identifying individual
+components or circuits
+(00-99)
+
+•
+
+DTC’s are stored whenever the Check Engine Light (MIL) is illuminated.
+
+•
+
+A requirement of CARB/EPA is providing universal diagnostic access to DTC’s via a
+standardized Diagnostic Link Connector (DLC) using a standardized tester (scan tool).
+
+•
+
+DTC’s only provide one set of environmental operating conditions when a fault is stored.
+This single "Freeze Frame" or snapshot refers to a block of the vehicles environmental
+conditions for a specific time when the fault first occurred. The information which is
+stored is defined by SAE and is limited in scope. This information may not even be specific to the type of fault.
+
+DTC Storage:
+The table represents
+the stored information
+that would be available via an aftermarket scan tool if the
+same fault occurred 5
+times.
+12
+Engine Management Systems
+
+Bosch Systems
+initial fault
+2 nd occurrence
+3 rd occurrence
+last occurrence
+
+Aftermarket Scan Tool
+SAE defined freeze frame conditions
+n/a
+n/a
+n/a
+
+Siemens Systems
+initial fault
+
+Aftermarket Scan Tool
+SAE defined freeze frame conditions
+
+Scan Tool Connection (to 6/00)
+Starting with the 1995 750iL, and soon
+after on all 1996 model year BMW vehicles, a separate OBD II Diagnostic Link
+Connector (DLC) was added.
+The DLC provides access for an aftermarket scan tool to all emission related control
+systems (DME, AGS/EGS and EML). This
+diagnostic communication link uses the
+existing TXD II circuit in the vehicle through
+a separate circuit on the DLC when the 20
+pin cap is installed.
+
+Scan Tool Display
+Example: A fault was induced into a 1998
+750iL by removing the wire connector from Air DTC
+Mass Meter. Using an aftermarket scan tool ENGINE SPD
+ECT
+the following information can be displayed:
+DIAG. TROUBLE
+CODES
+ECU:
+Number of DTCs:
+*P0100
+
+ENTER =
+
+$12 (Engine)
+1
+Manufacturer
+controlled fuel and air
+metering
+FREEZE FRAME
+
+VEHICLE SPD
+ENGINE LOAD
+FUEL STAT 1
+FUEL STAT 2
+ST FT 1
+LT FT 1
+ST FT 2
+LT FT 2
+
+P0100
+905 RPM
+160 F
+0 MPH
+3.9%
+OL
+OL
+0.0%
+1.6%
+0.0%
+3.1%
+
+13
+Engine Management Systems
+
+20 PIN DIAGNOSTIC SOCKET DELETION
+Model: E39,E46,E52,E53
+Production Date: E46 from 6/00
+E39,E52,E53 from 9/00
+
+For model year 2001 the E39, E46 and E53 will eliminate the 20 pin diagnostic connector
+from the engine compartment. The 16 pin OBD II connector located inside the vehicle will
+be the only diagnosis port.
+The E38 and Z3 will continue to use the 20 pin connector.
+The 16 pin OBD II connector has been in all
+BMWs since 1996 to comply with OBD II
+regulations requiring a standardized diagnostic
+port.
+Previously before 2001, only emissions relevant
+data could be extracted from the OBD II
+connector because it did not provide access to
+TXD (D-bus). The TXD line is connected to pin
+8 of the OBD II connector on vehicles without
+the 20 pin diagnostic connector.
+
+The cap to the OBD II connector contains a
+bridge that links KL 30 to TXD and TXD II. This
+is to protect the diagnostic circuit integrity and
+prevent erroneous faults.
+The OBD II connector is located in the drivers
+footwell to the left of the steering column of
+E39, E46 and E53 vehicles.
+
+14
+Engine Management Systems
+
+Diagnostics Via the OBD II Connector
+
+DSC III
+kjhsdfkhsdflkhsdlkfjhlkjghkg
+lkdkfljdflkjdsfljdslfjldskjflkjdflk
+ldsflsdfklhdsfhsdfhsdkhfkhsdf
+kldjfkljdfkjdskfkjdskfjkljdfkldsfk
+kjsdfkljsdfkdsfkjdsfkljsdfkjds
+ldjsfklkjsdfkldsjfkdsjfkdsfkdfklk
+
+DIS
+
+BMW DIS
+
+BMW
+
+BMW DIS
+
+DIS/MoDiC
+CONNECTOR
+OBD II
+16 9
+CONNECTOR
+
+7
+
+TXD
+20
+
+80
+
+100
+
+120 140
+100
+160
+180
+
+200
+220
+240
+
+20
+
+2
+120
+
+3
+
+4
+
+5
+
+1/min
+x1000
+
+6
+
+1
+
+140
+
+0
+
+km/h
+
+5030 20 15
+
+12
+
+1
+
+KL 31
+
+7
+
+MPH
+
+miles
+
+BRAKE
+
+ABS
+
+IKE/KOMBI
+
+AGS
+
+I/K-BUS
+
+TD (RPM)
+
+KL 30
+
+DME
+
++
+
+80
+60
+40
+
+11
+
+4
+
+DME
+
+-
+
+60
+40
+
+12
+0
+
+UNLEADED GASOLINE ONLY
+
+5
+
+TXD II
+
+8
+
+KL 15
+
+DSC
+
+15
+Engine Management Systems
+
+BMW FAULT CODE (DIS/MoDiC)
+•
+
+BMW Codes are stored as soon they occur even before the Check Engine Light (MIL)
+comes on.
+
+•
+
+BMW Codes are defined by BMW, Bosch, and Siemens Engineers to provide greater
+detail to fault specific information.
+
+•
+
+Siemens systems - (1) set of (4) fault specific environmental conditions are stored with
+the first fault occurrence. This information can change and is specific to each fault code
+to aid in diagnosing. A maximum of (10) different faults containing (4) environmental conditions can be stored.
+
+•
+
+Bosch Systems - a maximum of (4) sets of (3) fault specific environmental conditions are
+stored within each fault code. This information can change and is specific to each fault
+code to aid in diagnosing. A maximum of (10) different faults containing (3) environmental conditions can be stored.
+
+•
+
+BMW Codes also store and displays a "time stamp" when the fault last occurred.
+
+•
+
+A fault qualifier gives more specific detailed information about the type of fault (upper
+limit, lower limit, disconnection, plausibility, etc.).
+
+•
+
+BMW Fault Codes will alert the technician of the current fault status. He will be advised
+if the fault is actually still present, not currently present or intermittent. The fault specific information is stored and accessible through DIS or Modic.
+
+•
+
+BMW Fault Codes determine the diagnostic output for BMW DIS and Modic.
+
+BMW Fault Code Storage:
+The table below represents the information that would be available via the DIS tester if the
+same fault occurred 5 times.
+Bosch Systems
+initial fault
+2nd occurrence
+3rd occurrence
+last occurrence
+Siemens Systems
+initial fault
+
+16
+Engine Management Systems
+
+DIS Tester Information
+3 fault specific environmental conditions with time stamp,
+counter, and if fault is currently present or intermittent
+3 fault specific environmental conditions with time stamp,
+counter, and if fault is currently present or intermittent
+3 fault specific environmental conditions with time stamp,
+counter, and if fault is currently present or intermittent
+3 fault specific environmental conditions with time stamp,
+counter, and if fault is currently present or intermittent
+DIS Tester Information
+4 fault specific environmental conditions with time stamp,
+counter, and if fault is currently present or intermittent
+
+SIEMENS ENGINE MANAGEMENT SYSTEM
+This Siemens system is designated as MS42.0.
+Siemens MS42.0 was developed to
+meet the needs of Low Emission
+Vehicle (LEV) compliancy and OBD
+II. This system also includes control
+of the Motor-driven Throttle Valve
+(MDK).
+The ECM uses a pc-board singleprocessor control unit in the new
+SKE housing. Mounted in the E-Box
+(next to brake master cylinder). The
+MS 42.0 ECM is flash programmable as seen with previous systems.
+
+ECM hardware includes:
+Modular plug connectors featuring 5 connectors in the SKE housing with 134 pins.
+•
+•
+•
+•
+•
+
+Connector
+Connector
+Connector
+Connector
+Connector
+
+1
+2
+3
+4
+5
+
+=
+=
+=
+=
+=
+
+Supply voltages and grounds
+Peripheral signals (oxygen sensors, CAN, etc.)
+Engine signals
+Vehicle signals
+Ignition signals
+
+Special features:
+• Flash EPROM which is adaptable to several
+M52 LEV engines and has the capability to
+be programmed up to 13 times
+• Once a control unit is installed and coded to a vehicle it cannot be swapped with another vehicle for diagnosing or replacement (because of EWS 3.3). A new ECM must be
+installed if necessary.
+
+17
+Engine Management Systems
+
+MS 42.0 I-P-O
+ECM RELAY
+CONTROL
+
+KL 15
+
+FUEL PUMP RELAY CONTROL
+
+MEMORY POWER
+
+AC COMPRESSOR
+RELAY CONTROL
+
+AUX KL 31
+MAIN KL 31
+ECM
+RELAY
+OPERATING POWER
+
+SECONDARY AIR INJECTION
+AIR PUMP RELAY CONTROL
+
+RADIATOR OUTLET
+TEMPERATURE SENSOR
+
+AIR
+INJ.
+SOL.
+
+RUN
+LOSS
+SOL.
+
+INTAKE VANOS SOLENOID
+
+KNOCK
+SENSORS
+
+EXHAUST VANOS SOLENOID
+M
+
+IDLE CONTROL VALVE
+
+SEQUENTIAL FUEL INJECTOR CONTROL (6X)
+
+CAMSHAFT POSITION
+SENSOR (2)
+
+IGNITION COILS CONTROL (6X)
+
+MFL BUTTON PAD
+AIRMASS SIGNAL
+INTAKE
+AIR
+TEMP
+
+MDK
+
+02 SENSOR HEATING
+
+E46
+M52 TU
+MS42.0
+
+THROTTLE
+POSITION
+CLUTCH SWITCH
+BRAKE LIGHT SWITCH
+BRAKE LIGHT TEST SWITCH
+ENGINE TEMPERATURE
+
+M
+
+RESONANCE-TURBULENCE
+INTAKE SYSTEM
+
+CRANKSHAFT
+POSITION SENSOR
+
+I/O
+
+P
+
+PRECAT
+(2X)
+
+POSTCAT
+(2X)
+
+COMPRESSOR CLUTCH
+OUTPUT STAGE
+
+ELECTRIC FAN
+
+INTAKE JET PUMP SOLENOID VALVE
+PURGE VALVE CONTROL
+
+OIL TEMP
+SENSOR
+80
+
+CHECK
+ENGINE
+
+40
+
+120140
+100
+160
+80
+180
+60
+
+12
+0
+
+20
+
+2
+
+4
+1/min
+x1000
+
+5
+
+120
+
+6
+
+1
+
+200
+
+40
+
+11
+
+3
+
+100
+
+60
+
+IGNITION MONITOR
+
+220
+240
+
+20
+
+140
+
+UNLEADED GASOLINE ONLY
+
+0
+
+km/h
+
+50302015
+12
+
+7
+
+MPH
+
+CAN
+E46
+IHKA K-BUS
+
+80
+
+0
+
+120140
+100
+160
+80
+180
+60
+
+20
+
+2
+
+5
+6
+
+1
+
+220
+240
+
+20
+
+UNLEADED GASOLINE ONLY
+km/h
+
+140
+
+0
+
+TCM
+
+4
+1/min
+x1000
+
+120
+
+200
+
+40
+
+11
+
+3
+
+100
+
+60
+40
+12
+
+50302015
+12
+
+7
+
+CAN
+
+MPH
+
+THROTTLE
+POSITION
+(DK)
+
+ABS/
+ASC
+
+VEHICLE SPEED INPUT
+
+ABS/
+ASC
+
+MDK
+
+MOTOR DRIVEN THROTTLE VALVE
+ROLLING CODE
+
+MAP-CONTROLLED
+HEATED THERMOSTAT
+
++ LEAKAGE DIAGNOSIS PUMP
+
+2X
+
+PRE & POST
+CAT CONV.
+O2 SENSOR
+MONITORING
+
+2X
+
++
+
+LEAKAGE DIAGNOSIS
+PUMP
+
+DIAGNOSIS
+
+DIS
+OBD II
+
+18
+Engine Management Systems
+
+SCOPE OF INPUT FUNCTIONS
+BOSCH OXYGEN SENSORS
+The MS42.0 system uses Bosch LSH 25 oxygen sensors that function basically the same
+as previously used (in Bosch systems). The voltage range is between 0 - 800 mV.
+
+pre O2 sensor
+
+post O2 sensor
+
+The location has changed, the pre-cat sensors are mounted on top of the exhaust manifolds. The catalysts are now integral with the exhaust manifolds.
+
+PRE-CATALYST SENSORS
+
+POST-CATALYST
+SENSORS
+
+19
+Engine Management Systems
+
+OXYGEN SENSOR SIGNAL INFLUENCE ON INJECTOR “OPEN” TIME
+The ECM monitors the:
+• Amplitude of the signal (highest voltage or range sensor is producing)
+• Switching time of the signal (how fast from lean to rich)
+• Frequency of complete cycles (how many within a period of time)
+These characteristics provide info to the ECM that reflect the overall condition of the sensor.
+
+POST CATALYTIC CONVERTER SENSOR SIGNAL
+The post catalyst O2 sensors monitor the efficiency of the catalyst as a requirement of OBD
+II. This signal also provides feedback of the pre-catalyst sensors efficiency and can cause
+the ECM to “trim” the ms injection time to correct for slight deviations.
+
+Bosh Systems:
+
+Catalyst Monitoring
+(Normal Condition)
+
+6
+
+Pre Cat. Sensor
+Post Cat. Sensor
+
+• If the catalyst is operating efficiently, most of the
+remaining oxygen in the exhaust gas is burned
+(lack of O2 - “constant lean signal”).
+
+VOLTAGE
+
+5
+4
+3
+2
+1
+0
+0
+
+The sensor signal fluctuates slightly in the higher
+end of the voltage scale.
+
+0.5
+
+1
+
+1.5
+
+2
+
+2.5
+
+3.5
+
+4
+
+4.5
+
+5
+
+5.5
+
+6
+
+6.5
+
+7
+
+7.5
+
+8
+
+Time
+Catalyst Monitoring
+(Catalyst Defective)
+
+6
+
+Post Cat. Sensor
+Pre Cat. Sensor
+
+5
+4
+
+Voltage
+
+• If the post sensor shows excessive fluctuations
+(which echo the scope pattern of the pre sensor),
+this indicates that the catalytic converter is not
+functioning correctly and cannot consume the O2
+(fault set).
+
+3
+
+3
+2
+1
+0
+0
+
+0.5
+
+1
+
+1.5
+
+2
+
+2.5
+
+3
+
+3.5
+
+4
+
+4.5
+
+5
+
+5.5
+
+6
+
+6.5
+
+7
+
+7.5
+
+8
+
+Time
+
+• If the post sensor fluctuations move out of the normal voltage “window”, this indicates
+that the pre sensor is not performing properly due to slight deterioration. These systems
+can also “trim” the ms injection time to compensate for this.
+The constantly changing oxygen sensor input to the ECM is needed to correct the ms
+injection time to ensure that the ideal air/fuel ratio is maintained.
+
+20
+Engine Management Systems
+
+CAMSHAFT SENSOR
+-INTAKE AND EXHAUST CAMSHAFTS
+The "static" Hall sensors are used so that the camshaft positions are recognized once ignition is “on” - even before the engine is started.
+The function of the intake cam sensor:
+•
+•
+•
+•
+
+Cylinder bank detection for preliminary injection
+Synchronization
+Engine speed sensor (if crankshaft speed sensor fails)
+Position control of the intake cam (VANOS)
+
+The exhaust cam sensor is used for position control of the exhaust cam (VANOS)
+If these sensors fail there are no substitute values, the system will operate in the fail-safe
+mode with no VANOS adjustment. The engine will still operate, but torque reduction will be
+noticeable.
+NOTE: Use caution on repairs as not to bend the impulse wheels
+
+TWO POSITION PISTON
+HOUSING WITH
+INTERNAL/EXTERNAL
+HELICAL GEAR CUP
+
+MS42.0
+ECM
+SENSOR
+
+KL 15
+SOLENOID
+
+SENSOR
+VENT
+
+KL 15
+VENT
+
+SOLENOID
+
+MS42.0
+ECM
+TWO POSITION PISTON HOUSING
+WITH INTERNAL/EXTERNAL
+HELICAL GEAR CUP
+
+ENGINE
+OIL SUPPLY
+OIL TEMP.
+SENSOR
+
+MS42.0
+
+21
+Engine Management Systems
+
+CRANKSHAFT SENSOR
+The crankshaft sensor is a dynamic Hall-effect sensor (mounted through the engine block),
+the signal is sent the moment the crankshaft begins to rotate.
+The pulse wheel is mounted directly to the crankshaft.
+
+22
+Engine Management Systems
+
+MISFIRE DETECTION
+As part of the CARB/OBD regulations the engine control module must determine if misfire
+is occurring and also identify the specific cylinder(s) and the severity of the misfire event,
+and whether it is emissions relevant or catalyst damaging. In order to accomplish these
+tasks the control module monitors the crankshaft for acceleration losses during firing segments of each cylinder based on firing order.
+Misfire Detection Example: M52 (6 Cyl.) with Siemens System
+The misfire/engine roughness calculation is derived from the differences in the period duration (T) of individual increment gear segments. Each segment period consist of an angular
+range of 120° crank angle that starts 78° before Top Dead Center (TDC).
+Increment gear wheel segment period measurement:
+120°CA
+
+78°
+before
+TDC
+
+TDC0
+
+TDC1
+
+TDC2
+
+TDC3
+
+TDC4
+
+TDC5
+
+TDC0
+
+Tn-3
+
+Tn-2
+
+Tn-1
+
+Tn
+
+Tn+1
+
+Tn+2
+
+Tn+3
+
+Threshold determination
+
+• If the combustion process in all cylinders is functioning correctly, the period duration of
+each segment will be identical (i.e. T0 = T1 = T2 = T3 = T4 = T5).
+• If a misfire is encountered in a cylinder, the period duration (T) of that cylinder will be
+extended by a fraction of a millisecond (i.e. T3 > T0, T1, T2, T4, T5).
+• All measured values of T are evaluated within the DME, corrected based on sensor adaptation and compared to a set of predetermined values that are dependent on engine
+speed, load and engine temperature.
+If the expected period duration is greater than the permissible value a misfire fault for the
+particular cylinder is stored in the fault memory of the DME. Depending on the level of misfire rate measured the control unit will illuminate the "Check Engine" light, may cut-off fuel
+to the particular cylinder and may switch lambda operation to open-loop. All misfire faults
+are weighted to determine if the misfire is emissions relevant or catalyst damaging.
+
+23
+Engine Management Systems
+
+EMISSIONS RELEVANT:
+During an interval of 1000 crankshaft revolutions the misfire events of all cylinders are
+added and if the sum is greater than a predetermined value a fault will be set identifying the
+particular cylinder(s). The Check Engine light will be illuminated during and after the second cycle if the fault is again present.
+
+CATALYST DAMAGING:
+During an interval of 200 crankshaft revolutions the misfire events of all cylinders are added
+and if the sum is greater than a predetermined value a fault will be set identifying the particular cylinders(s). The “Check Engine” lamp:
+• On vehicles with a Siemens Control Module (M52 engines) - the lamp will immediately go
+to a steady illumination since fuel to the injector(s) is removed. Fuel cut-off to the cylinder will resume after several (>> 7) periods of decel if crankshaft sensor adaptation is successfully completed or the engine is shut-off and restarted.
+• On vehicles with a Bosch Control Module (M44, M62 & M73 engines) - the lamp will blink
+as long as the vehicle is operated within the specific criteria under which the fault
+occurred. Fuel to the misfiring cylinder is not cut-off as long as the “Check Engine” light
+is blinking.
+In each case the number of misfire events permitted is dependent on engine speed, load
+and temperature map.
+The process of misfire detection continues well after the diagnostic drive cycle requirements
+have been completed. Misfire detection is an on-going monitoring process that is only discontinued under certain conditions.
+Misfire detection is only disabled under the following conditions:
+REQUIREMENTS
+
+STATUS/CONDITION
+
+Engine Speed
+Engine Load
+Throttle Angle
+Timing
+
+< 512 RPM
+Varying/Unstable
+Varying/Unstable
+Timing retard request active (i.e. knock
+control - ASC, AGS)
+Up to 5 seconds after start-up
+Up to 0.5 seconds after A/C activation
+Active
+Active
+Active
+
+Engine Start-up
+A/C
+Decel fuel cut-off
+Rough road recognition
+ASC Control
+
+24
+Engine Management Systems
+
+OBD II - Misfire Faults
+FAILED
+COMPONENT
+
+POSSIBLE FAULT
+
+MISFIRE
+EFFECT/LOCATION
+
+FAILED
+COMPONENT
+
+POSSIBLE FAULT
+
+MISFIRE
+EFFECT/LOCATION
+
+Spark plug
+
+electrode gap too small
+electrodes missing
+electrodes oil/fuel soaked
+
+affected cylinders
+affected cylinders
+affected cylinders
+
+Camshaft
+
+broken
+
+Piston
+
+hole in piston crown/piston
+seized in bore
+defective: i.e. oil bore
+restricted/blocked
+engine oil pressure built up
+too slow
+fuel pump, pressure too low
+
+most likely more than one
+cylinder affected
+on the affected cylinders
+
+electrodes oil/feul soaked
+fouled
+spark plug ceramic broken
+oil level too high
+
+oil foaming
+oil level too high, oil/fuel fouled
+heat range too cold
+crank case ventilation defective
+Spark plug connector
+
+Ignition Coil
+Connectors ignition
+
+Injection Valve
+
+wet, water or moisture
+broken
+internal defect, arcing
+corrosion
+pin backed out
+plug loose
+loose wire from connector
+metal filing
+leaking
+
+Injector connectors
+
+Intake/Exhaust valve
+
+burnt or damaged
+overrev:intake or exhaust
+valves leaking (bent)
+
+25
+
+Engine Management Systems
+
+Intake manifold leaks
+
+carbon fouled
+dirty/contaminated
+corrosion
+pin backed out
+plug loose
+loose wire from connector
+intake plenum, unmetere air
+leak (i.e. injector seals)
+carbon built up (intake)
+
+Hydraulic lash adjusters
+(HVA)
+affected cylinders
+most likely more than
+one cylinder affected
+
+Fuel pressure
+
+fuel filter restricted/ blocked
+
+most likely more than
+one cylinder affected
+most likely more than
+one cylinder affected
+affected cylinders
+affected cylinders
+one or more cylinders
+one or more cylinders
+one or more cylinders
+one or more cylinders
+on the affected
+cylinders
+on the affected
+cylinders
+one or more cylinders
+one or more cylinders
+one or more cylinders
+one or more cylinders
+one or more cylinders
+one or more cylinders
+
+most likely more than
+one cylinder affected
+on the affected
+cylinders
+most likely more than
+one cylinder affected
+
+fuel pump, pressure build up
+too slow after start
+leaking fuel feed lines
+pressure regulator defective
+(metal filing)
+running loss valve defective
+fuel tank empty
+siphon jet pump and fuel
+tank empty
+water in fuel tank
+Fuel
+Oxygen sensor
+Purge sytem
+
+Crank sensor/increment
+wheel
+
+Catalyst damaged
+DME
+
+high content oxygenated
+non anti carbon additives
+excessive mixture deviation
+excessive rich mixture due
+to high ambient temperature
+blocked fuel tank vent inlet
+incorrect input signal for
+misfire detection
+increment wheel loose
+increment wheel damaged
+gap between sensor and
+increment wheel
+fly wheel damaged
+exhaust back pressure on
+the affected bank
+final stage igntion/injectors
+
+on the affected cylinders
+
+most likely cyl. 1-3 (front
+cylinders)
+most likely cyl. 1-3 (front
+cylinders)
+most likely cyl. 1-3 (front
+cylinders)
+most likely cyl. 1-3 (front
+cylinders)
+most likely cyl. 1-3 (front
+cylinders)
+most likely cyl. 1-3 (front
+cylinders)
+most likely cyl. 1-3 (front
+cylinders)
+most likely cyl. 1-3 (front
+cylinders)
+most likely more than one
+cylinder affected
+one or more cylinders
+one or more cylinders
+only the affected bank
+one or more banks
+all cylinders
+all cylinders
+all cylinders
+affected segment
+affected segment
+
+only the afftected bank
+all cylinder
+
+MASS AIR FLOW SENSOR HFM
+The Siemens mass air flow sensor is functionally the same as on previous systems. The
+new designation - 2 Type B simply indicates that it is smaller in design.
+
+26
+Engine Management Systems
+
+SCOPE OF OUTPUT FUNCTIONS
+VANOS CONTROL
+With the introduction of double VANOS, the valve timing is changed on both the intake and
+the exhaust camshafts.
+Double VANOS provides the following benefits:
+• Torque increase in the low to mid (1500 - 2000 RPM) range without power loss in the
+upper RPM range.
+• Less incomplete combustion when idling due to less camshaft overlap (also improves
+idle speed characteristics).
+• Internal exhaust gas recirculation (EGR) in the part load range (reduces NOx and postcombustion of residual gasses in the exhaust)
+• Rapid catalyst warm up and lower “raw” emissions after cold start.
+• Reduction in fuel consumption
+Double VANOS consists of the following parts:
+• Intake and exhaust camshafts with helical gear insert
+• Sprockets with adjustable gears
+• VANOS actuators for each camshaft
+• 2 three-way solenoid switching valves
+• 2 impulse wheels for detecting camshaft position
+• 2 camshaft position sensors (Hall effect)
+The “initial” timing is set by gear positioning (refer to the Repair Instructions for details) and
+the chain tensioner. As with the previous VANOS, the hydraulically controlled actuators
+move the helical geared cups to regulate camshaft timing. The angled teeth of the helical
+gears cause the pushing movement of the helical cup to be converted into a rotational
+movement. This rotational movement is added to the turning of the camshafts and cause
+the camshafts to “advance” or “retard”. The adjustment rate is dependent oil temperature,
+oil pressure, and engine RPM.
+27
+Engine Management Systems
+
+NOTE: With extremely hot oil temperatures Vanos is deactivated (Powerloss). If the oil is
+too thick (wrong viscosity) a fault could be set.
+When the engine is started, the camshafts are in the “fail-safe” position (deactivated). The
+intake camshaft is in the RETARDED position - held by oil pressure from the sprung open
+solenoid. The exhaust camshaft is in the ADVANCED position - held by a preload spring in
+the actuator and oil pressure from the sprung open solenoid.
+After 50 RPM (2-5 seconds) from engine start, the ECM is monitoring the exact camshaft
+position.
+The ECM positions the camshafts based on engine RPM and the throttle position signal.
+From that point the camshaft timing will be varied based on intake air and coolant temperatures.
+The double VANOS system is “fully variable”. When the ECM detects the camshafts are in
+the optimum positions, the solenoids are modulated (approximately 100-220 Hz) maintaining oil pressure on both sides of the actuators to hold the camshaft timing.
+CAUTION: The VANOS MUST be removed and installed exactly as described in the Repair
+Instructions!
+NOTE: If the VANOS camshaft system goes to the fail-safe mode (deactivated) there will
+be a noticeable loss of power. This will be like driving with retarded ignition or starting from
+a stop in third gear.
+
+TWO POSITION PISTON
+HOUSING WITH
+INTERNAL/EXTERNAL
+HELICAL GEAR CUP
+
+MS42.0
+ECM
+SENSOR
+
+KL 15
+SOLENOID
+
+SENSOR
+VENT
+
+KL 15
+VENT
+
+SOLENOID
+
+MS42.0
+ECM
+TWO POSITION PISTON HOUSING
+WITH INTERNAL/EXTERNAL
+HELICAL GEAR CUP
+
+ENGINE
+OIL SUPPLY
+OIL TEMP.
+SENSOR
+
+MS42.0
+
+28
+Engine Management Systems
+
+DEACTIVATED
+
+EXHAUST: Advanced
+piston moved in
+
+EXHAUST
+TWO POSITION PISTON
+HOUSING WITH
+INTERNAL/EXTERNAL
+HELICAL GEAR CUP
+
+MS42
+ECM
+INTAKE
+SENSOR
+
+KL 15
+
+INTAKE: Retard piston
+moved out
+
+SOLENOID
+SENSOR
+VENT
+
+KL 15
+VENT
+
+SOLENOID
+
+MS42.0
+ECM
+
+TWO POSITION PISTON HOUSING
+WITH INTERNAL/EXTERNAL
+HELICAL GEAR CUP
+
+ENGINE
+OIL SUPPLY
+OIL TEMP.
+SENSOR
+
+MS42.0
+
+ACTIVATED
+
+EXHAUST: Advanced
+piston moved out
+
+EXHAUST
+TWO POSITION PISTON
+HOUSING WITH
+INTERNAL/EXTERNAL
+HELICAL GEAR CUP
+
+MS42
+ECM
+INTAKE
+SENSOR
+
+KL 15
+SOLENOID
+
+INTAKE: Retard piston
+moved in
+
+SENSOR
+VENT
+
+KL 15
+VENT
+
+SOLENOID
+
+MS42.0
+ECM
+
+TWO POSITION PISTON HOUSING
+WITH INTERNAL/EXTERNAL
+HELICAL GEAR CUP
+
+ENGINE
+OIL SUPPLY
+OIL TEMP.
+SENSOR
+
+MS42.0
+
+29
+Engine Management Systems
+
+The dual VANOS in conjunction with the variable intake manifold provides an additional
+emission control feature.
+Because of the improved combustion, the camshaft timing is adjusted for more overlap.
+The increased overlap supports internal exhaust gas recirculation (EGR) which reduces
+tailpipe emissions and lowers fuel consumption.
+During the part load engine range, the intake camshaft overlap opens the intake valve. This
+allows limited exhaust gas reflow the intake manifold.
+The “internal” EGR reduces the cylinder temperature thus lowering NOx. This feature provides EGR without the external hardware as seen on previous systems.
+
+OUTLET-VANOS
+(228/80-105)
+
+INLET-VANOS
+(228/80-120)
+
+SECONDARY
+AIR
+INJECTION
+(AIR FILTER)
+
+MDK
+INT. EGR
+
+INLET
+TURBULENCE
+IDLE AIR
+CONTROL VALVE
+CATALYST
+CLOSE TO
+ENGINE
+
+30
+Engine Management Systems
+
+ELECTRIC FAN
+The electric cooling fan is controlled by the ECM. The ECM uses a remote power output
+final stage (mounted on the fan housing)
+The power output stage receives power from a 50 amp fuse (located in glove box above
+the fuse bracket). The electric fan is controlled by a pulse width modulated signal from the
+ECM.
+The fan is activated based on the ECM calculation (sensing ratio) of:
+•
+•
+•
+•
+•
+
+Coolant outlet temperature
+Calculated (by the ECM) catalyst temperature
+Vehicle speed
+Battery voltage
+Air Conditioning pressure (calculated by IHKA
+and sent via the K-Bus to the ECM)
+
+POWER
+OUTPUT STAGE
+
+MS42.0
+
+Activation of the electric fan:
+When the vehicle is first started the fan is activated briefly (20% of maximum speed), then
+it is switched off. This procedure is performed for diagnostic purposes.
+The voltage generated by the fan when it slows down (it becomes a generator at this time)
+must meet the power output stages programmed criteria. This will confirm the RPM of the
+fan, if this is not met the signal wire from the output stage is switched to ground and a fault
+is set in memory.
+NOTE: If the ECM indicates a fault check the fan for freedom of movement
+After the initial test has been performed, the fan is brought up to the specified operating
+speed. At 10% (sensing ratio) the fan runs at 1/3 speed. At a sensing ratio of between 9095% the fan is running at maximum speed. Below 10% or above 95% the fan is stationary.
+The sensing ratio is suppressed by a hysteresis function, this prevents speed fluctuation.
+When the A/C is switched on, the electric fan is not immediately activated.
+After the engine is switched off, the fan may continue to operate at varying speeds (based
+on the ECM calculated catalyst temperature). This will cool the radiator down form a heat
+surge (up to 10 minutes).
+
+31
+Engine Management Systems
+
+RUNNING LOSSES
+The fuel circuit changeover (running losses) has not changed in
+operation from the previous system. The attached fuel pressure
+regulator no longer controls fuel
+pressure influenced by vacuum
+supply.
+The ECM now determines the fuel
+quantity compensation for manifold vacuum changes. This is
+based on throttle position sensor,
+air mass meter, load, etc. for precise compensation.
+The maintained fuel pressure at the fuel distribution rail is a constat 3.5 Bar.
+the vacuum line no longer connects to intake manifold vacuum, but is routed to the
+crankcase cyclone separator ( in case of regulator diaphragm leakage).
+
+32
+Engine Management Systems
+
+SECONDARY AIR INJECTION
+This ECM controlled function remains unchanged from
+the previous Siemens MS 41.1 system, however there
+is a hardware change.
+The Air Injection Inlet Valve mounts directly to the cylinder head, with a passageway machined through the
+head. This eliminates the external Air Injection manifold
+distribution pipes to the exhaust manifolds.
+
+SECONDARY AIR INJECTION MONITORING
+In order to reduce HC and CO emissions while the engine is warming up, BMW implemented the use of a Secondary Air Injection System. Immediately following a cold engine
+start (-10 - 40°C) fresh air/oxygen is injected directly into the exhaust manifold. By injecting oxygen into the exhaust manifold:
+• The warm up time of the catalyst is reduced
+• Oxidation of the hydrocarbons is accelerated
+The activation period of the air pump can vary depending on engine type and operating
+conditions.
+Conditions for Secondary Air Pump Activation:
+REQUIREMENTS
+
+STATUS/CONDITION
+M52 & M44
+
+STATUS/CONDITION
+M73
+
+Oxygen sensor
+Oxygen sensor heating
+Engine coolant temperature
+Engine bad
+Engine speed
+Fault Codes
+
+Open Loop
+Active
+-10 to 40ºC*
+Predefined Range
+Predefined Range
+No Secondary Air Faults
+“currently present”
+
+Open Loop
+Active
+-10 to 40ºC* Stage
+Predefined Range
+Predefined Range
+No Secondary Air Faults
+“currently present”
+
+*NOTE: Below -10°C the air injection pump is activated only as a preventive measure to
+blow out any accumulated water vapor that could freeze in the system.
+33
+Engine Management Systems
+
+The Secondary Air Injection System is monitored via the use of the pre-catalyst oxygen sensor(s). Once the air pump is active and is air injected into the system the signal at the oxygen sensor will reflect a lean condition. If the oxygen sensor signal does not change within a predefined time a fault will be set and identify the faulty bank(s). If after completing the
+next cold start and a fault is again present the "Check Engine" light will be illuminated.
+Example: Secondary Air Injection Monitoring (Siemens System)
+During a cold start condition air is immediately injected into the exhaust manifold and since
+the oxygen sensors are in open loop at this time the voltage at the pre catalyst sensor will
+reflect a lean condition) and will remain at this level while the air pump is in operation. Once
+the pump is deactivated the voltage will change to a rich condition until the system goes
+into closed loop operation.
+System Operation:
+The pump draws air through its own air filter and delivers it to both exhaust manifolds
+through a non-return (shutoff valve). The non-return valve is used to:
+1. Control air injection into the exhaust manifold - A vacuum controlled valve will open the
+passageway for air to be injected once a vacuum is applied.
+2. Prevent possible backfires from traveling up the pipes and damaging the air pump when
+no vacuum is applied.
+The control module activates the vacuum vent valve whenever the air pump is energized.
+Once the vacuum vent valve is energized a vacuum is applied to the non-return valve which
+allows air to be injected into the exhaust manifold. A vacuum is retained in the lines, by the
+use of a check valve, in order to allow the non-return valve to be immediately activated on
+cold engine start up. When the vacuum/vent valve is not energized, the vacuum to the
+non-return valve is removed and is vented to atmosphere.
+
+34
+Engine Management Systems
+
+FUEL INJECTOR VALVES
+The fuel injectors which are supplied by Siemens
+Inject at an angle (dual cone spray pattern). The tip
+of the injector is fitted with a directional angle "plate"
+with dual outlets. The lower portion of the injector
+body is now jacketed in metal. The ECM control of
+the injectors remains unchanged from the previous
+Siemens MS41.1 system.
+
+ENGINE/VEHICLE SPEED
+LIMITATION
+For engine/vehicle speed limitation, the ECM will
+deactivate injection for individual cylinders, allowing
+a smoother limitation transition. This prevents overrev when the engine reaches maximum RPM (under
+acceleration), and limits top vehicle speed (approx.
+128 mph).
+
+MS42.0
+CONTROL
+MODULE
+
+35
+Engine Management Systems
+
+RZV IGNITION SYSTEM
+The Siemens MS42.0 system uses a multiple spark ignition function. The purpose of multiple ignition is:
+• Provide clean burning during engine start up and while idling (reducing emissions).
+• This function helps to keep the spark plugs clean for longer service life (new BMW
+longlife plugs).
+MS42.0
+CONTROL
+MODULE
+
+INTAKE
+CAMSHAFT
+POSITION
+SENSOR
+
+Multiple ignition is active up to an engine speed of approximately 1350 RPM (varied with
+engine temperature) and up to 20 degrees after TDC.
+Multiple ignition is dependent on battery voltage.
+When the voltage is low, the primary current is
+also lower and a longer period of time is required
+to build up the magnetic field in the coil(s).
+• Low battery voltage = less multiple ignitions
+• High battery voltage = more multiple ignitions
+The 240 ohm shunt resistor is still used on the
+MS42.0 system for detecting secondary ignition
+faults and diagnostic purposes.
+* 1 cylinder shown
+36
+Engine Management Systems
+
+RESONANCE/TURBULENCE INTAKE SYSTEM
+On the M52 TU, the intake manifold is split into 2 groups of 3 (runners) which increases low
+end torque. The intake manifold also has separate (internal) turbulence bores which channels air from the idle speed actuator directly to one intake valve of each cylinder (matching
+bore of 5.5mm in the cylinder head).
+Routing the intake air to only one intake valve causes the intake to swirl in the cylinder.
+Together with the high flow rate of the intake air due to the small intake cross sections, this
+results in a reduction in fluctuations and more stable combustion.
+MAIN MAINIFOLD
+RAM TUBE
+
+MS-42
+
+RESONANCE TUBE
+
+MAGNETIC
+VALVE
+
+MDK
+HFM
+
+VACUUM
+UNIT
+
+RESONANCE
+FLAP
+
+IDLE AIR CONTROL VALVE
+(ZWD)
+
+RESONANCE MANIFOLD
+
+CRANKCASE VENTILATION
+TURBULENCE MANIFOLD
+TURBULENCE BORE 0:5.5mm
+
+37
+Engine Management Systems
+
+RESONANCE SYSTEM
+The resonance system provides increased engine torque at low RPM, as well as additional power at high RPM. Both of these features are obtained by using a resonance flap (in
+the intake manifold) controlled by the ECM.
+During the low to mid range rpm, the resonance flap is closed. This produces a long/single intake tube for velocity, which increases engine torque.
+During mid range to high rpm, the resonance flap is open. This allows the intake air to pull
+through both resonance tubes, providing the air volume necessary for additional power at
+the upper RPM range.
+When the flap is closed , this creates another “dynamic” effect. For example, as the intake
+air is flowing into cylinder #1, the intake valves will close. This creates a “roadblock” for the
+in rushing air. The air flow will stop and expand back (resonance wave back pulse) with the
+in rushing air to cylinder #5. The resonance “wave”, along with the intake velocity,
+enhances cylinder filling.
+The ECM controls a solenoid valve for resonance flap activation. At speeds below 3750
+RPM, the solenoid valve is energized and vacuum supplied from an accumulator closes
+the resonance flap. This channels the intake air through one resonance tube, but increases the intake velocity.
+When the engine speed is greater than 4100 RPM (which varies slightly - temperature influenced), the solenoid is de-energized. The resonance flap is sprung open, allowing flow
+through both resonance tubes, increasing volume.
+
+38
+Engine Management Systems
+
+#1 Cylinder Intake Valve open
+Low to Mid Range RPM
+(<3750 RPM)
+
+#1 Cylinder Intake Valve closes
+#5 Intake Valve Opens
+=> Intake Air Bounce Effect
+Low to Mid Range RPM
+(<3750 RPM)
+
+39
+Engine Management Systems
+
+#1 Cylinder Intake Valve open Intake air drawn from both
+resonance tubes.
+Mid to High Range RPM
+(>3750 RPM)
+
+#5 Cylinder Intake Valve open Intake air drawn from both
+resonance tubes.
+Mid to High Range RPM
+(>3750 RPM)
+
+40
+Engine Management Systems
+
+IDLE SPEED CONTROL
+The ECM determines idle speed by controlling an idle speed actuator (dual winding rotary
+actuator) ZWD 5.
+The basic functions of the idle speed control are:
+• Control the initial air quantity
+(at air temperatures <0 C,
+the MDK is simultaneously
+opened)
+
+MAIN MAINIFOLD
+RAM TUBE
+
+MS-42
+
+RESONANCE TUBE
+
+MAGNETIC
+VALVE
+
+• Variable preset idle based on
+load and inputs
+
+MDK
+HFM
+
+VACUUM
+UNIT
+
+• Monitor RPM feedback for
+each preset position
+
+RESONANCE
+FLAP
+
+• Lower RPM range intake air
+flow (even while driving)
+
+IDLE AIR CONTROL VALVE
+(ZWD)
+
+RESONANCE MANIFOLD
+
+CRANKCASE VENTILATION
+TURBULENCE MANIFOLD
+
+• Vacuum limitation
+
+TURBULENCE BORE 0:5.5mm
+
+• Smooth out the transition from acceleration to deceleration
+
+Idle speeds will vary (idle speed stabilization):
+• During the warm up phase
+
+• When Air conditioning is activated
+
+• When a drive gear is selected
+
+• When heating the passenger compartment
+
+• At all electric fan speeds
+
+• If nominal RPM is modified (idle speed increase) by
+DIS service function (if applicable)
+
+Emergency Operation of Idle Speed Actuator:
+If a fault is detected with the idle speed actuator, the ECM will initiate fail-safe measures
+depending on the effect of the fault (increased air flow or decreased air flow).
+If there is a fault in the idle speed actuator/circuit, the MDK will compensate to maintain idle
+speed. The EML lamp will be illuminated to inform the driver of a fault.
+If the fault causes increased air flow (actuator failed open), VANOS and Knock Control are
+deactivated which noticeably reduces engine performance.
+41
+Engine Management Systems
+
+CRUISE CONTROL
+Cruise control is integrated into the ECM because of the MDK operation.
+Cruise control functions are activated directly by the multifunction steering wheel to the
+ECM. The individual buttons are digitally encoded in the MFL switch and is input to the ECM
+over a serial data wire.
+
+The ECM controls vehicle speed by activation of the Motor Driven Throttle Valve (MDK)
+The clutch switch disengages cruise control to prevent over-rev during gear changes.
+The brake light switch and the brake light test switch are input to the ECM to disengage
+cruise control as well as fault recognition during engine operation of the MDK.
+Road speed is input to the ECM for cruise control as well as ASC/MSR regulation. The vehicle speed signal for normal engine operation is supplied from the ABS module (right rear
+wheel speed sensor). The road speed signal for cruise control is supplied from the ABS
+module. This is an average taken from both front wheel speed sensors, supplied via the
+CAN bus.
+
+42
+Engine Management Systems
+
+INTAKE (VACUUM) JET PUMP
+The intake jet pump function is controlled by the MS42 ECM. The purpose is to provide sufficient vacuum for the brake booster in all operating conditions.
+The additional vacuum compensation is activated by the ECM when the idle speed actuator is regulated for:
+• A/C compressor "ON"
+• Drive gear engaged (if the transmissions in fail-safe, the jet pump will always be operating)
+• Engine warm up <70ºC
+The ECM controls the Intake Jet Pump by activating the Solenoid Control Valve. Additional
+Vacuum Enhancement is applied to the brake booster when the control circuit is "deactivated" (solenoid sprung open). Vacuum Enhancement is limited to the brake booster when
+the control circuit is "activated" (solenoid powered closed).
+
+43
+Engine Management Systems
+
+PURGE VALVE
+The purge valve (TEV) is activated at 10 Hz by the ECM to cycle open, and is sprung
+closed. The valve is physically different, but purge control functions are the same as the previous Siemens MS41.1 system.
+
+VAPORS TO INTAKE
+MANIFOLD
+
+44
+Engine Management Systems
+
+TORQUE INTERFACES
+If torque reduction or increase is required for ASC/DSC/MSR/AGS, the ECM will regulate
+engine power in the following manner:
+• If less torque is required, the ignition timing is reduced (fast intervention), the idle speed
+actuator and MDK reduce intake air.
+• If increased torque is required (MSR), the idle speed actuator and MDK increase intake
+air.
+The data required for engine torque manipulation is relayed via the CAN bus.
+
+45
+Engine Management Systems
+
+LEAKAGE DIAGNOSIS PUMP (LDP)
+The location of the LDP and charcoal canister have changed. This combination assembly
+is located under the right rear trunk floor.
+
+EVAPORATIVE FUEL SYSTEM PRESSURE LEAK DIAGNOSIS MS42.0
+The LDP is capable of detecting a leak as small as 0.5 mm.
+The LDP is a unitized component that contains the following:
+•
+•
+•
+•
+
+Vacuum chamber
+Pneumatic pump chamber
+DME activated vacuum solenoid
+Reed switch providing a switched voltage feedback signal to the DME
+
+The LDP assembly is only replaceable as a complete unitized component, however, it is
+separate from the charcoal canister.
+
+* Location - under right rear trunk floor
+
+46
+Engine Management Systems
+
+LDP OPERATION
+During every engine cold start, the following occurs:
+•
+
+The LDP solenoid is energized by the ECM
+
+•
+
+Engine manifold vacuum enters the upper chamber of the LDP to lift up the spring
+loaded diaphragm pulling ambient air through the filter and into the lower chamber of
+the LDP through the one way valve.
+MS42.0
+CONTROL
+MODULE
+
+•
+
+The solenoid is then de-energized, spring pressure closes the vacuum port blocking the
+engine vacuum and simultaneously opens the vent port to the balance tube which
+releases the captive vacuum in the upper chamber.
+
+•
+
+This allows the compressed spring to push the diaphragm down, starting the “limited
+down stroke”.
+47
+Engine Management Systems
+
+•
+
+The air that was drawn into the lower chamber of the LDP during the upstroke is forced
+out of the lower chamber and into the evaporative system.
+
+•
+
+This electrically controlled repetitive up/down stroke is cycled repeatedly building up a
+total pressure of approximately +25mb in the evaporative system.
+
+MS42.0
+CONTROL
+MODULE
+
+•
+
+After sufficient pressure has built up (LDP and its cycling is calibrated to the vehicle), the
+leak diagnosis begins and lasts about 100 seconds.
+
+•
+
+The upper chamber contains an integrated reed switch that produces a switched highlow voltage signal that is monitored by the ECM. The switch is opened by the magnetic
+interruption of the metal rod connected to the diaphragm when in the diaphragm is in
+the top dead center position.
+
+•
+
+The repetitive up/down stroke is confirmation to the ECM that the valve is functioning.
+
+48
+Engine Management Systems
+
+The ECM also monitors the length of time it takes for the reed switch to open, which is
+opposed by pressure under the diaphragm in the lower chamber. The LDP is still cycled,
+but at a frequency that depends upon the rate of pressure loss in the lower chamber.
+•
+
+If the pumping frequency is below parameters, there is no leak present.
+
+•
+
+If the pumping frequency is above parameters, this indicates sufficient pressure can not
+build up in the lower chamber and evaporative system, indicating a leak.
+MS42.0
+CONTROL
+MODULE
+
+A fault code can be recorded by each ECM indicating an evaporative system leak. Upon
+test completion, the ECM releases the ground path to the LDP and the internal spring pushes the diaphragm for the “full down stroke”.
+At bottom dead center, the diaphragm rod opens the canister vent valve. This allows for
+fresh air intake from the filter for normal purge system operation.
+The LDP is diagnosable with the DIS including a service function activation test.
+49
+Engine Management Systems
+
+The chart represents the diagnostic leak testing time frame in seconds. When the ignition
+is switched on, the ECM performs a “static check” of circuit integrity to the LDP pump
+including the reed switch.
+
+•
+
+On cold engine start up, the pump is activated for the first 27 seconds at
+approximately 1.6 - 2.0 Hz. This pumping phase is required to pressurize the
+evaporative components.
+
+•
+
+Once pressurized, the build up phase then continues from 27-38 seconds. The ECM
+monitors the system through the reed switch to verify that pressure has stabilized.
+
+•
+
+The measuring phase for leak diagnosis lasts from 38-63 seconds. The pump is activated but due to the pressure build up under the diaphragm, the pump moves slower.
+If the pump moves quickly, this indicates a lack of pressure or a leak. This registers as
+a fault in the ECM’s.
+
+•
+
+From 63-100 seconds the pump is deactivated, allowing full down stroke of the
+diaphragm and rod. At the extreme bottom of rod travel, the canister vent valve is
+pushed open relieving pressure and allowing normal purge operation when needed.
+
+50
+Engine Management Systems
+
+MOTOR DRIVEN THROTTLE VALVE
+The MDK control function
+has been integrated into the
+ECM. The purpose is for precision throttle operation,
+OBD II compliant for fault
+monitoring, ASC/MSR control, and cruise control. This
+integration reduces extra
+control modules, wiring, and
+sensors.
+
+The MDK control function is integrated into the Siemens MS42.0 ECM. The ECM carries
+this function out by regulating the engine throttle valve.
+The engine throttle valve performs the following functions:
+• Precision intake air control
+• ASC control
+• MSR control
+• Cruise control
+• Preset position during engine start up (if temperature is < 0ºC)
+The new engine throttle valve (MDK) differs from the familiar EML in the following points:
+• The accelerator pedal potentiometer (PWG) is now integrated in the MDK housing.
+• A throttle cable is used to actuate the throttle potentiometers and also serves as a backup to open the throttle plate (full control) if the MDK system is in fail-safe.
+
+51
+Engine Management Systems
+
+The throttle cable (foot pedal controlled) is connected to a pulley on the side of the MDK/
+The pulley is linked by springs to one end of the throttle shaft, the MDK electric motor is
+attached to the other end of the throttle shaft.
+With the pulley linked by springs to the throttle shaft, this allows ASC intervention to override the driver’s set throttle position.
+As the pulley and shaft are rotated, the twin potentiometers (integral in the MDK housing,
+driver’s wish) are sensing the requested load. A twin potentiometer is used for back up
+redundancy (fail-safe).
+The MS42.0 ECM will actuate the MDK motor pulse width modulated in both directions at
+a basic frequency of 600 Hz) which positions the throttle plate.
+The second twin potentiometers feedback the actual throttle plate position, allowing the
+ECM to verify correct throttle position. Again, twin potentiometers are used for back up
+52
+Engine Management Systems
+
+MDK EMERGENCY OPERATION
+If a fault is detected in the system, the following modes of operation are:
+• Emergency operation 1 - Faults which do not impair safety, but which adversely affect
+the functioning of the MDK.
+• Emergency operation 2 - Applies when faults are encountered which might impair safe
+driving operation.
+• Emergency operation of idle speed actuator.
+
+EMERGENCY OPERATION 1
+• Activation of the EML warning lamp.
+• MDK is deactivated, the throttle valve is opened mechanically by the springs and throttle cable.
+• To maintain vehicle control, the MDK opening is compensated for by closing the idle
+speed actuator and retarding the ignition (engine power reduction).
+• Engine power is further limited by fuel injector cutout.
+Emergency operation 1 limits the dynamic operation if one or more of the potentiometers
+fail. The engine can slowly reach maximum speed with limited power. The EML light will
+be illuminated to alert the driver of a fault.
+
+EMERGENCY OPERATION 2
+If another fault is encountered in addition to emergency operation 1 or if the plausibility is
+affected, emergency operation 2 is activated by the ECM.
+An example of plausibility fault would be that the pulley position does not match the MDK
+position and the associated airflow.
+Emergency operation 2 can also be initiated by simultaneously pressing both the accelerator pedal and the brake pedal, or if a fault is encountered in the brake light switch diagnosis.
+
+53
+Engine Management Systems
+
+When in emergency 2 operation mode, there is an engine speed limitation (slightly above
+idle speed) in addition to the measures for emergency operation 1.
+In emergency operation 2, the engine speed is always limited to 1300 RPM if the brake is
+not applied, and approximately 1000 RPM if the brake is applied.
+The vehicle speed is limited to approximately 20-25 mph. The reason for limiting the vehicle speed is if the MDK is wide open, the vacuum assist is insufficient for the brakes.
+The emergency operation functions are inactive when:
+• Ignition is switched off, main relay is deactivated, and engine is started again
+• A fault is not detected
+• Brake pedal is not depressed
+• The throttle valve is in the idle speed setting
+
+FURTHER SAFETY CONCEPTS
+The MDK safety concept can detect a jammed or binding throttle valve as well as a broken link spring. This fault is detected by the ECM monitoring the feedback potentiometers
+from the MDK in relation to the pulse width modulation to activate the MDK motor.
+Emergency operation functions if the throttle valve is jammed:
+• Engine speed limitation depending on driver’s wish potentiometers and the MDK position.
+• Limited vehicle speed if MDK is wide open.
+• The ECM will alternate between 0 - 100% sensing ratio to “shake” the MDK loose.
+In the event of a fault, the DIS or MODIC must be used to interrogate the fault memory, and
+clear the fault once the proper repair has been performed.
+
+54
+Engine Management Systems
+
+INTAKE AIR FLOW CONTROL
+Under certain engine parameters, the MDK throttle control and the idle speed actuator
+(ZWD) are operated simultaneously.
+The ECM detects the driver’s wish from the twin potentiometers monitoring the cable/pulley position.
+This value is added to the idle speed control value and the total is what the ECM uses for
+MDK activation. The ECM then controls the idle speed actuator to satisfy the idle air “fill”,
+in addition, the MDK will also be activated = pre-control idle air charge. Both of these
+functions are utilized to maintain idle RPM.
+The MDK is electrically held at the idle speed position, and all of the intake air is drawn
+through the idle speed actuator. Without a load placed on the engine (<15% load), the
+MDK will not open until the extreme upper RPM range.
+If the engine is under load (>15%), the idle speed actuator is open and the MDK will also
+open.
+In the upper PWG range (approximately >60%), the MDK is switched off. The throttle
+valve is opened wider exclusively by the pulley via the spring linkage.
+At the full throttle position, “kickdown” is obtained by depressing the accelerator pedal
+fully. This will overwind the pulley, but the spring linkage will not move the throttle plate
+past 90 degrees of rotation.
+
+NOTE: If the MDK is defective, it is replaced as a unit and is not internally serviceable.
+
+55
+Engine Management Systems
+
+56
+
+Engine Management Systems
+
+MAIN MAINIFOLD
+RAM TUBE
+
+MS42.0
+
+RESONANCE TUBE
+
+MAGNETIC
+VALVE
+
+MDK
+HFM
+
+VACUUM
+UNIT
+
+IDLE AIR CONTROL VALVE
+(ZWD)
+
+RESONANCE MANIFOLD
+
+TURBULENCE MANIFOLD
+TURBULENCE BORE 0:5.5mm
+
+

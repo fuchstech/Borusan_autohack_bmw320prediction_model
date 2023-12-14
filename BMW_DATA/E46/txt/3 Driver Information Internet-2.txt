@@ -1,0 +1,2286 @@
+Subject
+
+Page
+
+Sound Systems. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .39
+Sport Wagon Sound System. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+Convertible Sound System. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .43
+NG Radio. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+Radio Removal Hints. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+E46 Mark 2 Navigation System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+Navigation Service Mode Display. . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+Navigation System Calibration. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+Navigation System Diagnosis. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .60
+MK 3 Navigation System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+Purpose of the System. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62
+System Components. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .63
+Navigation Computer. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .63
+GPS Receiver. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+Gyro Sensor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+GPS Antenna. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+Display Units. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .65
+Information/Body Bus Interface. . . . . . . . . . . . . . . . . . . . . . . . . . 66
+Video/Audio Signals. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .67
+Speed Signals. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .68
+Reverse Gear Input. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68
+Principle of Operation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69
+Workshop Hints. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .71
+Park Distance Control. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 76
+Review Questions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81
+
+SOUND SYSTEMS
+Two different sound systems were available for the E46 at the start of production. The standard radio features the in-dash cassette player and the optional radio has a single in-dash
+CD player. Both radios are prewired for the optional CD changer that mounts in the trunk.
+
+The sound systems for the E46 continue with the integration feature introduced with the
+E38. The sound system is interconnected on the K-Bus for amplifier and MFL communication.
+Theft proofing of the radio via a code is no longer required as the radio will not function without the K-Bus connection and a valid K-Bus signal from the instrument cluster.
+
+39
+E46 Driver Information
+
+E46 Sport Wagon Sound System
+Antenna Configuration
+The sound systems available for the E46 Sport
+Wagon are the same as the systems installed in
+the E46 Sedan and Coupe. The following antenna layout is used for the Sport wagon body:
+• FM 1 - Rear window on the right side
+• FM 2 - Rear window in the center
+• FM 3 - Left rear side window
+• AM - Rear spoiler
+• FZV - Combined with FM 2 antenna
+The amplifier for FM 1 and FM 2 antennas is
+located beneath the rear spoiler. The signal from
+the antennas passes from the amplifier to the
+diversity module located in the left side storage
+compartment.
+
+40
+E46 Driver Information
+
+66460002
+
+SOUND SYSTEM
+
+Antenna Configuration
+The FM 3 antenna has a separate amplifier that is integrated into the diversity
+module which is mounted behind the
+storage cover on the left side.
+
+66460003
+
+Diversity Switching
+The FM1/FM2 amplifier can only send one FM
+signal at a time. The diversity module controls
+the switching of the signals by applying a voltage signal to the RF cable. When the voltage
+signal is low, the amplifier sends the FM 1 signal. When the voltage level is high, it sends the
+FM 2 signal. The FM 1 and FM 2 inputs are
+continuously checked for the clearest signal.
+The diversity module then checks the signal
+from FM1/FM2 with the signal from FM 3. The
+clearest of these signals will always be sent to
+the radio for FM reception.
+
+FZV Antenna
+The RF receiver module (315MHz) is integrated into the antenna amplifier. The receiver has
+a separate KL 30 power supply for its operation. Signal from the FZV key are processed by
+the module and sent to the GM for locking/unlocking functions over a dedicated line.
+
+41
+E46 Driver Information
+
+AUDIO SYSTEM SPEAKERS
+The rear speakers for the sound system are mounted on the left and right wheel housing
+behind the trim covers
+
+If the Navigation system is installed in the Sport Wagon, the GPS receiver module is
+installed under the load floor in front of the spare tire well.
+
+GPS RECEIVER MODULE
+
+42
+E46 Driver Information
+
+Convertible Sound System
+The audio systems available for the E46iC correspond to the systems available in the E46
+Coupe. Two radios, with either the in dash CD player or cassette player are available. The
+navigation system with the board monitor is optional equipment. All sound systems are prewired for the optional CD changer that mounts in the trunk. The sound systems continue
+to be interconnected on the K-Bus and all radio test functions carry over.
+
+ART-BAYERN1
+
+ART-BAYERN2
+
+84E46NAVG0000
+
+43
+E46 Driver Information
+
+HARMAN/KARDEN SOUND SYSTEM
+
+Speaker and component locations will
+vary depending on the type of sound
+system installed. Four rear speakers are
+mounted in the rear side trim panels, two
+on each side (one wide band 130 mm
+and one tweeter dome).
+
+ART-KT4949
+
+The Harman/Karden system incorporates an additional Subwoofer is
+installed in the trunk in the ski bag cover.
+The subwoofer is 200 mm diameter
+without a subwoofer amplifier. The
+amplification for the subwoofer comes
+from the main sound system amplifier.
+
+ART-KT5281
+
+The subwoofer is hinged so that it will
+swing to the side when the ski bag is
+used. A magnet on the subwoofer cover
+will hold the subwoofer in place against
+the rear bulkhead while the ski bag is
+being used.
+The subwoofer will continue to function
+in either position closed/open.
+As mentioned , with the Harman/Karden
+ART-KT5280
+system, the stereophonic sound is modified when the top is lowered. The sound system amplifier receives a signal from the rear
+window defroster relay when the top is lowered to switch the stereophonic sound off.
+44
+E46 Driver Information
+
+ANTENNAS/DIVERSITY
+Purpose of the System:
+The E46iC is equipped with a diversity antenna system to provide the sound system with
+the strongest possible radio station signal to receive the best performance possible from
+the sound system.
+Components of the System:
+The Diversity antenna system on the E46iC consists of:
+•
+•
+•
+•
+•
+
+Main antenna mast - mounted on the left rear fender.
+Diversity antenna - mounted in the top storage cover.
+Main antenna amplifier - mounted directly below the antenna mast
+Auxiliary antenna amplifier - mounted on the top storage cover.
+Diversity switching module - mounted below the antenna mast in the trunk.
+
+The telephone antenna is wound around the main antenna mast.
+
+AUXILIARY AMPLIFIER
+
+HR Radio
+Telephone
+KLR
+ZF Radio
+
+ANTENNA AMPLIFIER
+SWITCHING MODULE
+ART-KT5347
+
+45
+E46 Driver Information
+
+The second antenna for the FM diversity system is integrated in the convertible top storage cover. The FM2 antenna incorporates a separate amplifier that receives its power
+through the antenna lead.
+
+ART-KT-5344
+
+AUXILIARY ANTENNA
+AMPLIFIER
+
+ART-ANTEMP
+
+System Operation
+Both antennas receive the signals for radio reception. Each signal is amplified by its own
+antenna amplifier and the signals are passed two the diversity switching module. The diversity module will lock onto the stronger of the two signals and send it to the radio receiver
+for sound system operation.
+
+46
+E46 Driver Information
+
+Introduction
+Starting September 2000, a family of new generation radios will begin to be phased into
+production. The exception to this is the E52 which has been available with the MIR (multiinformation radio) NG radio since series launch in mid 2000.
+The NG “New Generation” radios will have increased functions:
+•
+
+Radio can be operated without KL R.
+
+•
+
+Radios are world frequency.
+
+•
+
+Car memory programming.
+
+•
+
+Audio mixing on vehicles equipped with navigation.
+
+The radios external appearance has not changed. NG radios can be identified by their “53”
+designation.
+
+Overview of the Radios for Each Model
+RADIO
+
+TYPE
+
+MANUFACTURER
+
+MODEL
+
+C53
+
+Business with
+cassette
+Business with indash CD
+Business with
+MID control and
+cassette
+Business with
+MID control and
+in-dash CD
+Business MIR
+without cassette
+Business with
+BM control
+
+Philips
+
+E46
+
+INTRODUCTION
+DATE
+3/01
+
+Alpine
+
+E46
+
+3/01
+
+Phillips
+
+E39/E53
+
+9/00 E39
+10/00 E53
+
+Alpine
+
+E39/E53
+
+9/00 E39
+10/00 E53
+
+VDO
+
+E52
+
+Start of production
+
+Becker
+
+E46/E39/E53
+
+03/01 E46
+02/01 E39
+04/01 E53
+
+CD53
+C53
+
+CD53
+
+C53
+BM53
+
+47
+E46 Driver Information
+
+AM
+
+DIVERSITY
+FM 1
+ANTENNA/
+FM 2
+FZV RECEIVER FM 3
+
+RF Cable
+KL 30
+
+"RAD ON"
+signal
+
+CHECK
+ENGINE
+
+KL 31
+
+SPEAKER OUTPUT
+TO AMPLIFIER
+
+HANDS FREE AUDIO OUTPUT
+
+FROM
+UNLOADER
+RELAY
+
+BM53
+I-BUS
+TELEPHONE
+WITH INTERFACE
+MUTE SIGNAL
+
+SPEAKERS
+
+StarTAC
+
+BMW
+
+MFL
+M
+
+IKE
+
+W
+
+B
+
+SRS
+AIRBAG
+
+80
+60
+40
+20
+
+3
+
+100
+
+120 140
+100
+160
+180
+80
+200
+
+60
+
+220
+
+40
+
+½
+
+0
+
+2
+
+120
+
+4
+
+5
+
+1/min
+x 1000
+
+6
+
+1
+
+240
+
+20
+
+140
+
+0
+
+7
+
+km/h
+
+MPH
+
+40
+
+ELECTRONIC
+
+MK III NAV.
+
+NAV
+AUDIO
+POWER
+
+CHECK
+ENGINE
+
+GPS NAVIGATION SYSTEM
+
+R
+T
+A
+P
+E
+
+G
+
+B
+
+4
+
+2
+
+5
+
+3
+
+6
+
+FM
+
+AM
+
+TONE SELECT
+
+MODE
+
+MENU
+13.07.2000 Thursday
+
+10:17
+
+BMBT
+
+KL 58g
+
+LCM III
+CD CHANGER
+DIGITAL OUTPUT
+
+NG Radio System Overview
+Example: E39 with MK III navigation and BMBT
+
+48
+E46 Driver Information
+
+10
+
+0
+
+OIL SERVICE
+INSPECTION
+
+123456
+
+20
+
+miles
+
+122 4
+
+DIGIT
+
++72 0F
+
+READOUT
+
+PRND SM
+54321
+
+P
+
+!
+
+ABS
+
+K-BUS
+
+GENERAL MODULE
+
+INFO
+1
+
+20 15
+
+!
+
+KEY USED
+
+DSP AMP
+
+KL R
+
+Functional Overview
+NG Radios
+Radio Operation with KL R off
+Operation is possible with the key off on the C53 and CD 53 radios. If the radio is turned
+on with KL R off, it will play at the last stored volume and settings for 16 minutes until the
+General Module sends the sleep command. No changes may be made to the radio unless
+KL R is switched back on. The radio can be turned on and off as many times desired.
+Diversity Antenna
+Antenna diversity has been adapted to the new generation of radios. When the radio is in
+operation, the diversity control unit is activated by the “RAD ON” signal.
+
+World Frequency Radio
+Radios on vehicles sold in the U.S. are world radios. Specific country settings can be made
+using the service mode. The settings are stored in an EEPROM.
+Car Memory
+If programmed, when locking the vehicle using the remote transmitter the:
+• last station
+• Volume setting
+• Last audio mode (Tape, FM, CD etc.)
+are stored according to the key number used. Unlocking the vehicle with the same
+transmitter will restore the settings. There is a maximum setting for volume which may be
+lower than the setting when the radio was last operated.
+Clock
+Time can also be displayed when KL R is off by pressing the clock button on the
+Radio/MID.
+Backlighting
+The LCM/LSZ produces two signals for the control of radio backlighting.
+• Hardwired KL 58g
+• Lights on/off over the K/I Bus.
+The radio contains a photo-cell for adjustment of backlighting to ambient conditions.
+
+49
+E46 Driver Information
+
+Reset and Voltage Monitoring
+A radio reset is triggered by under voltage or the internal processor monitor. The reset
+function restarts the radio, similar to turning it off and back on again. Operating voltage is
+measured at the KL 30 input. The radio is switched off if the system voltage exceeds 17V
+to protect the radio, it will switch on when the voltage falls below 16V.
+GAL (Speed Dependent Volume)
+The speed signal from the IKE/KOMBI is available to the radio over the K/I Bus. GAL is not
+a feature on vehicles equipped with DSP.
+Bus Communication
+The radio communicates with other modules via the K bus or I Bus dependent on the
+model. The information shared over the bus line includes:
+• IKE/KOMBI - Terminal status (KL 15, KL R)
+• LCM/LSZ - Lights on
+• IKE/KOMBI link to TXD - Diagnosis
+• MID or BMBT - button or rotary knob status.
+• GM - Key used to lock or unlock vehicle
+• MFL - audio controls status
+NG radios do not use anti-theft codes. Operation of the radio is only possible if
+connected to a bus line and the detection of at least one other component.
+
+50
+E46 Driver Information
+
+Workshop Hints
+Service Mode for NG Radios
+A service mode is available as on previous radios as a diagnosis tool and for changing radio
+settings. Entering the service mode varies by the device used to control the radio.
+To enter the service mode:
+C53/CD53 with and without MID:
+• Turn on the radio.
+• Within 8 seconds, press and hold the “m” button for 8 seconds.
+• Scroll through functions using the “+” and “-” keys or the station < > search buttons.
+• Turn off the radio to end the service mode.
+C53 MIR:
+• Turn on the radio.
+• Within 8 seconds, press and hold the “SEL” button for at least 8 seconds.
+• Scroll through functions using the station < > search buttons.
+• Turn off the radio to end the service mode.
+BM53 with board monitor:
+• Turn on the radio.
+• Press and hold the “RDS” button for at least 8 seconds.
+• Scroll through the functions using the station < > search buttons.
+• Turn off the radio to end the service mode.
+BM53 with Widescreen board monitor:
+• Turn on the radio.
+• Within 8 seconds, press the “INFO” button.
+• From the info screen select RDS
+• Press and hold the BM control knob for at least 8 seconds.
+• Scroll through functions using the station < > search buttons.
+• Turn off the radio to end the service mode
+
+51
+E46 Driver Information
+
+Service Mode Functions
+
+1. Serial Number: Display of the radio serial number.
+2. Software version: Display of the radio software version. Displayed as (calender week,
+year, version)
+3. GAL: Speed-sensitive volume control. Can be adjusted from level 1-6 using the 6 preset audio buttons. Vehicles equipped with DSP do not use this feature.
+4. Field strength and Quality (F/Q): The station currently displayed can be assessed for
+field strength and quality. An “F” (i.e. F15) number is used to indicate the strength of the
+signal being received by the radio. This is a good test of the antenna system, station signal, and the radio itself. A “Q” (i.e. Q-00) number is used to determine the quality of the
+radio station including both the audio and RDS signal if applicable.
+5. DSP: This function provides information about whether the vehicle is fitted with DSP.
+The value is displayed as a one (fitted) or zero (not fitted) and is communicated by the DSP
+amplifier via the I/K bus.
+6. TP Volume: Provides adjustment for traffic report minimum volume. Not used in the
+US.
+7. AF: Alternative Frequency tracking setting. Not used in the US.
+8. Area: Used to select the appropriate market setting (USA, Canada, Europe, Japan and
+Oceania). Adjust using the pre-set buttons.
+9.Index: Display of the revision index.
+
+52
+E46 Driver Information
+
+To Remove Radio:
+• Remove center dash trim above glove
+box by prying off with a trim stick.
+• Remove center dash trim over radio by
+prying off with a trim stick.
+• Remove two screws at the top of radio
+assembly.
+• Slide radio forward and out of the plastic carrier.
+• Remove main radio connector by lifting
+connector lock to the upper most position, away from top of radio, using a
+screwdriver as show on connector.
+• Remove the antenna connection.
+• Install in the reverse order.
+
+53
+E46 Driver information
+
+E46 MARK II NAVIGATION SYSTEM
+COMPONENT OVERVIEW
+The E46 Mark II Navigation System is similar to E38/E39 Mark II. All of the E38/E39 Mark
+II system components are carried over with the exception of the BMBT:
+E46 Specific Board Monitor (BMBT):
+•
+•
+•
+•
+•
+
+5 inch display (320 X 234 pixel resolution)
+Uses on screen soft keys for telephone send/end functions. E38/E39 uses buttons.
+Does not include auxiliary ventilation function (not a function of E46 BC/IHKA).
+Provides display and control functions for the Audio System (radio, cassette and CD).
+Provides display and control functions for systems in the menu display.
+
+TAPE PROGRAM AND
+EJECT BUTTONS
+
+MODE = Selection between
+Radio, Tape or CD Functions
+
+DOLBY NR
+SELECTION
+
+PHOTOCELL SENSOR
+(ADJUST BACKLIGHTING)
+
+5 INCH
+DISPLAY
+
+RADIO
+BROADCAST
+DATA SYSTEM
+SEARCH
+BUTTONS
+PROGRAM
+
+RADIO CONTROL KNOB
+(INCREMENTAL SENSOR)
+RADIO STATUS INDICATOR
+(SIGNAL FROM RADIO VIA k BUS)
+
+BMBT CONTROL KNOB
+(INCREMENTAL SENSOR)
+
+1 - 6 BUTTONS - Correspond to stored
+radio stations and audio CD selections
+
+MENU BUTTON LOCATION - Recalls Main
+Menu in Board Monitor Display
+
+1999 MODEL YEAR RADIO CHANGES
+•
+
+The 1999 model year radios do not have the weatherband feature.
+
+•
+
+RDS = Radio Broadcast Data System. In the future, this button will put the vehicle
+occupants in touch with a wide variety of broadcast data including weather information.
+
+•
+
+PTY = Any unit having RDS will also have a separate button for the PTY feature. It
+stands for Program Type and will indicate the type of music being played.
+
+54
+E46 Driver Informaytion
+
+The BMBT communicates with interfacing control modules via the K Bus. As with all previous Original Equipment Navigation Systems, the radio electronics are installed in the
+trunk. The BMBT sends and receives operation instructions to the radio via bus communication. The Mark II Nav computer continues to provide the RGB output signals to the
+BMBT for system function display.
+55
+E46 Driver Information
+
+E46 BOARD MONITOR & NAVIGATION SERVICE MODE DISPLAYS
+The Mark II system provides a service mode display function. These screens provide system hardware/software identification numbers and status of Board Monitor and Navigation
+specific functions for use as a diagnostic tool. The screens are accessed as follows:
+•
+
+From the Main Menu select “Set”.
+
+•
+
+Once in the Set function, press and hold the menu button for 8 seconds.
+
+•
+
+The next screen to appear is the SERVICE MODE menu.
+
+The first accessible function is “On-board monitor”. Pressing this selection calls up the version screen which provides identification of hardware/ software specific index versions for the
+installed system.
+Pressing the functions key at the
+bottom continues
+into
+additional
+screens including
+the Key Functions
+and Brightness
+controls.
+Key Functions tests the key input on the BMBT.
+Input status (1-25) will display in the window.
+If no keys are
+pressed the status will be displayed as “FF”.
+Rotating the left
+or right rotary
+knob displays hex
+code input status.
+Rotated slowly, the display changes with each increment. The display eventually stops at “1F” in the left
+rotated direction and “E0” to the right.
+The key function test terminates automatically if no keys
+or knobs are moved after a short duration (“00”).
+56
+E46 Driver Informaytion
+
+The next accessible function is the
+NAVI/GRAPHIC
+ELEMENT.
+This screen identifies hardware/
+software specific
+index versions for
+the installed system.
+The Video module selection is not functional since the US version Mark II nav system does not utilize the video module.
+The next available
+selection
+from the service
+mode menu is
+“GPS”.
+This display provides the GPS
+receiver module
+hardware version
+number and
+date of programmed software.
+Pressing the
+functions button
+in the lower right
+corner of this
+screen provides
+a sub-selection
+menu.
+GPS Status provides information
+on the exact
+coordinates of the vehicle based on the calculations
+of the GPS receiver module.
+GPS Tracking provides information about the individual satellites currently sending signals to the GPS
+57
+E46 Driver Information
+
+The next selection available from the SERVICE MODE menu is “Sensor check” which provides:
+•
+
+Wheel
+speed input
+(only one
+wheel speed
+signal, displayed).
+
+•
+
+Number of
+satellites
+detected.
+
+•
+
+What mode the GPS receiver module is currently in; (ie: Search)
+
+•
+
+The Gyro status provides the millivoltage value the Nav computer is utilizing for the current vehicle position. This area also includes an icon representing what direction the
+vehicle is heading in.
+
+•
+
+The direction status indicates what gear is selected (forward or reverse).
+
+The Sensor check display is intended to be used while test driving the vehicle. Use the legend below to compare with the display status.
+
+STATUS DISPLAY
+Wheel Sensors:
+
+WHAT SHOULD BE DISPLAYED
+As the vehicle is driven, the
+number should increase with an
+increase in vehicle speed.
+
+GPS Satellites:
+
+With unobstructed upward view
+of sky the display should be > 3
+
+GPS Status:
+Gyro:
+
+See Legend on next page
+Direction icon moves with vehicle
+turning movement.
+
+WHAT TO DO IF NOT OK
+Check fault codes in
+ASC/DSC system. If
+necessary carry out wheel
+speed sensor test.
+Check for interference of
+signals to GPS antenna,
+Check integrity of circuit
+from GPS receiver module
+and Nav computer
+Replace Navigation
+computer.
+
+Milli voltage display value should
+be approx 2500 mV (+/- 400mV)
+when the vehicle is stationary or
+driven straight ahead.
+
+Direction:
+
+58
+E46 Driver Informaytion
+
+When the vehicle is turning, the
+value must rise or fall which
+indicates the gyro sensor is
+detecting yaw.
+Reverse is displayed when range
+selector is in reverse. Forward in
+any other range.
+
+Check back up light
+signal input.
+
+GPS Status Text Display
+1. GPS fault
+2. Reception Interference
+3. No Almanac
+
+4. Satellite search
+5. Satellite contact
+6. Position known
+
+Description
+Problem with GPS system. Swap GPS receiver module
+and or antenna from know good vehicle after checking
+GPS status display information described on page 153 .
+Problem with GPS system. Same as above.
+No Data yet stored from satellites. The GPS almanac is a
+memory account of received satellite signals. If the vehicle
+battery has been disconnected or after replacing a GPS
+receiver module it has an empty memory and requires
+satellite signals to become functional. After the receiver
+module receives battery voltage and ground, it must be left
+outside with an unobstructed sky above with the ignition
+switched to KL R for approximatly 15 minutes.
+GPS is currently searching for satellite signals.
+At least one satellite is found
+Vehicles Latitude and Longitude known. Navigation is
+possible.
+
+The last selection available is the Telematics entry display. This replaces the “VIN” selection
+from the E38/E39 Mark II systems. The only requirement of this entry screen is that the VIN
+is entered at the VPC when prepped prior to distribution.
+This is necessary for the
+Emergency program if needed
+when calling the
+Cross Country
+Group Roadside
+Assistance
+Program.
+Additionally, if the vehicle is equipped with a Phase V phone the system will automatically utilize the entered VIN as per E38/E39 Mark II systems.
+The VIN is entered at the VPC for all vehicles (with or without a Phase V phone). If the VIN
+has been incorrectly entered it can be changed by turning and pressing the rotary knob
+when the correct letter or digit of the last seven character of the VIN is displayed.
+The balance of the data displayed below the VIN entry is not currently used in the US market.
+
+59
+E46 Driver Information
+
+MARK II NAVIGATION SYSTEM CALIBRATION
+The calibration procedure of the Mark I system is not required with the Mark II system. This
+system self calibrates automatically as the vehicle is driven after following the steps below.
+•
+
+System must be fully functional with no faults present in fault memory.
+
+•
+
+Correct Map data base CD installed for your .
+
+•
+
+Vehicle outside with an unobstructed overhead view. Switch ignition on and allow system adequate time to receive a minimum of three GPS signals. This is confirmed by the
+green GPS indicator in the map display.
+
+•
+
+Set the map display to the 400’ scale and drive the vehicle on digitized roads. Make frequent turns at intersections where possible.
+
+While driving, the system utilizes the map CD, the received GPS coordinates, the Gyro sensor to determine turn activity and the wheel speed sensor input. It compares all of these
+variables and automatically pinpoints the vehicle position.
+
+MARK II NAVIGATION SYSTEM DIAGNOSIS
+The Nav computer does not communicate with the DIS/MoDiC.
+Diagnosis of the Nav Computer is performed with conventional procedures and by utilizing the Status displays on the previous pages.
+Refer to the DIS for RGB output signal oscilloscope displays for visual
+confirmation of signal integrity.
+The Board monitor (BMBT) does however communicate with the
+DIS/MoDiC. Follow the fault symptom path of the DIS Diagnosis
+Program for detailed diagnostic procedures.
+
+60
+E46 Driver Informaytion
+
+Mk-3 NAVIGATION SYSTEM
+Models: E38, E39, E46, E52, E53
+Production Date: E46 from 6/00, all others from 9/00
+Objectives
+After completing this module you should be able to:
+•
+
+Recognize the changes to Mk-3 from the previous Mk-2 navigation system.
+
+•
+
+Identify the components used in the system.
+
+•
+
+Review the operating fundamentals of GPS navigation.
+
+•
+
+Describe how to properly code and program the Mk-3 computer.
+
+61
+Mk-3 Navigation
+
+Purpose of the System
+The Mk-3 navigation system is a factory installed navigation system that replaces the
+previous Mk-2 version. The purpose of the system remains the same as previous
+navigation systems: To provide the driver with navigation instructions to an entered
+destination based on the vehicles current position and the roads available selected from
+a digitized road map.
+
+The principle differences of the Mk-3 system over the previous Mk-2 are:
+•
+
+GPS receiver is integrated into the MK-3 computer.
+
+•
+
+Optimized memory and faster processor resulting in faster start-up and operation.
+
+•
+
+New split screen and magnifying feature when equipped with wide screen monitor.
+(software feature)
+
+•
+
+Same navigation computer used for color board monitor or monochrome MIR display
+units.
+
+62
+Mk-3 Navigation
+
+System Components
+Mk-3 Navigation Computer
+The Mk-3 navigation computer is located in
+the left side of the vehicles trunk or cargo area.
+(In the case of the Z8 it is installed in the storage box behind the passenger seat.)
+The navigation computer housing contains:
+•
+•
+•
+•
+•
+•
+•
+
+Map CD drive
+Hardware for navigation function
+GPS receiver
+Gyro sensor
+Output for audio interface
+Output for visual display
+Cooling fan for unit
+
+There are two different hardware versions available dependent on the angle of installation
+in the vehicle (horizontal or vertical). The Mk-3 is compatible with both board monitor or
+MIR display units. (See workshop hints for configuration instructions)
+
+Identification of the Mk-3 computer over the previous versions is easy due to a change in
+the face plate design and the elimination of the “CD-IN” LED.
+Mk-3 Navigation
+Computer
+
+POWER
+
+GPS NAVIGATION SYSTEM
+
+Mk-1 and Mk-2
+Navigation Computer
+
+ON
+CD-IN
+
+BMW
+
+NAVIGATION SYSTEM
+
+63
+Mk-3 navigation
+
+Mk-3 computer
+GPS antenna
+connection
+
+18 pin ELO
+connectors:
+X1313: Violet
+X1312: Blue
+
+Integrated GPS receiver and Gyro (rotation) sensor
+
+GPS (Global Positioning System) Receiver
+The GPS receiver module of the previous Mk-2 system is integrated into the housing of the
+Mk-3 computer, further reducing the complexity and the number of components used in
+the system. The receiver is not serviceable.
+The GPS receiver is responsible for receiving the satellite signals and providing the vehicle’s
+position information to the navigation computer.
+Information provided by the GPS receiver to the navigation computer can be displayed in
+the service mode (see workshop hints) but is not typically used in diagnosis.
+
+Gyro (Rotation) Sensor
+The navigation computer contains the electronic (piezo) Gyro sensor that detects rotation
+(yaw) of the vehicle as a confirmation that the vehicle is turning. The signal provided by the
+gyro is a mili-voltage that changes as the vehicle rotates. The navigation computer uses
+the input to track the vehicle along the digitized map and display the exact vehicle position.
+The signal is available in the sensor test page of the service mode for diagnosis. The
+sensor is not a separately serviceable item and does not require calibration.
+
+64
+Mk-3 Navigation
+
+GPS Antenna
+The GPS antenna is directly connected to the navigation computer via a coaxial cable.
+Locations of the antenna in the vehicles are as follows:
+
+E38:
+E39 sedan:
+E39 Sport Wagon:
+E46 sedan/coupe:
+E46 Sport Wagon:
+E46 Convertible:
+E52:
+E53:
+
+Under the rear parcel shelf.
+Under the rear parcel shelf.
+Behind the dashboard on the left side.
+Under the rear parcel shelf.
+Above the rear glass under the spoiler.
+Behind the instrument cluster.
+Left front corner behind the dashboard.
+Above the rear glass under the spoiler.
+
+Display Units
+Based on the particular model, the factory installed Mk-3 system is displayed using a color
+board monitor or on a smaller monochromatic screen (MIR).
+E52 MIR (Multi Information Radio)
+AM FM
+
+TONE SEL
+
+AUDIO
+
+MENU
+
+NAVIGATION
+TELEFON
+A-TEMP
+
+MODE
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+E46/E53 Color Board Monitor
+MODE
+
+MENU
+
+DOLBY B-C NR
+
+On-board computer
+
+PTY
+TONE
+FM
+
+GPS-Navigation
+Telephone
+
+RDS
+
+SELECT
+AM
+
+Emergency
+MENU
+
+Set
+09/08/00 Friday
+1
+
+2
+
+3
+
+Monitor Off
+7:05 PM
+4
+
+5
+
+6
+
+BMW MONITOR
+
+E38/E39 Wide Screen Color Board Monitor
+(phased in for E53 1/01, E46 9/01)
+
+INFO
+
+MENU
+
+1
+
+4
+
+2
+
+5
+
+On-board computer
+
+GPS-Navigation
+
+3
+
+6
+
+DSP
+
+Aux. Ventilation
+
+FM
+
+AM
+
+MODE
+
+TONE SELECT
+
+Code
+
+Set
+
+11.13.2000 Thursday
+
+Emergency
+Monitor off
+
+MENU
+
+10:17
+
+65
+Mk-3 navigation
+
+Navigation System Interface
+80
+60
+40
+
+K-BUS
+
+220
+
+40
+
+½
+
+20
+
+0
+
+3
+
+100
+
+120 140
+100
+160
+180
+80
+200
+
+60
+
+2
+
+120
+
+5
+
+140
+
+DIAGNOSIS BUS
+
+6
+
+1
+
+240
+
+20
+
+4
+1/min
+x 1000
+
+0
+
+7
+
+km/h
+
+MPH
+
+40
+
+ELECTRONIC
+
+20 15
+
+10
+
+0
+
+!
+
+CHECK
+ENGINE
+
+OIL SERVICE
+INSPECTION
+
+123456
+
+miles
+
+122 4
+
++72 0F
+
+20 DIGIT READOUT
+
+PRND SM
+54321
+
+P
+
+!
+
+ABS
+
+Telephone
+PSE Box
+
+StarTAC
+
+M
+
+W
+
+B
+
+SRS
+AIRBAG
+
+BMW
+
+I-BUS
+
+MFL-CM
+
+LCM III
+
+AMPLIFIER
+AUDIO SIGNALS
+FOR AMPLIFICATION
+
+INFO
+
+BM53
+
+1
+
+4
+
+2
+
+5
+
+3
+
+6
+
+FM
+
+AM
+
+TONE SELECT
+
+MODE
+
+MENU
+13.07.2000 Thursday
+
+TAPE PLAYER
+AUDIO SIGNALS
+
+CD
+PLAYER
+AUDIO
+SIGNALS
+
+GPS
+ANTENNA
+
+10:17
+
+RED SIGNAL
+GREEN SIGNAL
+NAVIGATION
+AUDIO
+SIGNALS
+
+BLUE SIGNAL
+
+POWER
+
+GPS NAVIGATION SYSTEM
+BO
+
+REVERSE SIGNAL FROM
+LCM
+
+Example of E38/E39 with Mk-3 navigation
+
+66
+Mk-3 Navigation
+
+DSC
+(processed
+left front wheel
+speed signal)
+
+SC
+
+H
+
+Information/body bus Interface
+The navigation computer is integrated into the vehicle bus system as it’s main communication link with the vehicle.
+Communication occurs with the following modules:
+•
+•
+•
+•
+•
+•
+
+BMBT - Control inputs
+Radio - Display data
+GM - Door open
+IKE/Kombi - On-board computer data
+Telephone PSE Box - Monitor display data, mayday function
+DISplus - Coding data
+
+PSE = Portable Support Electronics
+
+Video/Audio Signals
+Board Monitor (Top Navigation)
+The RGB video signal for all display functions of the board monitor are produced by the
+navigation computer graphics stage via three output signals. The Red-Green-Blue signals
+are direct inputs to the board monitor. The audio signals for navigation instructions to the
+radio are sent via two separate lines.
+GPS ANTENNA
+VIDEO
+
+RGB
+
+GYRO
+GPS
+
+POWER
+
+INFO
+
+MENU
+
+1
+
+4
+
+2
+
+5
+
+On-board computer
+
+DSP
+
+3
+
+6
+
+GPS-Navigation
+GPS
+-Navigation
+
+Aux. Ventilation
+
+FM
+
+AM
+
+Telephone
+
+Emergency
+
+TONE SELECT
+
+Code
+
+MODE
+
+MENU
+
+Set
+
+Monitor off
+
+11.13.2000
+1.13.2000 Thur
+hursda
+sday
+
+10:1
+0:17
+
+GPS NAVIGATION SYSTEM
+
+MIR (Radio Navigation)
+Since a color display is not used for the MIR, the navigation information for the display is
+sent via a NAV bus. The NAV bus is a single dedicated line between the Mk-3 computer
+and the MIR. Audio signals for navigation instructions are sent to the radio via two
+separate lines.
+
+AUDIO SIGNALS
+
+AM FM
+
+TONE SEL
+
+AUDIO
+
+MENU
+
+NAVIGATION
+TELEFON
+A-TEMP
+
+MODE
+POWER
+
+GPS NAVIGATION SYSTEM
+
+Mk 3 NAV.
+
+NAV BUS
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+E52 MIR
+67
+Mk-3 navigation
+
+Speed Signals
+A speed signal is provided to the navigation computer for detection of distance traveled and
+vehicle speed to calculate the vehicles position on the digital map. The input is a processed
+signal provided by the vehicles DSC control unit.
+•
+
+E46: The speed signal used is from the left rear wheel.
+
+•
+
+E38/E39/E52/E53: The speed signal used is from the left front wheel.
+
+Reverse Gear Input
+The reverse gear input is used by the navigation computer to distinguish between the
+vehicle backing up or turning around.
+•
+
+E38/E39/E52/E53: The reverse input is a high signal produced by the LCM III.
+Mk-3 NAV
+
+LCM
+Reverse
+lights
+
+• E46: The reverse input is a high signal supplied by a splice from the back-up lights.
+
+Automatic Transmission
+version shown
+
+KL15
+
+KL30
+
+Reversing
+Light Relay
+K6325
+
+Mk-3 NAV
+
+Reverse
+lights
+GS 20
+
+68
+Mk-3 Navigation
+
+Principle of Operation
+The Global Positioning System is a satellite based system developed by the US Department
+of Defense that provides both military and civilian users accurate information about
+location.
+The GPS system uses 24 satellites in six
+orbits 12,550 miles above the Earth moving at 1.7mi per second. Usually 7 to 10
+satellites are in view over any one point on
+the earth.
+The GPS satellites are basically extremely
+accurate clocks that broadcast a coded
+signal representing time. The GPS receiver
+determines it’s distance from the satellite
+by measuring the time it takes between
+satellite transmission of the signal and
+reception to the receiver. The receiver
+does this with at least 2 other satellites and
+uses the information to determine the vehicles latitude, longitude, and altitude. The
+accuracy of the system for civilian use is
+within 100m (300ft).
+The vehicle must have an unobstructed view of the sky to receive the maximum amount of
+satellite signals. Trees, large buildings and excessive cloud cover can block the reception
+of the satellites’ transmissions.
+
+69
+Mk-3 Navigation
+
+The GPS antenna passes the signal to the GPS receiver incorporated in the navigation
+computer. A CD with map data is loaded in the CD drive of the navigation computer. The
+navigation computer combines the vehicle position calculated by the GPS with this map
+data.
+The current position of the vehicle can be shown on the on-board monitor by selecting
+“Emergency” from the main menu.
+The driver can enter a destination. The navigation computer calculates a route from the
+current location to this destination based on selectable criteria (main use of highways,
+shortest distance, etc.). The calculated route is shown in the route display.
+The navigation computer generates the RGB color video signal for all on-board monitor
+displays. These three signals are sent over separate shielded wires to the on-board monitor.
+In the case of the E52 MIR (also referred as radio navigation) which does not have a color
+display, the visual display data is sent via one wire called the navigation bus. On both systems, color and monochrome display, the audio output from the navigation computer for
+voice directions is sent over two separate wires.
+The driver has the choice of displays that utilize a color map with an icon of the vehicle
+being traced on the map or the use of arrow indicators and distance data shown on the
+on-board monitor display. Vehicles equipped with the wide screen board monitor have a
+split screen option that includes both display methods. The MIR only makes use of the
+arrows and distance display. With the assistance of voice prompts, the navigation
+computer indicates how and where to get into the correct lane or turn off.
+The navigation computer calculates the distance traveled from the wheel speed signal
+delivered by the DSC control unit.
+The gyro incorporated into the navigation computer housing informs the navigation computer when the vehicle is turning. An alternative route is re-calculated automatically if the
+driver does not follow the original route instructions.
+Once the driver has reached their destination, the navigation computer is ready for
+another destination input.
+Refer to the on-board monitor owners manual for instructions on using the navigation system
+software.
+
+70
+Mk-3 Navigation
+
+Workshop Hints
+Replacing the Mk-3 navigation computer
+When replacing the Mk-3 navigation computer be aware that there are two hardware
+variants depending on the installation position (vertical or horizontal).
+The ignition should be in position 0 during removal and replacement of the computer. After
+installing, close all doors, hood and trunk. A bus line reset will be carried out within two
+minutes. Resetting allows the gyro to perform a calibration run. Do not move the car
+during this reset period.
+The coding sequence for the Mk-3 navigation computer has been changed from the
+previous Mk-2. There is now an additional step (configuration) that must be done before
+the software can be loaded.
+After resetting, a configuration signal is needed to allow the computer to load the correct
+software for use with a board monitor or MIR. This is performed using the DIS coding program (CD 22.0 onward) and the Navigation System operating software (CD V15.0 onward).
+Note: Vehicles using the wide screen BM require CD V16.1 onward.
+Print
+
+1. From the DIS/MoDiC Coding /Programming
+select “1 ZCS Coding”
+
+Change
+
+End
+
+Services
+
+BMW Coding/programming: E46 SERIES
+
+1 Recoding
+2 Retrofit
+3 Display coding
+code and code
+for printout
+4 Conversion
+4
+Conversion
+5 Service
+measures
+
+2. Select the appropriate series
+(E46,E39,E38,E52,E53)
+3. Select “4 Conversion”
+4. Select “3 IKE?Kombi”
+
+Note
+
+5. Select “2 language”
+6. At the prompt “is the CD ROM present?”
+select yes , but do not install the operating
+software CD ROM yet.
+7. First select the main language and then an
+additional language. (i.e. English-spanish)
+8. Select the gender of the navigation audio
+voice.
+9. Select “automatic coding-yes”
+
+Print
+
+Change
+
+End
+
+Services
+
+BMW Coding/programming: E46 SERIES
+
+Have "BMW Navigation" CD-ROM ready.
+Do not insert it in
+the CD drive yet!
+KOMBI
+Start
+automtic coding?
+
+Yes
+
+No
+
+Note
+
+71
+Mk-3 navigation
+
+10. After coding is done the DIS/MoDiC
+instructs you to follow the instructions on
+the monitor for the installation of the
+Navigation System CD ROM.
+11. Place the navigation system software in the
+navigation computer CD drive.
+Important: Do not switch the ignition off during the
+software loading procedure. Do not use any software for the Mk-3 earlier than CD V15.0.
+12. Once loading has been completed, remove the
+CD and then confirm completion by pressing
+the rotary push-button on the monitor.
+13. Turn off the key for 10 seconds, then turn it
+back on and conduct a functional check.
+14. After this step has been finished, encode the
+navigation computer using the “Recoding” path
+in ZCS Coding. The coding process involves
+coding vehicle specific data: VIN, Model,
+Telematics data etc.
+
+INFO
+1
+
+4
+
+2
+
+5
+
+3
+
+6
+
+FM
+
+AM
+
+Software Update
+Programming
+Application Software Version 2.0
+Language 1: Amerikan
+Language 2: Spanish
+Progress
+
+MODE
+
+The software status can be confirmed from the
+“Set” screen for Mk-3 systems.
+•
+
+3 = Third generation system Mk-3.
+
+•
+
+1 = Device variant (1=Color screen, 2= MIR
+
+MENU
+
+SW 3-1/20
+
+monochrome screen).
+• 20 = Software version of the graphic
+component (Version 2.0).
+
+TONE SELECT
+
+ursday
+
+USA
+km
+1/100km
+C
+24h
+
+E
+miles
+mpg
+F
+12h
+
+dd.mm
+on
+
+mm/dd
+off
+
+km/l
+set
+set
+
+ME
+
+10:17
+
+After the navigation computer has been successfully programmed and coded the vehicle
+should be left in an area with a clear view of the sky with the key in KL R for at least 15 minutes to complete the calibration process.
+
+72
+Mk-3 Navigation
+
+Service Mode
+Just as Mk-2, Mk-3 provides an on-screen service mode for diagnosis. The service mode
+provides five different test screens:
+•
+•
+•
+•
+•
+
+On-board monitor
+Navigation/Graphic element
+GPS
+Sensor Check
+Telematics
+
+To
+•
+•
+•
+•
+•
+
+enter the Navigation Service Mode:
+Turn the ignition key to position 1 (KL R).
+From the Menu screen select “SET”.
+Once in the Set screen, press and hold the “MENU” button for 8 seconds.
+The Service Mode menu will appear on the display.
+Select from the Service Mode menu for navigation specific tests.
+INFO
+
+INFO
+1
+
+4
+
+2
+
+5
+
+3
+
+6
+
+FM
+
+AM
+
+MODE
+
+SET
+Language
+Distance
+Consumpt.
+Temp.
+Clock
+
+SW 3-1/20
+USA
+km
+1/100km
+C
+24h
+
+dd.mm
+Date
+on
+Audio+OBC
+11.13.2000 Thursday
+
+E
+miles
+mpg
+F
+12h
+
+km/l
+
+TONE SELECT
+
+set
+
+mm/dd
+off
+
+set
+
+MENU
+
+10:17
+
+1
+
+4
+
+2
+
+5
+
+3
+
+6
+
+FM
+
+AM
+
+MODE
+
+SERVICE MODE
+On-board monitor
+NAVIGATION/GRAPHIC ELEMENT
+
+TONE SELECT
+
+Video Module
+GPS
+Sensor check
+Telematics
+
+MENU
+
+11.13.2000 Thursday
+
+Press and hold for 8 seconds after entering
+the “Set” mode
+
+10:17
+
+Service Mode main menu display
+
+Diagnosis
+Diagnosis is carried out using Test Modules in the Diagnosis Program as well as on-screen
+in the Service mode.The Sensor Check display is intended to be used while test driving the
+vehicle. The following pages contain charts with explanations of the Service Mode display.
+
+SENSOR CHECK
+
+return
+11.13.2000 Thursday
+
+DIS
+BMW
+BMW DIS
+
+0
+00
+Satellite search
+02485
+Forward
+
+10:17
+
+BMW DIS
+
+Wheel sensor:
+GPS satellites:
+GPS status:
+Gyro:
+Direction:
+
+73
+Mk-3 navigation
+
+STATUS DISPLAY
+Wheel Sensors:
+
+WHAT SHOULD BE DISPLAYED
+As the vehicle is driven, the
+number should increase with an
+increase in vehicle speed.
+
+GPS Satellites:
+
+With unobstructed upward view
+of sky the display should be > 3
+
+GPS Status:
+Gyro:
+
+See Legend below
+Direction icon moves with vehicle
+turning movement.
+
+WHAT TO DO IF NOT OK
+Check fault codes in DSC
+system. If necessary carry
+out wheel speed sensor
+test.
+Check for interference of
+signals to GPS antenna,
+Check integrity of circuit
+from GPS antenna to nav
+computer.
+Replace Navigation
+computer.
+
+Milli voltage display value should
+be approx 2500 mV (+/- 400mV)
+when the vehicle is stationary or
+driven straight ahead.
+
+Direction:
+
+When the vehicle is turning, the
+signal voltage should increase on
+right hand turns and decrease on
+left hand turns.
+Reverse is displayed when range
+selector is in reverse. Forward in
+any other range.
+
+GPS Status Text Display
+1. GPS fault
+2. Reception Interference
+3. No Almanac
+
+4. Satellite search
+5. Satellite contact
+6. Position known
+
+74
+Mk-3 Navigation
+
+Check back up light
+signal input.
+
+Description
+Problem with GPS system. Swap nav computer and or
+antenna from know good vehicle after checking GPS
+status display information
+Problem with GPS system. Same as above.
+No Data yet stored from satellites. The GPS almanac is a
+memory account of received satellite signals. If the vehicle
+battery has been disconnected or after replacing a nav
+computer it has an empty memory and requires satellite
+signals to become functional. After the nav computer
+receives battery voltage and ground, it must be left outside
+with an unobstructed sky above with the ignition switched
+to KL R for approximatly 15 minutes.
+GPS is currently searching for satellite signals.
+At least one satellite is found
+Vehicles Latitude and Longitude known. Navigation is
+possible.
+
+Menu
+GPS/Status
+
+Display
+G-speed
+Heading
+Rec status
+Pos-src
+PDOP
+HDOP
+VDOP
+
+Explanation
+Relative speed over the ground
+Direction of travel
+Search/track/position receiver status
+Number of satellites available for analysis
+Accuracy of the calculated location
+<8=sufficient determinations of location
+<4=very good determinations of location
+
+GPS/Tracking
+info
+
+CH
+PRN
+S/N
+Visible Sat
+
+Channel
+Satellite detection
+Better reception as the value increases
+Number of visible satellites, receivable
+Signals, depending on time of
+day/configuration
+Satellite database, loaded automatically after
+15 minutes
+VIN (Automatically assigned during coding)
+Color code or text
+Telephone network/contract number
+Customer specific info
+On/off status
+Telematics services on/off status
+Logging off telematics services
+
+Almanac
+Telematics
+
+PDOP
+HDOP
+VDOP
+S/N
+Gyro
+Dir
+
+VIN
+Color
+GSM
+BMW info
+Emergency call out
+Initialization
+Logging off
+
+Position Dilution of Precision
+Horizontal Dilution of Precision
+Vertical Dilution of Precision
+Signal/noise relationship
+Piezo gyro sensor (in navigation computer)
+Direction of travel
+
+75
+Mk-3 navigation
+
+PARK DISTANCE CONTROL
+INTRODUCTION
+Park Distance Control is a safety/convenience system that is an option on the E46. The system is carried over from the E39 and features the ultra-sonic sensors on the rear bumper
+only.
+The sensors detect the close proximity to other objects when maneuvering the vehicle in
+tight spaces (such as parallel parking or parking in narrow garages spaces).
+The driver is warned, through an audible tone
+(beeping), when the vehicle comes close to another object. As the distance to the object decreases, the beeping frequency increases until a steady
+tone is produced. As the distance to the object
+increases, the steady tone will return to a beep
+and stop when the vehicle moves away from the
+object.
+The PDC is automatically switched ON when the
+ignition is switched on, however it does not
+become active until the vehicle is shifted into
+reverse.
+
+76
+E46 Driver Information
+
+PDC COMPONENTS
+The PDC consists of the following components:
+
+PDC CONTROL MODULE - Mounted in the trunk on the right side above the battery.
+The PDC control module activates the ultrasonic sensors mounted in the rear bumper
+cover. After activation, the module monitors the signals coming back through the sensors.
+Through this signal, the control module is able to determine the distance to any object close
+to the bumpers of the vehicle. As the vehicle comes close to an object, the control module
+will activate the acoustic warning through the right rear audio system speaker.
+
+FOUR ULTRASONIC SENSORS - Mounted in the rear bumper. The sensors are small transmitter/receiver modules that are specifically designed for automotive use. The sensors are
+limited to the following angles of monitoring:
+• 90° on the horizontal plane
+• 60° on the vertical plane
+
+77
+E46 Driver information
+
+TRANSMITTING MODE
+The control module sends a 40 Khz signal to the sensor and each sensor is then activated
+in a specific sequence (firing order). The ceramic element of the sensor vibrates and produces an ultrasonic sound wave that is sent out from the bumper.
+
+RECEIVING MODE
+If the sound wave contacts an object, the wave is bounced back to the sensor. The returning wave causes the ceramic element to vibrate creating an electrical signal as feedback to
+the control module.
+The control module determines the distance to the object by the time difference between
+the sent signal and the received ultrasonic wave signals.
+
+78
+E46 Driver Information
+
+SYSTEM OPERATION
+When KL 15 is switched ON, the PDC system is switched "ON", in the standby mode. The
+system performs a self-check of the ultrasonic sensors and control electronics.
+When the vehicle is shifted into reverse, the system is activated and the sensors are activated in the predetermined order.
+If an object is detected within the operating range of one the sensors, a signal is sent to the
+PDC control module and the acoustic warning is generated. At the same time the control
+module checks the signals from the adjacent sensors to help determine the actual distance
+to the object.
+As the distance to the object decreases, to approximately 1 ½ feet, the output acoustic frequency increases until a steady tone is generated.
+As the distance to the object increases the frequency will decrease until the object is out of
+the monitoring range of the sensor.
+
+79
+E46 Driver information
+
+80
+E46 Driver Information
+
+Review Questions
+1. What is the principle Bus line used on the E46? List the modules that are located
+on this bus.
+
+2. Describe how the Instrument Cluster receives the speed signal from the ASC/DSC
+control unit.
+
+3. What information does the cluster use to determine the Service Interval? Where can
+the Coded Consumption Limit be found?
+
+4. Discuss how the Instrument Cluster and the LSZ share data storage. What would
+happen if a cluster from another vehicle is installed? Why does this happen?
+
+5. If the LSZ module were to fail, what lights would remain functional?
+
+6. Explain the possible testing/troubleshooting procedures for an E46 equipped with
+Xenon lights.
+
+7. Which module is responsible for the automatic head light adjustments? What type of
+sensors are used in this system and where are they located?
+
+8. Where is the Diversity Antenna Amplifier located on an E46 Touring?
+
+9. Describe how to enter the Radio service mode on a vehicle with a Board Monitor.
+
+81
+E46 Driver information
+
+10. List the most significant changes made to the Mk-3 navigation computer over the
+previous Mk-2.
+
+12. How can the signal provided by the gyro sensor to the navigation computer be
+checked?
+
+13. What step is necessary before loading the navigation computer operating software CD
+on a newly replaced Mk-3 navigation computer? Where can the software status be
+confirmed after it has been loaded?
+
+14. How is PDC switched on? What diagnosis is possible on the system?
+
+82
+E46 Driver information
+
+

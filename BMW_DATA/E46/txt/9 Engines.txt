@@ -1,0 +1,571 @@
+Table of Contents
+ENGINES
+Subject
+
+Page
+
+M52TU. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+Introduction. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+Overview. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+Technical Data. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+Crankcase. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+Crankshaft. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+Pistons and Connecting Rods. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .9
+Flywheel and Self Adjusting Clutch (SAC). . . . . . . . . . . . . . . . . . . . . .10
+Oil Pump. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+Valve Train/VANOS. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+VANOS Components. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+Double Vanos Operation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+Cylinder Head. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .15
+Cooling System. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+Map Cooling Thermostat. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .17
+Resonance/Turbulence Intake System. . . . . . . . . . . . . . . . . . . . . . . . 18
+Idle Control Valve and Turbulence Bores. . . . . . . . . . . . . . . . . . . . . . 19
+Exhaust Manifolds. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+
+Subject
+
+Page
+
+M54. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+Introduction. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+Mechanical Changes. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+Technical Data. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+Review Questions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .27
+
+M52TU B25 AND B28 ENGINES
+Model: E46, 323i and 328i
+Production Date: M52TU B28: 6/98-6/00 M52TU B25: 6/98-9/00
+Objectives
+After completing this module you should be able to:
+•
+
+List the changes made to the M52TU from the previous M52 engine.
+
+•
+
+Describe the advantages offered by the use of Double Vanos valve control.
+
+•
+
+Understand the Mechanical, Hydraulic and Electronic controls used in Double
+Vanos operation.
+
+•
+
+Explain the cooling system of the M52TU.
+
+•
+
+Describe the operation and advantages of the Turbulence Intake System.
+
+3
+Engines
+
+Introduction
+The M52 TU (Technically Updated) engine, is a further development of the M52 engine used
+in E36 and E39 vehicles. It is available in two displacement versions, the 2.8 liter and the
+2.5 liter.
+The development objectives were to reduce the fuel consumption and emission levels,
+while increasing the power output and performance characteristics of the previous M52.
+The engine management system, Siemens MS42.0, was developed, in conjunction with the
+mechanical changes, to provide the needed electronic control to allow the engine to comply with the Low Emission Vehicle (LEV) standards.
+During development, particular importance was given to improving quality, engine acoustics
+and comfort. Further development criteria was placed on increasing power
+achieved by an improved torque curve.
+
+4
+Engines
+
+Overview
+The following changes were made to the M52 engine to achieve the development goals:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Re-designed crankcase
+Modified crankshaft
+Modified pistons
+Oil pump/oil pressure regulator integrated into the oil sump deflector
+Double VANOS for the camshaft drive
+Re-designed cooling system
+Map controlled thermostat
+Quick disconnect hoses for cooling system
+Motor driven throttle valve
+Catalytic converters mounted in the exhaust manifold
+
+5
+Engines
+
+TECHNICAL DATA
+
+6
+Engines
+
+7
+Engines
+
+Crankcase
+The crankcase of the M52 TU engine is a new design. It is made from the same aluminum
+alloy as the crankcase for the Z3 Roadster 2.8 liter M52 engine.
+• The aluminum crankcase is 51lbs lighter
+than the cast iron block
+of the M52.
+• The engine has cast
+iron liners as the M52
+engine in the Z3.
+• There is the possibility
+for boring the cylinders
+once (+.25mm).
+
+Crankshaft
+The crankshaft of the 2.5 liter displacement engine is made from cast iron. The 2.8 liter
+engine uses a forged steel crankshaft due to the “higher torque”. Both crankshafts are
+mass balanced. The crankshafts feature seven main bearings with the thrust bearing located at the #6 main journal area.
+
+8
+Engines
+
+Pistons and Connecting Rods
+The piston design is carried over from the M52 engine. The 2.8 liter uses a graphite coating on the skirts to reduce friction and noise characteristics. The connecting rods are forged
+steel.
+
+9
+Engines
+
+Flywheel and Self Adjusting Clutch (SAC)
+The M52 TU uses the dual mass flywheel with the self adjusting clutch introduced on the
+E39.
+The SAC is designed to extend the service life of
+the clutch disc while keeping the pivot range of the
+diaphragm spring consistent throughout its service
+life.
+To check the clutch disc thickness the clutch must
+be removed. The pressure plate of the SAC configuration incorporates an additional “wedge” ring
+that rotates as the disc wears. As the ring rotates
+(1/2” total rotation distance) its wedges push the
+pressure plate disc forward to compensate for the
+wear of the clutch disc.
+When a SAC pressure plate is removed it must be
+reset to the “new” position before installing it into
+the vehicle. Using a new special tool, the wedge
+ring (1) is rotated back under the pressure of the
+spring (2) to the “new” reference line on the pressure plate.
+CAUTION: A replacement pressure plate is
+received with a shipping “star lock”. This is to be
+removed after installation. SAC service and
+replacement procedures are different and require
+new special tools. Refer to the repair manual in TIS
+for complete procedures.
+
+10
+Engines
+
+Oil Pump
+The duocentric oil pump with oil pressure regulator for the M52 TU engine is integrated into
+the oil deflector in the sump.
+
+11
+Engines
+
+VANOS
+The double VANOS system is used on the M52 TU engine. Double VANOS was originally
+introduced on the European M3 engine, however, the system for the M52 TU engine is
+designed specifically for series production engines.
+The single VANOS system of the M52 engine is a simple ON/OFF system. With the double
+VANOS system, true variable timing for both the intake and exhaust camshafts is possible.
+In addition to offering increased power, the double VANOS system offers the following
+advantages:
+• Increase torque in the lower and medium RPM ranges - without a loss of power in the
+upper RPM ranges
+• Less un-burned gas when idling due to less camshaft overlap
+• Improved idling characteristics due to less overlap
+• Internal exhaust gas recirculation in the part load range for lower NOx emissions
+• Quicker warm up cycle for the catalytic converter for faster reduction in emissions
+• Improved fuel economy
+
+12
+Engines
+
+VANOS Components
+The VANOS system consists of the following components:
+•
+•
+•
+•
+•
+•
+
+Intake and Exhaust camshafts with helical gear inserts
+Adjustable camshaft drive gears
+Double VANOS actuator
+2 - three way solenoid valves
+Two camshaft trigger wheels
+Two camshaft position sensors
+
+Engine oil pressure is used to position the VANOS actuators. The oil pressure is fed from
+the pump up to the three way solenoids and drains back to the sump as the camshafts are
+adjusted during engine operation.
+
+TWO POSITION PISTON
+HOUSING WITH
+INTERNAL/EXTERNAL
+HELICAL GEAR CUP
+
+MS42.0
+ECM
+SENSOR
+
+KL 15
+SOLENOID
+
+SENSOR
+VENT
+
+KL 15
+VENT
+
+SOLENOID
+
+MS42.0
+ECM
+TWO POSITION PISTON HOUSING
+WITH INTERNAL/EXTERNAL
+HELICAL GEAR CUP
+
+ENGINE
+OIL SUPPLY
+OIL TEMP.
+SENSOR
+
+MS42.0
+
+With the double VANOS system, the camshafts are infinitely adjustable within the mechanical travel limits of the cam drive gears.
+13
+Engines
+
+Double VANOS Operation
+The MS42.0 engine control module (ECM) controls the operation of the Double VANOS system. The base setting of the camshafts with the engine off:
+• Intake cam - retarded
+• Exhaust cam - advanced
+This is also the "fail safe" position in the event of an electronic control failure. Both
+camshafts are held in these positions by oil pressure from the engine oil pump. The exhaust
+camshaft is held additionally by a spring in the VANOS actuator.
+When the engine is started, the camshafts will remain in these positions until the ECM
+detects the positions of the camshafts from the camshaft sensors (approximately 50 revolutions or 2- 5 seconds).
+Once the cam positions are recognized, the ECM will make an initial cam timing adjustment
+based on RPM and throttle position. Following this initial setting, the intake air and engine
+coolant temperature are used to adjust the timing.
+When the ECM detects that the cams are in the desired position, the solenoids are modulated (100 - 220 Hz) maintaining oil pressure on both sides of the actuators to maintain the
+camshaft timing.
+
+14
+Engines
+
+Cylinder Head
+The cylinder head has been redesigned in the area of the cooling passages. The coolant
+circulation through the head has been optimized, allowing the head to operate at cooler
+temperatures.
+The front of the cylinder head has been redesigned for the double VANOS system.
+The air intake ports have been redesigned in conjunction with the redesigned intake manifold.
+
+Secondary Air
+Porting
+
+Intake
+
+Turbulence
+Manifold
+Port
+
+Exhaust
+
+Coolant Passage
+(casting)
+
+15
+Engines
+
+Cooling System
+The cooling system of the M52 TU engine has been completely redesigned. The objective
+in redesigning the system was to optimize the operating temperatures in both cylinder head
+and block. The cooling system is designed to:
+• Reduce the operating temperatures of the cylinder head. This has a positive effect on
+torque because the lower temperatures improve the volumetric efficiency of the engine.
+• Increase the operating temperature of the cylinder block (crankcase). This design change
+reduces the friction and thereby reduces fuel consumption.
+
+16
+Engines
+
+These two changes were achieved in the M52 TU by having the coolant flow directly to the
+cylinder head from the water pump. The system is referred to as a partial engine cooling
+concept (MTK).
+
+The coolant is fed by the water pump through a cast coolant feed passage in the cylinder
+head to the rear of the cylinder head. From there it flows forward to the thermostat housing, radiator and output to the controlled inlet of the heater core.
+The water passages in the cylinder block are only connected to the coolant supply and
+metered through the holes in the head gasket. A reduced volume of the coolant flows
+through the cylinder block.
+
+Map Cooling Thermostat
+As a further measure for controlling the
+engine's operating temperature, the
+heated thermostat, introduced on the
+M62 engine, is carried over to the M52
+TU engine. The heated thermostat
+allows the engine to be operated at
+higher controlled temperatures during
+low and part throttle conditions which
+reduces the fuel consumption of the
+engine.
+The thermostat heating which opens
+or closed the thermostat to control the
+engine temperature is controlled by the
+DME. Any problems will be diagnosed
+as part of the DME system using the
+DIS or MoDiC.
+17
+Engines
+
+Resonance/Turbulence Intake System
+The intake manifold for the M52 TU engine was completely redesigned. Manufactured from
+molded plastic, it contained several new innovations and features.
+Resonance Charging
+The principle of resonance charging is carried over from the M42 engine. The design of the
+manifold and the use of the resonance charging flap allow the manifold to operate with the
+dynamic effect of long intake runners at low to mid range RPM. Then, when the resonance
+flap opens during higher RPM, the dynamic effect is to have six short intake runners for
+greater air volume.
+The overall effect is to achieve an optimum torque progression throughout the entire RPM
+range.
+The resonance system consists of:
+•
+•
+•
+•
+•
+•
+
+The intake manifold
+Resonance manifold and tubes
+Main manifold with six ram tubes
+The resonance flap and controls
+Vacuum actuator and vacuum reservoir
+Turbulence manifold and idle control valve
+MAIN MAINIFOLD
+RAM TUBE
+
+MS-42
+
+RESONANCE TUBE
+
+MAGNETIC
+VALVE
+
+MDK
+HFM
+
+VACUUM
+UNIT
+
+RESONANCE
+FLAP
+
+IDLE AIR CONTROL VALVE
+(ZWD)
+
+RESONANCE MANIFOLD
+
+CRANKCASE VENTILATION
+TURBULENCE MANIFOLD
+TURBULENCE BORE 0:5.5mm
+
+18
+Engines
+
+Idle Control Valve and Turbulence Bores
+The intake manifold incorporates six separate (internal) turbulence bores that channel the
+idle and low engine speed air directly into the cylinder head. The turbulence bores mate up
+to matching 5.5mm bores in the cylinder head.
+
+OUTLET-VANOS
+(228/80-105)
+
+INLET-VANOS
+(228/80-120)
+
+SECONDARY
+AIR
+INJECTION
+(AIR FILTER)
+
+MDK
+INT. EGR
+
+INLET
+TURBULENCE
+IDLE AIR
+CONTROL VALVE
+CATALYST
+CLOSE TO
+ENGINE
+
+19
+Engines
+
+Exhaust Manifolds
+The exhaust manifolds incorporate the catalytic converters. Mounting the catalytic
+converters close to the engine allows them to come up to operating temperature quicker.
+The two pre and two post catalytic oxygen sensors are also mounted in the exhaust
+manifold.
+
+PRE-CATALYST SENSORS
+
+POST-CATALYST
+SENSORS
+
+20
+Engines
+
+M54 B25 AND B30 ENGINES
+Model: E46, 325i and 330i
+Production Date: M54 B30: From 6/00 M54 B25: From 9/00
+
+Objectives
+After completing this module you should be able to:
+• Identify the changes to the M54 engines over the M52 TU engine.
+• List the design objectives for the M54 engine.
+
+21
+Engines
+
+Introduction
+The M54 - 6 cylinder engine was introduced with the 2001 Model Year E46 330i. The displacement of the new engine is 3 liters and the engine replaced the 2.8 liter engine in the
+E46 in 6/2000. A 2.5 liter version of the M54 engine was introduced starting with 9/2000
+production in the E46, Z3 and E39 vehicles.
+The M54 - 3 liter displacement engine meets ULEV compliancy for emission standards. The
+2.5 liter version of the M54 engine is LEV compliant.
+Design objectives for the M54 engine were to provide:
+• Lower Emissions
+• Maintain Fuel Economy
+• Maintain Power and Performance levels
+
+HORSE POWER
+
+M54B30
+231@5900RPM
+
+TORQUE
+
+300Nm@3500RPM 245Nm@3500RPM
+
+BORE
+STROKE
+COMPRESSION
+22
+Engines
+
+84mm
+89.6mm
+10.2:1
+
+M54B25
+192@6000RPM
+
+84mm
+75mm
+10.5:1
+
+Mechanical Changes
+In addition to the increased displacement of the M54B30 engine, several mechanical
+changes were incorporated into the engine for reduced emissions and increased fuel economy. These changes include:
+
+•
+
+NEW PISTONS - The pistons have a shorter skirt compared to the M52TU and
+continue with the graphite coating for friction and emission reducing measures. The
+piston rings have been modified to reduce friction.
+
+•
+
+CRANKSHAFT - The crankshaft for the 3 liter M54 is adopted from the S52B32 M3 engine. The crankshaft for the 2.5 liter is carried over from M52TU.
+
+•
+
+CAMSHAFT - The camshaft for the 3 liter M54 is modified with more lift (9.7 mm)
+and new valve springs to accommodate the increased lift. The camshaft of the 2.5
+liter M54 is carried over from the M52TU engine.
+
+•
+
+INTAKE MANIFOLD - The intake manifold is modified with shorter ram tubes (20mm
+shorter on 3 liter/10mm shorter on 2.5 liter). The diameter of the tubes is increased
+slightly.
+
+•
+
+INJECTION VALVES - The diameter of the injection pintle has increased slightly for
+the increased displacement of the 3 liter engine. The injectors for the 2.5 liter engine
+carry over from the M52TU.
+
+23
+Engines
+
+Non-return Fuel Rail system
+The M54 engine with MS 43.0 control uses the non return fuel rail system introduced on
+the M62 TU engine. The system meets running loss compliance without the use of the 3/2way (running losses) solenoid valve used on the M52TU engine.
+
+The regulated fuel supply is controlled by
+the fuel pressure regulator integrated in
+the fuel filter. The fuel return line is also
+located on the filter.
+
+The M54 engine uses an Electronic
+Controlled Throttle Valve (EDK) for intake
+air control. The idle control valve and turbulence function of the intake manifold
+carries over from the M52TU engine.
+
+24
+Engines
+
+M54B30 ENGINE
+
+231
+
+25
+Engines
+
+M54B25 ENGINE
+
+26
+Engines
+
+Review Questions
+1. What position are the camshafts in when the engine is first started? What advantages
+does this position make possible?
+
+2. How much mechanical movement does the Vanos assembly provide?
+
+3. Why is it advantages to maintain a warm crankcase but continue to keep the
+cylinder head cool? What is the purpose of the transmission heat exchanger?
+
+4. What effect is caused by the turbulence bores in the combustion chamber?
+
+5. How does the M52TU/M54 achieve EGR without using a separate valve?
+
+6. Why are the Catalytic Converters mounted so close to the engine?
+
+7. What change was made to the fuel delivery system of the M54?
+
+27
+Engines
+
+

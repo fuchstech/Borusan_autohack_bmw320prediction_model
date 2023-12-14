@@ -1,0 +1,411 @@
+Subject
+
+Page
+
+Leakage Diagnosis Pump (LDP) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+Motor Driven Throttle Valve . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51
+Intake Air Flow Control. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55
+
+SIEMENS MS 43.0 ENGINE CONTROL SYSTEM. . . . . . . . . . . . . . . . . . . . . .57
+Introduction. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58
+I.P.O. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .59
+MS 43.0 New Functions
+Electronic Throttle Control (EML). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .60
+Accelerator Pedal Sensor (PWG). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+Electronic Throttle Valve (EDK). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+Main Relay Monitor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .65
+Engine Optimized ignition Key Off. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66
+Diagnosis Module Tank Leakage (DM-TL). . . . . . . . . . . . . . . . . . . . . . . . 67
+DM-TL Function. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .69
+DM-TL Test Procedure. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .70
+
+Review Questions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .74
+
+SIEMENS MS 43.0 ENGINE CONTROL SYSTEM
+Model: E46 equipped with M54 Engine
+Production Dates: M54 B30: from 6/00, M54 B25: from 9/00
+Objectives
+After completing this module you should be able to:
+• Identify the changes that have occurred to the MS 43 system compared to the MS 42.
+• Describe the operation DMTL fuel system leakage pump.
+• Describe the operation of the electronic throttle motor.
+• Discuss which new components/subsystems relate directly to ULEV compliancy.
+
+57
+Engine Management Systems
+
+This new generation Siemens system is designated as MS 43.0.
+Siemens MS 43.0 is a newly developed engine management system to meet the needs of
+Ultra Low Emission Vehicle (ULEV) compliancy for the 3.0 liter variant, and continue with
+LEV compliancy for the 2.5 liter version. This system also includes control of the Electric
+Throttle Valve (EDK).
+The ECM uses a pc-board dual-processor control unit in the SKE housing configuration.
+The MS 43.0 ECM is flash programmable as seen with previous systems.
+ECM hardware includes:
+Modular plug connectors featuring 5 connectors in the SKE housing with 134 pins.
+• Connector 1 = Supply voltages and grounds
+• Connector 2 = Peripheral signals (oxygen
+sensors, CAN, etc.)
+• Connector 3 = Engine signals
+• Connector 4 = Vehicle signals
+• Connector 5 = Ignition signals
+Special features:
+• The Flash EPROM has the capability to be programmed up to 13 times.
+• Once a control unit is installed and coded to a vehicle it cannot be swapped with another vehicle for diagnosing or replacement (because of EWS 3.3).
+
+58
+Engine Management Systems
+
+SYSTEM OVERVIEW I-P-O
+
+134 PIN
+
+Service
+Engine
+Soon
+
+59
+Engine Management Systems
+
+MS 43 NEW FUNCTIONS
+ELECTRONIC THROTTLE SYSTEM - EML
+The M54 engine with MS 43 engine control uses an electronic throttle control system
+adopted from the ME 7.2 system on the M62 engine. The system incorporates an electric
+throttle valve (EDK) and pedal position sensor (PWG) for engine power control.
+The MS 43 control module monitors the PWG input and activates the EDK motor based on
+the programmed maps for throttle control. The MS 43 module self checks the activation of
+the EDK via feedback potentiometers motor on the EDK motor.
+
+Additional functions of the EML system include:
+• Cruise control function
+• DSC throttle interventions
+• Maximum engine and road speed control
+
+60
+Engine Management Systems
+
+MS 43 NEW FUNCTIONS
+ACCELERATOR PEDAL SENSOR
+The accelerator pedal sensor is similar to the PWG used on the ME 7.2 system. It is integrated into the accelerator pedal housing. Two hall sensors are used to provide the driver’s
+input request for power.
+The hall sensors receive power (5 volts) and ground from the MS 43 control module and
+produce linear voltage signals as the pedal is pressed from LL to VL.
+
+PWG SENSOR 1 = 0.5 to 4.5 V
+HS
+
+PWG SENSOR 2 = 0.5 to 2.0 V
+
+HS
+
+The MS 43 control module uses the
+signal from sensor 1 as the driver’s
+request and the signal from sensor 2
+as plausibility checking.
+SIGNAL 1
+
+SIGNAL 2
+
+1 2
+
+3
+
+4
+
+5
+
+HALL SENSOR
+POWER
+
+MS 43.0
+
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+61
+Engine Management Systems
+
+MS 43 NEW FUNCTIONS
+ACCELERATOR PEDAL SENSOR
+PWG SIGNAL MONITORING & PWG FAILSAFE OPERATION:
+•
+
+As a redundant safety feature the PWG provides two separate signals from two integral
+angle hall sensors (HS #1 and HS #2) representing the driver’s request for throttle activation.
+
+•
+
+If the monitored PWG signals are not plausible, MS 43.0 will only use the lower of the
+two signals as the driver’s pedal request input providing failsafe operation. Throttle
+response will be slower and maximum throttle position will be reduced.
+
+•
+
+When in PWG failsafe operation, MS 43.0 sets the EDK throttle plate and injection time
+to idle (LL) whenever the brake pedal is depressed.
+
+•
+
+When the system is in PWG failsafe operation, the instrument cluster matrix display will
+post “Engine Emergency Program” and PWG specific fault(s) will be stored in memory.
+
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+62
+Engine Management Systems
+
+MS 43 NEW FUNCTIONS
+EDK THROTTLE POSITION FEEDBACK SIGNALS
+The EDK throttle plate is monitored by two integrated potentiometers. The potentiometers
+provide linear voltage feedback signals to the control module as the throttle plate is opened
+and closed.
+Feedback signal 1 provides a signal from 0.5 V (LL) to 4.5 V (VL).
+Feedback signal 2 provides a signal from 4.5 V (LL) to 0.5 V (VL)
+Potentiometer signal 1 is the primary feedback signal of throttle plate position and signal 2
+is the plausibility cross check through the complete throttle plate movement.
+
+63
+Engine Management Systems
+
+MS 43 NEW FUNCTIONS
+EDK THROTTLE POSITION FEEDBACK SIGNALS
+EDK FEEDBACK SIGNAL MONITORING & EDK FAILSAFE OPERATION:
+•
+
+The EDK provides two separate signals from two integral potentiometers (Pot 1 and Pot
+2) representing the exact position of the throttle plate.
+
+•
+
+EDK Pot 1 provides the primary throttle plate position feedback. As a redundant safety feature, Pot 2 is continuously cross checked with Pot 1 for signal plausibility.
+
+•
+
+If plausibility errors are detected between Pot 1 and Pot 2, MS 43.0 will calculate the
+inducted engine air mass (from HFM signal) and only utilize the potentiometer signal that
+closely matches the detected intake air mass.
+-
+
+The MS 43.0 uses the air mass signalling as a “virtual potentiometer” (pot 3) for a
+comparative source to provide failsafe operation.
+
+-
+
+If MS 43.0 cannot calculate a plausible conclusion from the monitored pots (1 or 2
+and virtual 3) the EDK motor is switched off and fuel injection cut out is activated
+(no failsafe operation possible).
+
+•
+
+The EDK is continuously monitored during all phases of engine operation. It is also
+briefly activated when KL 15 is initially switched on as a “pre-drive check” to verify it’s
+mechanical integrity (no binding, appropriate return spring tension, etc). This is accomplished by monitoring both the motor control amperage and the reaction speed of the
+EDK feedback potentiometers. If faults are detected the EDK motor is switched off and
+fuel injection cut off is activated (no failsafe operation possible). The engine does however continue to run extremely rough at idle speed.
+
+•
+
+When a replacement EDK is installed, the MS 43.0 adapts to the new component
+(required amperage draw for motor control, feedback pot tolerance differences, etc).
+This occurs immediately after the next cycle of KL 15 for approximately 30 seconds.
+During this period of adaptation, the maximum opening of the throttle plate is 25%.
+
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+64
+Engine Management Systems
+
+MS 43 NEW FUNCTIONS
+MAIN RELAY MONITOR
+The MS 43.0 system incorporates a new monitoring feature for terminal 87 (KL 87) of the
+main relay. The relay is monitored internally for the voltage level at KL 87. Five seconds after
+the ignition key is switched on, and the voltage at the KL 15 input is greater than 9 volts,
+the control module checks the voltage at KL 87.
+If the voltage difference between the two terminals is greater than 3 volts, a fault will be
+stored in the ECM.
+
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+65
+Engine Management Systems
+
+MS 43 NEW FUNCTIONS
+EMISSION OPTIMIZED - IGNITION KEY OFF
+“Emission Optimized Ignition Key Off” is a programmed feature of the MS 43 DME. After
+the DME detects the key being switched OFF, the ignition stays active (main relay/voltage
+supply) for two more individual coil firings. This means that just two cylinders are fired - not
+two revolutions.
+This feature allows residual fuel, injected into the cylinders as the ignition key is switched
+off, to be burned as the engine runs down.
+The unloader relay, previously used in the MS 42.0 system for ignition coil KL 15 supply, is
+now supplying voltage to the injection valves. The ignition coils’ KL15 voltage is provided
+by the DME main relay.
+When KL 15 is switched off, the DME operating voltage is removed. The DME will maintain a ground to the main relay for a few seconds to maintain ignition coil supply voltage.
+
+66
+Engine Management Systems
+
+MS 43 NEW FUNCTIONS
+DM-TL (DIAGNOSIS MODULE - TANK LEAKAGE)
+The M54 engine with the Siemens MS43.0 engine control system uses the DMTL system
+for fuel system leakage monitoring. The pump is manufactured by Bosch for use with the
+Siemen’s control system.
+
+67
+Engine Management Systems
+
+DM-TL (DIAGNOSIS MODULE - TANK LEAKAGE)
+FUNCTIONAL OVERVIEW:
+The DM-TL is located next to the charcoal canister on the E46.
+1. In it’s inactive state, filtered fresh air enters the evaporative system through the sprung
+open valve of the DM-TL.
+2. When the DME activates the DM-TL for leak testing, it first activates only the pump
+motor. This pumps air through a restrictor orifice (1.0 or 0.5 mm) which causes the electric motor to draw a specific amperage value. This value is equivalent to the size of the
+restrictor.
+3. The solenoid valve is then energized which seals the evap system and directs the pump
+output to pressurize the evap system.
+The evap system is detected as having a large leak if the amperage value is not realized, a
+small leak if the same reference amperage is realized or no leak if the amperage value is
+higher than the reference amperage.
+
+1
+
+68
+Engine Management Systems
+
+2
+
+3
+
+DM-TL (DIAGNOSIS MODULE - TANK LEAKAGE)
+FUNCTION
+The DC Motor LDP ensures accurate fuel system leak detection for leaks as small as
+0.5mm (.020”). The pump contains an integral DC motor which is activated directly by the
+engine control module. The ECM monitors the pump motor operating current as the measurement for detecting leaks.
+The pump also contains an ECM controlled change over valve that is energized closed during a Leak Diagnosis test. The change over valve is open during all other periods of operation allowing the fuel system to “breath” through the inlet filter (similar to the full down
+stroke of the current vacuum operated LDP).
+
+69
+Engine Mangement Systems
+
+LEAK DIAGNOSIS TEST PRECONDITIONS
+The ECM only initiates a leak diagnosis test every second time the criteria are met. The criteria is as follows:
+•
+
+Engine OFF with ignition switched OFF.
+
+•
+
+Engine Control Module still in active state or what is known as “follow up mode” (Main
+Relay energized, control module and DME components online for extended period after
+key off).
+
+•
+
+Prior to Engine/Ignition switch OFF condition, vehicle must have been driven for a minimum of 20 minutes.
+
+•
+
+Prior to minimum 20 minute drive, the vehicle must have been OFF for a minimum of 5
+hours.
+
+•
+
+Fuel Tank Capacity must be between 15 and 85% (safe approximation between 1/4 3/4 of a tank).
+
+•
+
+Ambient Air Temperature between -7OC & 35OC (20OF & 95OF )
+
+•
+
+Altitude < 2500m (8,202 feet).
+
+•
+
+Battery Voltage between 11.5 and 14.5 Volts
+
+When these criteria are satisfied every second time, the ECM will start the Fuel System Leak
+Diagnosis Test. The test will typically be carried out once a day i.e. once after driving to
+work in the morning, when driving home in the evening, the criteria are once again met but
+the test is not initiated. The following morning, the test will run again.
+
+70
+Engine Management Systems
+
+LEAK DIAGNOSIS TEST
+PHASE 1 - REFERENCE MEASUREMENT
+The ECM activates the pump motor. The pump pulls air from the filtered air inlet and passes it through a precise 0.5mm reference orifice in the pump assembly.
+The ECM simultaneously monitors the pump motor current flow . The motor current raises
+quickly and levels off (stabilizes) due to the orifice restriction. The ECM stores the stabilized
+amperage value in memory. The stored amperage value is the electrical equivalent of a 0.5
+mm (0.020”) leak.
+
+71
+Engine Mangement Systems
+
+PHASE 2 - LEAK DETECTION
+The ECM energizes the Change Over Valve allowing the pressurized air to enter the fuel system through the Charcoal Canister, The ECM monitors the current flow and compares it
+with the stored reference measurement over a duration of time.
+
+Once the test is concluded, the ECM stops the pump motor and immediately de-energizes
+the change over valve. This allows the stored pressure to vent thorough the charcoal canister trapping hydrocarbon vapor and venting air to atmosphere through the filter.
+
+72
+Engine Management Systems
+
+TEST RESULTS
+The time duration varies between 45 & 270 seconds depending on the resulting leak diagnosis test results (developed tank pressure “amperage” / within a specific time period).
+However the chart below depicts the logic used to determine fuel system leaks.
+
+73
+Engine Mangement Systems
+
+Review Questions
+1. List the components that are required to be monitored under OBD II regulations.
+
+2. What type of faults will cause the Check Engine (MIL) lamp to illuminate immediatly?
+In most situations how many times must a fault be registered before the light will
+come on?
+
+3. What occured to the 20 pin diagnostic connector after 6/00 production?
+
+4. Describe the signal produced by the camshaft position sensors. What does the ECM
+use this information for? What would be the result if one of the sensors failed? Why?
+
+5. What is the reason that the crankshaft position sensor is mounted in the crankcase?
+
+6. What input would inform the ECM that the coolant returning from the radiator is too
+hot? What output control does the ECM have to assist in cooling the engine?
+
+7. Explain how the ignition coils are controlled in the MS 42.0 and MS 43.0 system.
+
+74
+Engine Management Systems
+
+8. How is the idle valve bypass air channeled to the intake valves?
+
+9. How many CAN lines are present at the ECM? Why?
+
+10. How does the LDP pump help the MS 42.0 ECM determine that the fuel tank is free of
+leaks? Compare this to the operation of the DMTL in the MS 43.0.
+
+11. On an engine using an MDK, where is the PWG signal produced? What is the purpose
+of the throttle cable?
+
+12. What type of signal is produced by the PWG Hall sensors used in the MS43.0 system?
+What is the result if one of those signals is not received by the ECM?
+
+75
+Engine Management Systems
+
+

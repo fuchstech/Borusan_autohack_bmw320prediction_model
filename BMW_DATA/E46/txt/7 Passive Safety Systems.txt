@@ -1,0 +1,592 @@
+Table of Contents
+PASSIVE SAFETY SYSTEMS
+Subject
+Page
+MRS II. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+Head Protection System. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+Triggering Logic. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+Battery Safety Terminal. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+Diagnosis and Service Procedures. . . . . . . . . . . . . . . . . . . . . . . . . . . .8
+MRS III. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+Components
+MRS III Control Module. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11
+Satellite Sensors. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+Driver’s Front Airbag. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+Passenger’s Front Airbag. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .14
+Side Airbags. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .15
+Head Protection System. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+Battery Safety Terminal. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+Seat Belt Tensioners. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .18
+Seat Occupancy Sensor (SBE). . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+MRS III Operation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .19
+Triggering Thresholds (two stage airbags). . . . . . . . . . . . . . . . . . . . 20
+MRS III I.P.O.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .21
+Triggering Thresholds. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .22
+Workshop Hints. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .23
+RPS. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .24
+Purpose of the System. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .25
+Components
+Roll Over Bar Cassettes. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+Roll Over Sensor. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .28
+Diagnosis and Testing. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+Review Questions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+Initial Print Date: 7/98
+
+Revision Date: 12/03/00
+
+Multiple Restraint System II (MRS)
+Model: E46/4
+Production Date: 6/98 to 9/99
+Objectives
+After completing this module you should be able to:
+• Identify the components used in the MRS II system.
+• Describe the operation of the ITS.
+• Understand the triggering logic used by MRS II.
+• Describe the operation and repair procedure for the BST.
+
+2
+Passive Safety Systems
+
+MULTI-RESTRAINT SYSTEM (MRS II)
+The MRS II passive safety system is standard equipment on all 1999 M.Y. E46 models. The
+system is a carry over from the MRS II system introduced on 98 Model Year E38/E39s.
+The MRS II system for the E46 consists of the following:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+MRS II Control Module
+Driver and passenger's front air bags
+Driver and passenger's side air bags (thorax)
+Driver and passenger's Head Protection System (ITS)
+Front pyrotechnic seat belt tensioners
+Rear passenger's side air bags (thorax)
+Battery Safety Terminal (BST)
+Hall effect seat belt switches
+Front passenger's seat sensor (SBE)
+Driver and passenger's side impact sensors
+
+3
+Passive Safety Systems
+
+HEAD PROTECTION SYSTEM (ITS)
+The ITS consists of a hermetically sealed rubber tube that is encapsulated by a cross
+woven tubular nylon material. Each ITS is mounted from the "A" pillars to the roof panel just
+behind the "B" pillars by a nylon strap and mounting bolt.
+When deployed, the inflation charge causes the diameter of the ITS to expand and its
+length to shorten. As the length shortens, it is forced out of its stowed position of the roof
+lining and it extends over the glass to protect the driver or passenger's head.
+The ITS remains inflated for approximately seven to eight seconds to extend the protection
+time should the vehicle encounter additional side impacts during the crash.
+
+ITS TUBE
+
+4
+Passive Safety Systems
+
+MRS II TRIGGERING LOGIC
+FRONTAL IMPACT: - Deployment of the front air bags and/or seat belt tensioners is
+dependent on the severity of the impact as detected by the internally mounted crash sensor of the MRS II control module.
+Additionally, the MRS II looks at the input from the SBE for deployment of the passenger's
+front air bag.
+Deployment of the seat belt tensioners is also dependent on the presence of a signal from
+the seat belt switches.
+SIDE IMPACT: - Deployment of the Side impact air bags and head protection (tubular
+structures) is dependent on the severity of the impact as detected by the MRS II control
+module and the side impact sensors. Generally only the impacted side will be triggered.
+The tubular ITS structures and rear side air bags will always be deployed with the front and
+side air bags.
+
+5
+Passive Safety Systems
+
+BATTERY SAFETY TERMINAL (BST)
+The BST is an encapsulated pyrotechnic device. It is designed to prevent short circuits from
+occurring in the battery power supply to the engine compartment during impacts or collisions.
+The ignitor capsule of the BST will be triggered, by the MRS II control module, with any front
+air bag activation.
+The BST may be triggered with a side or rear impact, depending on the severity of the collision as detected by the MRS II control module.
+
+6
+Passive Safety Systems
+
+BST ACTIVATION
+
+Once activated, The ignitor generates a gas
+charge which is directed down the internal
+discharge tube.
+This causes the tapered end of the B+ cable
+contact to dislodge from its seated position
+which immediately opens the circuit.
+
+The force of the charge continues to push the
+cable contact away from its seated contact. The
+spring tabs of the housing are compressed as
+the contact pushes to the end of its travel.
+
+When the contact hits the end stop of the housing
+it bounces back against the spring tabs causing
+the contact to stop without returning to the seated
+position.
+
+7
+Passive Safety Systems
+
+Di
+Mo
+
+Diagnosis is possible with the MODIC or DIS tester,
+the DIS allows symptom troubleshooting, test modules, and ETM coverage of the ITS and BST.
+
+C
+
+MRS II DIAGNOSIS AND SERVICES
+PROCEDURES
+
+Installation of a replacement MRS II Control Module
+requires ZCS coding also using the DIS or MoDiC.
+
+Typical with any airbag, it is to be
+replaced as a unit after deployment.
+This is the same for ITS assemblies
+and the BST.
+Follow the precautionary measures
+outlined in the repair manual section
+of TIS, and always disconnect the
+battery prior to any repairs.
+All airbag units including the ITS
+assemblies are part number specific
+by model. Always use the EPC to
+verify the correct part number for
+any system part prior to ordering.
+Once a BST has been activated the
+metal crimp of the B+ wire is pushed
+out of the BST housing and exposed.
+This provides a quick visual check of
+it’s circuit status. A BST replacement
+splice kit is available from parts, this
+eliminates replacing the entire B+
+ACTIVATED BST
+(CRIMP EXPOSED)
+cable. The splice kit comes complete
+with instructions and wire cutting/striping measurements. Follow instructions completely to
+prevent future voltage drop problems in this cruBST REPLACEMENT SPLICE KIT
+cial circuit.
+(CRIMP NOT EXPOSED)
+8
+Passive Safety Systems
+
+Multiple Restraint System III (MRS)
+Model: E46/2, E46/4, E46/3, E46 Convertible
+Production Date: E46/4 from 9/99, all others from start of production.
+Objectives
+After completing this module you should be able to:
+•
+
+Understand the difference in airbag triggering logic over the previous MRS system.
+
+•
+
+Describe how the two different ignition stages of the front airbags are triggered to
+create three different inflation speeds.
+
+•
+
+Explain the method used by the MRS for shutting off the fuel pump
+
+9
+Passive Safety Systems
+
+MULTIPLE RESTRAINT SYSTEM (MRS III)
+INTRODUCTION
+The Multiple Restraint System (MRS III) employs the use of “SMART” technology. Smart
+technology refers to the control module’s programming which allows for the deployment of
+the airbags, in stages, depending on the severity of the impact. Two stage airbags are used
+for both the driver and front passenger which allows for a softer cushioning effect when the
+bags are triggered at lighter impacts.
+The MRS III system is installed in E38/E39 and E46 Sedan vehicles as of 9/99 production
+and in E46 Coupes as of 6/99 production.
+MRS III control modules are manufactured by either Bosch or Temic. While the functional
+operation of both modules are the same. The control modules are not interchangeable from
+a replacement standpoint. Always refer to the EPC parts system to ensure that the proper
+module is installed in the vehicle.
+In addition to the use of two stage airbags for the driver and passenger, the following features are also included in the MRS III system:
+•
+
+The MRS III control module is linked to the K-Bus for coding and diagnosis.
+
+•
+
+The MRS III includes a fuel pump cut off feature in the event of an airbag deployment.
+
+•
+
+Inert gas generators are now used for all air bags and seat belt tensioners. (This
+method is referred to as Cold Gas Inflation.)
+
+•
+
+The inert gas is a mixture of compressed Hydrogen (13.5%) and Oxygen (68.5%).
+
+10
+Passive Safety Systems
+
+COMPONENTS
+MRS III CONTROL MODULE
+The control module is mounted in the center console area on the driveshaft tunnel below
+the emergency brake handle.
+The control module contains the processing electronics (Smart Technology) for triggering of
+all air bags and pyrotechnic devices installed in the vehicle. Two electronic deceleration sensors are installed in the module for crash or impact detection.
+
+11
+Passive Safety Systems
+
+SATELLITE SENSORS
+The satellite sensors are mounted below the driver’s and passenger’s front seats on the
+seat frame. The function of the sensors is to detect the severity of side impacts and signal
+the MRS III control module, through a pulse modulated signal, in the event of a crash. The
+control module uses this input signal along with its internal impact sensor signal to determine the deployment of the side/head airbags.
+As with the control modules, the satellite sensors are
+manufacturer specific. The Temic sensors have a
+three wire connector which will not interchange with
+the Bosch sensors. Only two of the wires are used for
+the satellite sensor’s operation. The signal for deployment of the bags is carried over the power wire of the
+sensor.
+
+12
+Passive Safety Systems
+
+DRIVER’S FRONT AIRBAG
+The driver’s front airbag is a two stage bag similar to the passenger’s front side bag. The
+complete assembly is mounted beneath the cover in the center of the steering wheel as
+with previous airbags. The assembly now contains the inert gas generator chamber and
+two ignition stages (ignitors).
+The airbag consists of:
+• Accumulator/gas generator
+• Two ignition capsules
+• Propellant gas - 13.5% Hydrogen/86.5% Oxygen
+
+13
+Passive Safety Systems
+
+PASSENGER’S FRONT AIRBAG
+The passenger’s front airbag is similar to the unit installed on E38/E39 vehicles as of 9/98
+production. The passenger’s airbag consists of:
+•
+•
+•
+
+Pressure accumulator/gas generator
+Two ignition capsules - for two stage activation
+Propellant gas of - 13.5% Hydrogen/86.5% Oxygen
+
+PRESSURE ACCUMULATOR
+
+IGNITION CAPSULES
+
+14
+Passive Safety Systems
+
+SIDE AIRBAGS FRONT/REAR (THORAX)
+The side airbags continue to be mounted behind the door panels on the front and rear
+doors. Deployment of the side airbags is dependent on the triggering thresholds programmed in the MRS III control module, based on the inputs from the satellite sensors and
+internal crash sensor.
+The side airbags use the same inflation method as the driver’s and passenger’s front bags.
+
+15
+Passive Safety Systems
+
+HEAD PROTECTION AIRBAG (ITS: Inflatable Tubular Structure)
+The head protection airbags are similar to the ITS bags used on the MRS II system. They
+continue to be mounted from the “A” pillar up along the headliner and are anchored behind
+the “B” pillar. The ITS bags of the MRS III system are also the cold gas inflation type. The
+head airbags are always triggered with the side (Thorax) bags.
+
+16
+Passive Safety Systems
+
+BATTERY SAFETY TERMINAL (BST)
+As with previous systems, the BST is used to disconnect the battery’s “B+” connection to
+the engine compartment in the event of an airbag deployment. The safety measure helps
+prevents the possibility of a short circuit causing a fire.
+
+17
+Passive Safety Systems
+
+SEAT BELT TENSIONERS
+The seat belt tensioners are a new design
+and also make use of the inert gas for triggering. The MRS III control module will
+deploy the seat belt tensioners based on
+the programmed parameters during impact.
+
+SEAT OCCUPANCY SENSOR (SBE)
+The SBE continues to be used as an input to the MRS III control module for detection of a
+front seat passenger. The module uses the input to determine seat belt tensioner and/or
+front airbag deployment.
+
+18
+Passive Safety Systems
+
+MRS III OPERATION
+As with previous systems, the triggering thresholds are programmed in the MRS III control
+module. These thresholds are determined by BMW through crash and vehicle testing during the design and development of the vehicle. These thresholds will vary depending on the
+vehicle size and design.
+There are several different thresholds for airbag and safety restraint deployment:
+•
+
+Belt pre-tensioner threshold for activation of the seat belt tensioners.
+
+•
+
+Airbag threshold #1 - the first level of activation for the two stage front airbags, always
+deployed first when the front triggering threshold is reached.
+
+•
+
+Airbag threshold #2 - the second level of the two stage front airbags, can be deployed
+simultaneously or after a time delay, depending on the severity of the impact.
+
+•
+
+Rear crash threshold - for activation of the seatbelt tensioners with a rear impact.
+
+•
+
+Battery safety terminal threshold - for activation of the BST with airbag deployment.
+
+•
+
+Side airbag/ITS threshold - for deployment of the side and thorax airbags.
+
+19
+Passive Safety Systems
+
+MRS III OPERATION
+TRIGGERING THRESHOLDS - TWO STAGE AIRBAGS
+The programming of the MRS III includes four triggering thresholds for the two stage front
+airbags. The triggering of the front airbags is also dependent on whether the seat belts are
+connected and if the front passenger seat is occupied. The triggering thresholds for the
+two stage airbags are as follows:
+
+If the signal from the SBE is defective on triggering, the MRS III will deploy as if the seat is
+occupied.
+If the signal from the seat belt contacts are defective, the MRS III will deploy as if the belts
+were not buckled.
+
+20
+Passive Safety Systems
+
+MRS III I-P-O
+
+MS 43.0
+
+21
+Passive Safety Systems
+
+TRIGGERING THRESHOLDS
+SIDE AIRBAGS/ITS
+The triggering thresholds for the side airbags/ITS is dependent on the signals from the
+satellite sensors and the crash sensor in the MRS III control module. The triggering thresholds are independent of the belt tensioners.
+BELT TENSIONER
+The triggering of the belt tensioners is dependent on the signal from the seat belt contact
+and the severity of the impact as detected by the control module.
+BATTERY SAFETY TERMINAL
+The BST will deploy in a frontal impact at threshold 2 or greater. The threshold for BST activation with a side impact is programmed separately in the side deployment criteria. The
+BST will also be deployed when the rear impact threshold is exceeded.
+
+FUEL PUMP SHUT-DOWN
+The MRS III system is linked via the K-Bus/CAN Bus to the Engine Control Module for
+deactivation of the fuel pump. The MRS III will signal the DME over the K-Bus through the
+instrument cluster and CAN Bus to shut off the fuel pump in the event that any crash
+threshold is exceeded.
+
+22
+Passive Safety Systems
+
+Workshop Hints
+Diagnosis and troubleshooting of the MRS III system is fault driven and can be accessed
+using the DISplus or MoDiC. The control module performs a self test of the system every
+time the ignition is switched on ( this includes the satellite sensors and seat occupancy sensor). Any faults with the system will cause the warning lamp in the instrument cluster to
+remain illuminated after the engine is started.
+Installation of a new or replacement control module requires ZCS coding also using the DIS
+plus or MoDiC.
+When servicing or replacing any MRS III components, always follow precautionary measures outlined in the repair manual of TIS. this includes disconnecting the battery prior to
+any repair or maintenance work being performed.
+All airbag components are part number specific by model and require verification in the
+EPC to ensure the correct component is being installed.
+
+23
+Passive Safety Systems
+
+Roll Over Protection System
+Model: E46 Convertible
+Production Date: 01/00
+Objectives
+After completing this module, you should be able to:
+•
+
+Identify all components of the Roll Over Protection System.
+
+•
+
+Describe the operation of the Clinometer sensor to deploy the Roll Over bars.
+
+•
+
+Describe the operation of the “G” sensor to deploy the Roll Over bars.
+
+•
+
+Perform the resetting procedure for the RPS after deployment.
+
+24
+Passive Safety Systems
+
+Purpose of the System
+The roll over protection system (RPS) is a passive safety system that is designed to deploy
+only if the vehicle is in danger of rolling over, to afford vehicle occupants additional protection. In addition to the reinforcing tube integrated in the windshield frame, RPS ensures that
+all the rear passengers are provided with necessary head clearance should the car roll over.
+
+ART-HRRBUP
+
+ART-HEADREST
+
+ART-HRRBUP1
+
+The system is similar to the roll over protection system used on the E36iC. The electronic
+control module for roll over detection and deployment remains the same as on the E36iC.
+However, the system has been redesigned in terms of function, solidity and safety.
+
+25
+Passive Safety Systems
+
+Components of the System:
+Roll Over Bar Cassettes
+The roll over cassettes are new and constructed completely from aluminum with a pad integrated in the top of the bar. The cassettes are bolted into the reinforced carrier behind the
+seat back. When retracted, they are covered by the rear head rest which incorporate a flap,
+at the back, that will open when the roll bars deploy.
+
+Reset Lever
+ART-KT5452
+
+A new resetting procedure is incorporated to retract
+the bar after deployment. The reset is constructed in
+the roll bar cassette and the separate tool has been
+eliminated.
+
+ART-KT5450
+
+Pulling the reset lever forward will release the ratchet
+assembly so that the roll bar can be pushed down and
+locked into the solenoids.
+
+ART-KT5451
+
+26
+Passive Safety Systems
+
+Roll Over Bar Cassettes
+A newly designed solenoid, mounted in the bottom of the cassette, holds the bars in the
+retracted position until triggered by the roll over sensor for deployment.
+
+ART-KT5449
+
+27
+Passive Safety Systems
+
+Roll Over Sensor
+The rollover sensor is installed in the rear behind the right rear seat back on the rollover cassette. It contains the processing electronics for rollover detection and deployment final
+stage for triggering the rollover bar solenoids. Two capacitors are also installed for roll bar
+deployment in the event of a power failure with the system during an a crash. The sensor
+is connected to the diagnostic link for troubleshooting purposes.
+The sensor preforms a self check every time the ignition is switched on. If any faults are
+detected, the warning lamp in the cluster will illuminate. If possible, the system will trigger
+the solenoids even though a fault is stored in the fault memory.
+
+ART-ROLLOVERSENSOR
+
+ART-ROLLOVERSEN1
+
+28
+Passive Safety Systems
+
+Clinometer
+The clinometer inside the sensor consists of three level floats to detect body tilting, transverse and longitudinal acceleration for roll bar deployment. two floats are positioned on
+opposing angles of 52 degrees to the horizontal axis of the vehicle. The third float is positioned at an angle of 72 degrees to the longitudinal axis. LED transmitters and phototransistor receivers are positioned to read the air bubble float as it moves in the glass tube.
+
+ART-CLINOMETER
+
+If the vehicle starts to roll over sideways or end-to-end, beyond the critical angles, the air
+bubble will move and interrupt the LED signal. The electronics of the sensor will then trigger the solenoids and the roll bars will deploy.
+
+29
+Passive Safety Systems
+
+“G” Sensor
+The “G” sensor is used to trigger the roll bars if the vehicle should become airborne. the “G”
+sensor consists of a reed contact, magnet and spring assembly. As long as the vehicle is
+in contact with the road surface, the spring does not have enough tension to overcome the
+weight of the magnet and gravity.
+
+E46ICGSENSOR
+
+However, if the vehicle becomes airborne and weightlessness occurs, the spring will force
+the magnet up and the reed contact will open. This will signal the electronics of the sensor
+to trigger the solenoids and the roll bar will deploy.
+A time period of approximately .3 seconds with a “G” force of approximately 0.9 or less is
+required before the bars will deploy.
+
+ART-E46ICGSENSORB
+
+30
+Passive Safety Systems
+
+Roll Over Sensor Diagnosis and Testing
+The sensor performs a self check every time the ignition key is switched on. All components
+of the sensor are checked including the output stages for roll bar triggering. If a fault is
+detected, the warning lamp in the cluster is illuminated and the fault is stored in the memory of the RPS Sensor.
+In the event of a power failure, capacitors in the sensor can still trigger the solenoids for
+approximately 5 seconds.
+
+ROLL OVER SENSOR I - P - O
+
+ART-E46ICRPSDIAG1
+
+31
+Passive Safety Systems
+
+Review Questions
+1. What is the relationship between the Head Protection System and the side airbags?
+
+2. What type of signal does the MRS control unit receive from the Satellite sensors? How
+does this signal change to indicate an impact?
+
+3. How many sensors must detect an impact before a side airbag will deploy?
+
+4. Describe the systems or components that are still operational after the BST has
+deployed.
+
+5. What is meant by the term “Smart Airbag”?
+
+6. What change was made to the wiring of the satellite sensors between MRS II and III?
+
+7. Describe “cold gas inflation”.
+
+8. What are the critical angles for RPS to deploy?
+
+9. What is the purpose of the “G” sensor in the RPS system?
+
+10. Describe the resetting procedure for the E46 RPS cassette after deployment. At what
+intervals should the RPS be tested?
+
+32
+Passive Safety Systems
+
+

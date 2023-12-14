@@ -1,0 +1,3327 @@
+Table of Contents
+E46 CENTRAL BODY ELECTRONICS
+Subject
+
+Page
+
+ZKE V Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+Power Distribution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+Windshield Wiping/Washing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+Sport Wagon Rear Wiper/Wash System. . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+AIC (Rain Sensor). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+Central Locking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .16
+E46 Convertible Central Locking. . . . . . . . . . . . . . . . . . . . . . . . . . . . ..18
+E46 Sport Wagon Central Locking. . . . . . . . . . . . . . . . . . . . . . . . . . . .19
+Remote RF Key less Entry . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+Model Year 2000 Key . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .30
+Power Windows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .34
+Convertible. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+Sunroof . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .40
+Interior Lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .43
+Anti-Theft (DWA) System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .46
+Power Seat Control and Memory Function . . . . . . . . . . . . . . . . . . . . . . . 54
+E46 Convertible Front Seats. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+Passenger Seat Memory. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .65
+Mirror Memory System. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68
+Seat Heating (up to 9/99). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+SZM. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72
+Lumbar Support. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .75
+Dual Power/Heated Outside Mirrors . . . . . . . . . . . . . . . . . . . . . . . . . . . . .76
+Consumer Cutoff . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .77
+Review Questions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79
+Initial Print Date: 7/98
+
+Revision Date: 11/22/00
+
+E46 CENTRAL BODY ELECTRONICS
+Model: E46 (all models)
+Production: From 6/98
+Objectives
+After completing this module you should be able to:
+•
+
+Explain what functions are controlled by the GM V.
+
+•
+
+Describe the operation of the windshield wipers and the interaction with AIC.
+
+•
+
+Understand the different methods of locking and unlocking the vehicle.
+
+•
+
+Identify the internal components of the model year 2000 key and describe it’s operation.
+
+•
+
+Describe the window anti-trap circuit used on various E46 models.
+
+•
+
+Explain the operation of DWA.
+
+•
+
+Describe the purpose and operation of the UIS sensor.
+
+•
+
+Understand how seat and mirror memory systems operate.
+
+•
+
+Explain the construction of the E46 Convertible seat and the SGS system.
+
+2
+E46 Central Body Electronics
+
+ZKE V INTRODUCTION
+ZKE V is the Central Body Electronics system installed in the E46. Many of it’s features
+and functions are similar to previous BMW ZKE systems with minor changes, added
+features, and refinements.
+The following functions are directly controlled by the General Module V (GM V):
+•
+•
+•
+•
+
+Windshield wiping/washing
+Central locking with power trunk/tailgate
+release
+FZV Key less Entry
+Power window control
+
+•
+•
+•
+•
+
+Car Memory/Key Memory Capabilities
+Interior lighting
+DWA alarm system (optional)
+Consumer cut-off/sleep mode
+
+The following functions are included as body electrical systems but are not directly
+controlled by the GM V:
+• AIC (Rain Sensor) if equipped.
+• Sunroof operation (Sunroof Control module on K Bus).
+• Driver’s seat electrical adjustment with memory (Seat Memory control module on K Bus)
+• Passenger seat electrical adjustment
+• Comfort Entry Aid (Convertible only)
+• Seat Heating
+• Side Mirrors - Memory/adjustment/heating
+ZKE V includes the following features:
+•
+
+Similar to the E36 GM IV, the E46 GM V controls it’s respective peripheral components
+directly (no P Bus). It does however communicate with other pertinent control modules
+via the K-bus.
+
+•
+
+The Central Locking system uses a door lock actuator with hall effect sensors.
+
+•
+
+The GM V is responsible for the Key Memory feature. It provides the added
+convenience of identifying users of the vehicle. Whenever the vehicle is locked or
+unlocked via the FZV key less entry system, a unique key identification signal (key
+number) is transmitted to the General Module.
+The key identification signal alerts the GM V to communicate with other control systems
+over the K Bus to store (when locked) or reset (when unlocked) certain driver adjustable
+settings for the driver using the specific key. The GM also resets certain driver
+adjustable settings that it controls directly.
+
+3
+E46 Central Body Electronics
+
+The E46 Body Electronics system control modules are:
+•
+
+General Module V: main controller for ZKE functions. The GM V communicates with
+other vehicle control modules via the K bus.
+
+•
+
+Seat Memory Module - SM: Located in the driver’s seat base, the SM controls and
+memorizes the driver’s seat position(s). The SM communicates with the GM V via the
+K bus.
+
+•
+
+Sunroof Module - SHD: Located above the rear view mirror, the sunroof module
+controls it’s integral sunroof motor as on previous systems. The SHD communicates
+with the GM V via the K bus.
+
+4
+E46 Central Body Electronics
+
+POWER DISTRIBUTION
+The maintenance free battery is connected to the power distribution system by the Battery
+Safety Terminal (BST). The BST is activated by the MRS system in the event of a severe
+impact preventing the main B+ cable to the starter and generator from shorting to ground.
+
+Trunk Mounted
+200 Amp Fuse
+
+BATTERY SAFETY TERMINAL (BST)
+250
+
+A single 250 amp main
+harness fuse (F108)
+located in the trunk
+protects the power
+distribution circuit to
+the fuse panel in the
+glove box.
+
+CIRCUIT
+TO FUSE
+BOX
+
+STARTER/GENERATOR
+CIRCUIT
+
+BATTERY
+SAFETY
+TERMINAL
+
+5
+E46 Central Body Electronics
+
+GLOVE BOX MOUNTED FUSE PANEL
+The power distribution center of the E46 is
+located in the glove box. The fuse panel is
+accessed by rotating two twist locks 90O
+allowing it to drop into view as shown.
+The fuse panel includes fuses 1 - 71.
+The two large red 50 amp fuses (F36, F37)
+provide power protection for the IHKA blower
+
+Fuse Locations
+(F101-F107)
+
+Located above the fuse panel are
+additional high amperage power
+distribution fuses (F101-F107).
+This location replaces the front
+passenger seat (under carpet) and
+trunk location of the E38/E39 vehicles.
+
+Fuel Pump Relay
+
+Horn Relay
+
+Fog Light Relay
+
+The electronics carrier is located forward of
+the glove box. It contains the following
+components as noted in the photograph.
+IHKA Blower
+Relay
+6
+E46 Central Body Electronics
+
+General Module V (GM V)
+
+WINDSHIELD WIPING/WASHING
+•
+
+All wiping/washing functions are
+controlled by the GM.
+
+•
+
+The E46 Windshield Wiping System may
+be optionally equipped with a Rain
+Sensor. This added function detects rain
+drops on the windshield and
+automatically activates the wipers in the
+intermittent mode if the stalk switch is in
+the intermittent position.
+
+•
+
+Output control of the wiper motor is WINDSHIELD WIPER
+DOUBLE RELAY
+through a double contact relay. The relay
+is located in the engine compartment E-box and is tan in color.
+
+•
+
+The system has four wiping stages and four interval wiping speeds. The wiping stage
+inputs are coded signals through a two wire link with a combination of high/low inputs
+as on previous systems. The wiping stages include:
+
+SINGLE: Holding the wiper switch down in the single position provides a ground signal to
+activate the slow speed circuit providing wiper operation until the switch is released.
+INTERMITTENT: The intermittent wiping time inputs are provided by a potentiometer
+mounted in the wiper stalk switch.
+• The intermittent
+wiping intervals are
+dependent on the
+road speed.
+• As road speed
+increases, the
+wiping interval
+delay is decreased.
+
+SLOW (I) AND FAST (II): The stage I and stage II wiping speeds are also affected by road
+speed. The factory encoded settings are the same as previous systems:
+•
+
+Stage I automatically switches to intermittent when the vehicle is stopped
+
+•
+
+Stage II switches to stage I when stopped.
+
+Note: This feature is known as “Switch Back when Stationary” and may be de-activated or activated in CKM.
+
+7
+E46 Central Body Electronics
+
+WINDSHIELD WASHING: Pulling the Windshield Wiper Switch rearward closes the
+“windshield wash” contacts and provides a switched ground input to the GM. The GM
+activates the windshield washer pump directly via a power output final stage transistor.
+8
+E46 Central Body Electronics
+
+SPORT WAGON REAR WIPER/WASH SYSTEM
+The rear wiper/washer is a function of the ZKE system. The rear wiper motor and gear
+assembly is mounted in the tail gate through insulating bushing to prevent operation noises from being transmitted into the body’s interior.
+
+The wiper pivot bearing, wiper shaft and wiper arm are mounted on the rear window. A
+mechanical coupling is used to connect the two components as on the E39 wagon.
+
+9
+E46 Central Body Electronics
+
+SPORT WAGON REAR WIPER/WASH SYSTEM
+Operation
+Operation of the rear wiper/washer is controlled from the wiper stalk switch on the steering
+column. The scope of operation is as follows:
+•
+•
+•
+•
+
+INTERMITTENT WIPE - Standard operation
+PROGRAMMED INTERMITTENT WIPE
+CONTINUOUS WIPE
+WASHING CYCLE
+
+Pressing the wiper stalk switch forward to the first detent activates the rear wiper in the
+intermittent mode. The timed interval is approximately 7 seconds. The full sweep and park
+positions of the wiper arm are recognized by two hall sensors on the motor gear assembly.
+If the wiper is switched OFF, the wiper arm will return to the park position.
+Programming Procedure - for the wiping interval is as follows:
+•
+•
+•
+•
+
+Briefly switch the wiper ON/Off.
+Wait the desired interval time.
+Switch the wiper back ON again
+The OFF time will be the programmed interval - up to approximately 30 seconds.
+
+Continuous wiping - is activated any time the transmission is shifted into reverse. The rear
+wiping module receives the reverse signal for continuous wiping activation.
+Rear window washing - is activated by pressing the stalk switch forward past the wiping
+detent. The washer cycle is as follows:
+• Wash cycle 1 - washer pump is switched ON for 1.5 seconds. The wiper activation starts
+1 second later.
+• Wash cycle 2 - washer pump is switched ON for .5 seconds - after a delay of of .8 seconds. Wiper continues to operate.
+• Wash cycle 3 - washer pump is switched ON for .5 seconds - after a delay of .8 seconds.
+This is followed by two wipe dry cycles.
+NOTE: The wiper will remain in the intermittent wiping mode after washing until wiper is
+switched off.
+
+10
+E46 Central Body Electronics
+
+SPORT WAGON REAR WIPER/WASHER I P O
+
+BACK-UP LIGHTS
+RELAY OR SWITCH
+
+11
+E46 Central Body Electronics
+
+AIC (RAIN SENSOR)
+The Windshield Wiping System will also be available with an optionally equipped Rain
+Sensor. The Rain Sensor provides added driver convenience and enhances safety by
+automatically activating the intermittent function of the windshield wipers when water
+droplets are detected on the windshield.
+COMPONENTS:
+The rain sensor unit is mounted on the top center area of the interior windshield surface
+directly behind the rear view mirror. The unit contains:
+•
+
+Optical Prism Body: This portion of the unit is
+permanently fixed to the windshield. It can not be
+removed and can only be replaced with a
+replacement windshield.
+The prism body has a reflective surface that faces
+the back of the windshield. The prism body also
+acts as the windshield mount for the Rain Sensor
+Control Module.
+
+•
+
+Rain Sensor Control Module: The control module incorporates the following;
+-
+
+Infra Red Emitter and Detector Diodes
+Optics heater (prevents condensation from forming on the diodes and prism)
+Optics evaluation and control electronics
+
+The control module requires four signals for operation; KL R, KL 31, Windshield Wiper
+Motor Park Signal Feedback and K Bus interface.
+
+12
+E46 Central Body Electronics
+
+THEORY OF OPERATION:
+The optical infra red portion of the sensor operates by the principle of refraction (bending
+of a light ray). The rain sensor control module activates the emitter diode which sends a
+beam of infra red light through the windshield on an angle. The set angle is important
+because it provides the beam with a calculated reflective path back to the detector diode.
+The beam is reflected back into the windshield due to the density difference of the glass
+compared with the ambient air on the outside surface of the glass. When the windshield is
+clean (no rain drops, moisture or dirt) the detector diode receives 100% of the infra red light
+that the was sent by the emitter. With this condition, the rain sensor evaluation electronics
+determines the windshield is free of rain drops.
+
+The density of water is closer to that of glass than air. When rain starts to accumulate in
+the sensor monitoring area, it causes part of the infra red beam to extend past the outside
+surface of the glass and into the rain drop. When this occurs, the beam is refracted and
+only part of the beam returns to the detector diode.
+The rain sensor evaluation
+electronics
+determines
+the
+windshield has a few rain drops
+(or dirt) on it.
+
+The intensity of the returned infra red beam diminishes proportionally with an increase of
+water droplets. The rain sensor control module generates a signal proportionate to the
+amount of rain on the windshield and broadcasts it to the GM V via the K bus.
+The GM V activates the intermittent wipe cycle if the windshield wiper stalk switch is in the
+intermittent position. It also adjusts the frequency of wiping the windshield depending on
+the four position thumb wheel.
+13
+E46 Central Body Electronics
+
+RAIN SENSOR FUNCTION:
+The rain sensor is online as soon as it receives KL R operating power.
+•
+
+When the windshield wiper stalk switch is placed in the intermittent position the GM
+signals the rain sensor control module via the K Bus of the request for intermittent
+wiping and the position of the knurled wheel (sensitivity).
+
+•
+
+As an acknowledgement, the rain sensor sends a command via the K Bus to activate
+the wiper motor. If more than 12 seconds pass before the GM receives the
+acknowledgement, the GM concludes the rain sensor has a defect and operates the
+intermittent wipe function as a system not equipped with a rain sensor. The wiper
+intermittent cycling is based solely on the knurled wheel setting.
+
+•
+
+The rain sensor continuously monitors the windshield for rain accumulation and signals
+the GM to activate the wipers based on the knurled wheel position and how fast the rain
+accumulates on the windshield.
+
+•
+
+The knurled wheel position signal (1-4) via the K bus informs the rain sensor of the
+selected level of sensitivity.
+-
+
+Position 1 (least sensitive) delays the wiper activation signal.
+Position 4 (most sensitive) sends the wiper activation signal to the GM sooner.
+
+•
+
+When the wiper motor park contacts signal the GM of the wiper arm position, the signal
+is simultaneously sent to the rain sensor as an indication that the windshield has been
+cleared of water drops and causes the rain sensor to reset the sensitivity delay timer
+back to 0.
+
+•
+
+Depending on the intensity of the rain the wipers will be operated continuously as if set
+in the normal wiper stalk switch position regardless of the knurled wheel setting. For
+this reason, the vehicle speed signal on the K bus is not utilized on rain sensor equipped
+wiper systems.
+
+•
+
+If the ignition switch is turned off with the wiper switch in the intermittent position, the
+rain sensor will only become active after the ignition is switched back on and one of the
+following occurs:
+-
+
+The stalk switch is moved from the intermittent position and then back.
+The knurled wheel setting is adjusted.
+The wash function is activated.
+
+The reason behind this switching strategy, is to have the driver make a conscious
+decision to activate the system.
+14
+E46 Central Body Electronics
+
+RAIN SENSOR CONTROL MODULE ADAPTATION
+The rain sensor control module adapts to the optics system environment as follows:
+Windshield Aging: As the vehicle ages the possibility of stone chipping in the rain sensors
+monitoring area may occur which will cause a loss of light in the optics system.
+The control module adapts for loss of light based on the intensity of the detected infra red
+light with a cleared windshield (wiper motor park signal). Therefore, the rain sensors
+function is not adversely affected due to windshield aging.
+Dirty Windows: The rain sensor adaptation reacts less sensitively to a dirty windshield (dirt,
+road salt, wax residue) after a completed wipe cycle. A dirty windshield has a film on it that
+diminishes the ability of the infra red to refract into present water droplets. This causes a
+delay in the rain sensor detection capabilities which lengthens the time intervals on an
+intermittent wipe.
+SERVICE NOTE FOR VEHICLES EQUIPPED WITH THE RAIN SENSOR:
+Make sure the wiper blades are in perfect condition. Only use window cleaner to clean the
+windows. Dirty windows can cause the Rain Sensor control module to set a fault
+due to the end limits of its adaptation abilities.
+
+WINDSHIELD WIPER SYSTEM FAILSAFE OPERATION
+The GM provides failsafe operation of the wiper system if faults are detected with any of the
+following input signals:
+FUNCTION
+
+FAULTED INPUT DETECTED
+
+FAILSAFE FUNCTION
+
+Intermittent wipe
+
+Short or open circuit of
+the knurled wheel signal
+
+Delay value for setting 3
+used.
+
+Intermittent wipe
+with Rain Sensor
+
+Faulted Rain Sensor or K Bus
+Signal corrupt
+
+Normal intermittent wipe
+implemented
+
+Wiper motor not
+functional moving
+
+Park contact feedback signal
+takes longer than 16 seconds
+
+Wiper motor control
+deactivated for 3 minutes
+
+WINDSHIELD WIPER SYSTEM DIAGNOSIS
+The GM monitors the circuits of the wiper potentiometer, wiper motor, double relay, the
+windshield washer pump and terminal 30. The DIS or MoDiC provide fault symptom
+troubleshooting following the new E46 Diagnostic concept as well as Status and
+component activation functions.
+15
+E46 Central Body Electronics
+
+CENTRAL LOCKING
+SYSTEM FEATURES:
+• The Central Locking system of ZKE V controls the door lock, trunk lock and Fuel Filler
+Flap actuators.
+•
+
+The familiar single/double locking strategy is maintained from
+previous systems with the introduction of a new style door
+lock mechanism combined with dual actuator motors.
+The new style actuators are sealed, self contained units with no
+replaceable parts. The door lock actuators use hall effect
+sensors in place of pin contacts and microswitches to provide:
+•
+•
+
+Door lock key position (driver’s door only),
+Door open/closed status (replaces door jamb switch).
+
+The mechanical interior lock rods only lock the actuator they
+control. There is no affect on the central lock control of other
+doors. The rear doors are equipped with the child lock out lever
+preventing the door from being opened from the inside
+regardless of the actuators position.
+•
+
+The automatic locking feature activates the door lock
+actuators when a road speed signal of 5 MPH is detected via the K-Bus. The factory
+default encoding of this feature is off, but can be encoded on for individual users with
+the Key Memory function.
+
+•
+
+The Driver’s door lock location is the only point outside of the vehicle where the key can
+mechanically control all of the central locking system functions. The outside locks
+(driver’s door and trunk) incorporate the familiar overrunning lock cylinder that breaks
+away and freewheels if an attempt is made to destroy the lock with a screwdriver, dent
+puller, etc.
+
+•
+
+The trunk can be locked/unlocked with the key but does not lock/unlock the entire
+vehicle as on previous systems. When unlocked, the trunk can be opened by
+depressing the trunk release switch pad located above the license plate or from the
+remote trunk button in the left kick panel as on previous systems. Pressing the trunk
+release button on an FZV key also opens the trunk.
+
+•
+
+GM V and EWS 3.3 interface via the K bus to monitor double lock status and to initiate
+double lock override. This feature allows the doors to be opened from the inside if an
+accepted EWS key is switched on in the ignition when double locked. 2000M.Y
+vehicles allow a double locked vehicle to be opened using the central locking switch
+inside of the vehicle.
+
+16
+E46 Central Body Electronics
+
+Continuous locking/unlocking will initiate a timed arrest of the locking system. The GM counts
+each time the locks are actuated. After approximately 12 cycles, the timed arrest is active.
+The timed arrest is deactivated one actuator cycle for every 8 seconds until the counter is
+reset to 0. The timed arrest is overridden if a crash signal is received from the MRS II.
+
+•
+
+The Selective Unlocking feature is used by the GM V. A single unlock request from the
+driver’s door with the key or via the remote transmitter unlocks the driver’s door only. A
+second unlock request unlocks the remaining doors and trunk. This feature can be
+modified for individual users in Key Memory to activate all lock actuators simultaneously.
+
+K-bus
+
+KI.30
+
+•
+
+KI.30
+
+The central locking switch is housed in a combined housing with the hazard flasher
+switch. Locking the vehicle from the central switch single locks the vehicle except for
+the fuel filler flap.
+
+KI.R
+
+•
+
+Driver's Door
+Lock Actuator
+
+Hallsensor
+
+ER/KO
+
+ERFT
+
+Hallsensor
+
+ZS/KS
+
+VRFT
+
+Hallsensor
+
+TK
+
+TKFT
+
+TKBH
+
+MZS
+
+MZS
+
+MER
+
+MER
+
+M
+
+Passenger Door
+Lock Actuator
+
+MVRFT
+
+M
+
+Hallsensor
+
+M
+
+30MVR
+
+Left Rear Door Lock
+
+M
+Right Rear Door Lock
+
+TKBH
+
+TKFH
+
+Hallsensor
+
+GM V
+
+MZS
+
+M
+M
+
+Hallsensor
+
+MZS
+
+MER
+
+MER
+
+MVR
+
+MVR
+
+M
+M
+
+TOEHKI
+CS (AIRBAG)
+
+Interior
+Trunk
+Release
+Button
+
+Fuel Filler Flap Actuator
+MER
+
+M
+MZS
+
+KI.58g
+
+31L
+TZV
+
+TOEHK
+
+HKK
+
+MERHK
+
+VRHK
+
+Central lock
+
+GM
+Trunk light circuit
+
+DWA
+Cancel
+Switch
+
+Valet
+Position
+Switch
+
+Trunk Lock
+
+Trunk Lock
+Actuator
+
+M
+
+LSZ
+
+KZL
+
+Trunk Lid
+Unlock
+Switch
+
+17
+E46 Central Body Electronics
+
+E46 Convertible Central Locking
+The glove box is integrated into the scope of the central locking system on the E46iC. An
+additional actuator is positioned above the glove box to lock it whenever the central locking system is activated. Additionally, the trunk is locked out whenever the top storage cover
+is unlocked while the top is being raised or lowered. The top storage cover motor hall sensor signals the GM any time the cover is unlocked.
+The CVM receives a signal from the GM over the K-Bus, whenever the trunk is opened,
+which locks out the soft top operation.
+A micro switch on the glove box lock cylinder signals the GM to lock the trunk electrically
+for the valet key position. The trunk can only be opened mechanically with either FZV key
+or the wallet key.
+All other functions of the central locking system remain the same as the E46 Sedan and
+Coupe.
+The antenna for the FZV system is incorporated with the receiver into the interior rear view
+mirror.
+
+18
+E46 Central Body Electronics
+
+E46 Sport Wagon Central Locking
+Tailgate and Window Locking System
+The tailgate can be opened from any of three input signals including:
+• Remotely from FZV
+• Interior tailgate release button - on left kick panel
+• Unlock switch pad - located above the license plate
+Any of these input request signal the GM to activate the tailgate latch motor. The GM will
+also switch on the interior lights with a unlock request for the tailgate.
+The window is opened from the release switch located on the rear wiper arm cover.
+Pressing the switch signals the GM to activate the rear window release relay.
+
+19
+E46 Central Body Electronics
+
+DRIVERS DOOR LOCK ACTUATOR
+The driver’s door lock provides
+the following familiar signals to
+the General Module:
+•
+•
+•
+
+Lock / Unlock,
+DWA arm/disarm
+Convenience closing and
+opening signals.
+
+• UNLOCK
+• DWA DISARMED
+
+NEUTRAL
+
+• CONVENIENCE
+OPENING (hold
+until activated).
+
+It also provides a mechanical link
+to manually lock/unlock the
+actuator in the event of a failure.
+
+• DOUBLE LOCK
+• DWA ARMED
+• CONVENIENCE
+CLOSING (hold
+until activated).
+
+MANUAL
+LOCK
+
+MANUAL
+UNLOCK
+
+The GM monitors these key positions over two wires. The signals are generated by two
+hall effect sensors (Hall Sensor 1 & 2) located in the actuator.
+When the key is turned, a plastic cylinder in the lock actuator is simultaneously rotated by
+the lock tumbler extension rod. An asymmetrical shaped magnet is incorporated in the
+plastic cylinder, which when rotated changes the magnetic influence on the hall sensors.
+The presence of a magnet in close proximity to the sensing surface of either hall sensor
+creates a coded input over the two wires that the GM uses to determine the key position.
+•
+•
+
+Magnet in front of sensor, current flow through the sensor is <5 mA (0).
+Magnet rotated away from sensor, current flow through the sensor is >12 mA (1).
+
+Hall effect sensors improve the actuators reliability since they are impervious to moisture
+and there are no wear contacts.
+•
+
+Key in the neutral position, both
+sensors are simultaneously
+influenced by the magnet - 0/0.
+
+•
+
+Key turned to the unlock position
+from neutral, hall sensor #1
+magnet segment moves away
+from hall sensor - 1/0.
+
+•
+
+Key turned to lock position from
+neutral, hall sensor #2 magnet
+segment moves away form hall
+sensor - 0/1.
+
+20
+E46 Central Body Electronics
+
+TUMBLER
+EXTENSION ROD
+
+HALL SENSOR 1
+HALL
+SENSOR 2
+
+PLASTIC CYLINDER
+WITH ASYMMETRICAL MAGNET
+(Shown in the Lock Position)
+
+There are two motors incorporated in each actuator that provide two separate functions:
+•
+
+Single lock/unlock function. Also known as central lock, this motor controls the
+mechanical lock mechanism when the central lock button is pressed to single lock the
+vehicle. The lock mechanism is fully locked at this point but can still be opened from
+the interior by pulling the appropriate interior door handle twice or by pressing the
+central lock button again. When single lock function is activated, the fuel filler flap
+actuator is not locked.
+
+•
+
+Double lock/unlock function. Also known as central arrest, this motor is activated
+only when the vehicle is locked from the outside at the driver’s door lock with a key or
+when the GM receives a lock request from the FZV system. In this case the double
+lock motor is activated simultaneously with the single lock motor. The function of the
+double lock motor is to mechanically offset an internal rod disabling it from unlocking
+the vehicle from the interior. This prevents the doors from being unlocked by any means
+except from an unlock request at the driver’s door or via the FZV remote key.
+
+PLASTIC
+CYLINDER
+
+WHEN IN DOUBLE LOCK AN INTERIOR
+ACTUATED UNLOCK ROD IS OFFSET
+PREVENTING THE LOCK MECHANISM FROM
+BEING MECHANICALLY UNLOCKED
+
+HALL EFFECT SENSORS
+1&2
+
+SINGLE
+LOCK
+
+DOUBLE
+LOCK
+MOTOR
+
+ACTUATOR IN UNLOCKED POSITION
+
+ACTUATOR IN LOCKED POSITION
+21
+E46 Central Body Electronics
+
+DOOR CONTACT HALL SENSOR
+Also included in the drivers door actuator is a third hall effect sensor. This sensor signals
+the door open/closed status to the GM. This sensor replaces the door jamb mechanical
+switch of previous systems. The rotary latch plate position activates the door contact hall
+sensor.
+•
+
+When the door latch is closed, current flow through the sensor is <5 mA (0).
+
+•
+
+When the door is open, current flow through the sensor is >12 mA (1).
+
+The passenger side front door and both rear door lock actuators only include this hall effect
+sensor (hall sensor 3). Hall sensors 1 & 2 are not required.
+
+22
+E46 Central Body Electronics
+
+LOCK ACTUATOR CONTROL
+All door lock actuators and the fuel filler flap actuator are controlled directly by the GM via
+four internal load relays. The drivers door lock actuator has a separate circuit for the
+selective unlocking feature. If this feature is disabled by key memory encoding, the driver’s
+door lock actuator selective unlock circuit is activated simultaneously with the balance of
+the motors during unlock.
+
+DOUBLE LOCK CONTROL
+-SWITCHED POWER-
+
+LEFT
+REAR
+DOOR
+
+RIGHT
+REAR
+DOOR
+
+PASS.
+DOOR
+
+DRIVER’S
+DOOR
+
+LEFT
+REAR
+DOOR
+
+RIGHT
+REAR
+DOOR
+
+PASS.
+DOOR
+
+DRIVER’S
+DOOR
+
+LEFT
+REAR
+DOOR
+
+RIGHT
+REAR
+DOOR
+
+PASS.
+DOOR
+
+DRIVER’S
+DOOR
+
+FUEL
+FILLER
+FLAP
+
+GROUND
+
+SINGLE LOCK CONTROL
+- SWITCHED POWER SELECTIVE SINGLE LOCK
+
+CONTROL DURING DOUBLE LOCK:
+NOT ACTIVE
+FUEL
+FILLER
+FLAP
+
+GROUND
+
+SINGLE LOCK CONTROL
+- SWITCHED POWER SELECTIVE SINGLE LOCK
+
+CONTROL DURING SINGLE LOCK:
+DOUBLE LOCK CONTROL
+-GROUND-
+
+UNLOCK CONTROL
+- SWITCHED POWER -
+
+FUEL
+FILLER
+FLAP
+
+SINGLE UNLOCK CONTROL
+- SWITCHED GROUND SELECTIVE SINGLE UNLOCK
+
+23
+E46 Central Body Electronics
+
+TRUNK LID SWITCH CONTACTS
+The trunk lid position (open/closed) and trunk lock key positions are input signals to the GM V.
+The trunk lid closed/open signals come from the trunk lid switch contact located in the
+trunk lock actuator motor assembly.
+When closed, the trunk contact provides a
+ground signal to the GM signifying a "closed
+trunk". This contact also serves as the trunk
+light switch when the trunk lock is open.
+
+ACTUATOR MOTOR
+
+TRUNK LID SWITCH CONTACT
+
+The actuator motor only runs in one direction
+to release the latch mechanism. The latch
+mechanism can also be manually unlocked
+with the key.
+Located on the trunk lock are two
+additional microswitches for key
+position status signalling to the
+General Module.
+
+LATCH
+MECHANICAL UNLOCK
+ROD FROM KEY
+
+TRUNK LATCH
+ACTUATOR WITH
+TRUNK LID
+CONTACT SWITCH
+VIEW OF TRUNK LID
+LOOKING UP FROM FLOOR
+LEFT
+RIGHT
+
+•
+
+MECHANICAL
+UNLOCK ROD
+FROM KEY
+
+TRUNK
+LOCK
+
+1. DWA CANCEL ACTIVATE SWITCH
+2. VALET KEY POSITION SWITCH
+
+•
+
+Valet position
+switch: With the
+key lock in the valet
+position, this switch
+provides a ground
+signal to the GM.
+The GM locks out
+the interior trunk
+release button
+preventing the trunk
+from being opened.
+
+DWA Cancel Switch: When the trunk is opened with the key, this switch provides a
+ground signal to the GM preventing the DWA from activating if armed.
+
+24
+E46 Central Body Electronics
+
+CENTRAL LOCKING BUTTON
+The central lock button in the center console
+provides a momentary ground input signal to the
+GM. This input initiates a single lock for each
+door and the trunk. The fuel filler flap remains
+unlocked for refueling purposes.
+If a door is manually opened while centrally
+locked, the remaining doors stay locked.
+The opened door can be re-locked when closed
+by manually locking or pushing the central button
+twice. This allows the locks of the remaining
+doors to be re-synchronized again.
+On M.Y. 2000 vehicles, a vehicle that is Double Locked may be opened from inside by
+pressing the central button once and then manually opening the door from the inside.
+
+TRUNK REMOTE UNLOCK (328i & 330i)
+The trunk can be opened from inside the vehicle by
+pressing the remote trunk button when the vehicle is
+unlocked or single locked from the central lock button.
+The remote trunk button is locked out when the trunk is
+locked in the hotel setting and when the GM detects a
+vehicle speed signal > 4 MPH via the K-bus.
+The switch provides the GM with a momentary ground
+signal when pressed.
+
+CRASH SIGNALLING
+The Multiple Restraint System control module provides a switched signal to the GM in the
+event of an accident. The signal is an output function of the MRS control module and
+becomes active when MRS determines a crash has occurred.
+When active, the GM unlocks the door lock actuators, switches on the interior lights and
+signals the LSZ via the K bus to activate the hazard warning flashers.
+Once the crash signal is active, the GM will not respond to lock requests from the system
+until the ignition switch is cycled or a front door is opened.
+25
+E46 Central Body Electronics
+
+REMOTE RF (KEY LESS) ENTRY
+•
+
+The remote key receiver is part of the antenna amplifier and is installed in the left “C”
+pillar.
+The receiver produces a digital
+signal based on the transmitter
+command and sends it to the GM
+for processing.
+The GM then carries out all remote
+lock system, window and sunroof
+opening features, along with DWA
+arming/disarming functions.
+
+•
+
+The frequency at which the key
+transmits the radio signal to the
+antenna amplifier is 315 MHz.
+
+•
+
+The system is also used to convey the key identification number being used to
+lock/unlock the vehicle. This is a requirement of the Key Memory feature.
+
+26
+E46 Central Body Electronics
+
+Features of the key less entry system include:
+•
+
+Locking/unlocking of doors, trunk,
+fuel filler lid.
+
+•
+
+Selective unlocking of driver’s door
+(as with key in lock)
+
+•
+
+Arming/dis-arming of DWA alarm
+system (if equipped).
+
+•
+
+Remote unlocking of the trunk only.
+
+•
+
+Comfort opening of windows and
+sunroof
+
+•
+
+Interior lighting activation (search
+mode).
+
+•
+
+Panic mode alarm activation (if
+equipped).
+
+•
+
+Automatic correction for up to 1000
+erroneous activation signals.
+
+•
+
+Low transmitter battery fault code
+storage in the GM.
+
+•
+
+3 volt lithium battery (commercially
+available CR 2016) is used as the
+power supply for the key
+transmitters.
+
+•
+
+An EEPROM is used to store the key
+data. The data is no longer lost when
+the battery is replaced and
+initialization is not required.
+
+•
+
+The key incorporates an LED that signals the
+operator of signal transmitting, key initialization
+status and key self test indication.
+
+•
+
+The keys are now delivered with a four color label
+sheet containing four different colored labels for
+each of the four possible FZV keys.
+
+Radio Transmitter Key up
+to 1999 M.Y.
+
+This is a helpful addition to differentiate the FZV
+keys during initialization preventing the possibility
+of mis-assigning the key ID which would change
+the encoded Key Memory functions.
+27
+E46 Central Body Electronics
+
+REMOTE KEY INITIALIZATION
+The initialization of the FZV keys is required to establish the Lock/Unlock signal
+synchronization with the GM V. The initialization procedure provides the GM with a key
+identification number and a “rolling code” for each key. If the initialization is not performed,
+the GM will not respond to the key signals.
+Up to 4 remote keys can be initialized. They must
+be initialized at the same time. Key initialization is
+only possible with the vehicle unlocked.
+Procedure:
+1. Close all doors and have all keys available.
+2. Using key number 1, turn the ignition switch to
+KL R, then switch off within 5 seconds and
+remove the first key.
+3. Within 30 seconds of turning the ignition
+switch to “off” Press and hold button #2.
+4. While holding button #2, press and release
+(“tap”) button #1 three times within 10
+seconds.
+5. Release both buttons. The LED in the key will
+flash momentarily. The GM will immediately
+lock and unlock the doors signaling a
+successful initialization.
+6. If additional keys need to be initialized repeat steps 3 - 5 within 30 seconds.
+7. Switching the ignition to KL R completes the initialization.
+SERVICE NOTE: The key memory function of the GM responds to the key identification
+number of each key. If the keys are not initialized in the same order prior to initialization,
+the key memory functions activated by the keys will not be assigned correctly.
+Always initialize the keys in the same order.
+
+28
+E46 Central Body Electronics
+
+LED STATUS
+The following functions can be checked with the LED:
+•
+
+Flashing LED when pressing a button. Indicates that the data is being transmitted.
+(battery voltage between 3.2 - 2.6 volts)
+
+•
+
+No LED activity when pressing a button:
+1. ZKE responds to pressed button only to unlock a locked vehicle. Indicates the battery
+is between 2.6 - 2.2 volts. Replace battery.
+2. No unlock of vehicle. Indicates battery is below 2.2 volts. Replace battery.
+
+FZV KEY TEST
+Pressing the trunk release and lock buttons together activates the key test. If the battery and
+FZV key EEPROM are “OK”, the LED will come ON for approximately 1 second.
+
+29
+E46 Central Body Electronics
+
+MODEL YEAR 2000 FZV KEY
+Visual Changes:
+•
+•
+•
+•
+•
+•
+
+New appearance with blue and white BMW roundel.
+New button arrangement (larger buttons) with sequential operation (enhanced operating
+convenience)
+Rechargeable battery replaces replaceable batteries. Charged by EWS ring antenna.
+The key housing is encapsulated and can not be opened.
+The LED has been omitted.
+Key will be used in E46, E38 and E39 vehicles.
+
+Features of the keyless entry system include:
+•
+
+Up to 4 radio-control keys can be operated in conjunction with one vehicle.
+
+•
+
+Locking/unlocking of doors, tailgate,
+fuel filler lid.
+
+•
+
+Selective unlocking of driver’s door (as
+with key in lock)
+
+•
+
+Arming/dis-arming of DWA alarm system
+(if equipped).
+
+•
+
+Remote unlocking of the tailgate only.
+
+•
+
+Comfort opening of windows and
+sunroof
+
+•
+
+Interior lighting activation (search mode).
+
+•
+
+Panic mode alarm activation..
+
+•
+
+Automatic correction for up to 1000
+erroneous activation signals.
+
+•
+
+Low transmitter battery fault code
+storage in the GM.
+
+•
+
+An EEPROM is used to store the key
+data.
+
+•
+
+Keys delivered with a four color label
+sheet containing four different colored
+labels for each of the four possible FZV
+keys.
+
+ZKE - 24
+30
+E46 Central Body Electronics
+
+TAILGATE OPENS
+
+REMOTE KEY INITIALIZATION
+The initialization of the FZV keys is required to establish the Lock/Unlock signal
+synchronization with the GM. The initialization procedure provides the GM with a key
+identification number and a “rolling code” for each key. If the initialization is not performed,
+the GM will not respond to the key signals.
+Up to 4 remote keys can be initialized. They must be initialized at the same time. Key
+initialization is only possible with the vehicle unlocked.
+Procedure:
+1. Close all doors and have all keys available.
+2. Using key number 1, turn the ignition switch
+to KL R, then switch off within 5 seconds and
+remove the first key.
+3. Within 30 seconds of turning the ignition
+switch to “off” Press and hold the arrow
+button.
+4. While holding the arrow button, press and
+release (“tap”) the roundel button three
+times within 10 seconds.
+5. Release both buttons.
+The GM will
+immediately lock and unlock the doors
+signaling a successful initialization.
+6. If additional keys need to be initialized repeat
+steps 3 - 5 within 30 seconds.
+7. Switching the ignition to KL R completes the initialization.
+SERVICE NOTE: The key memory function of the GM responds to the key identification
+number of each key. If the keys are not initialized in the same order prior to initialization, the
+key memory function activated by the keys will not be assigned correctly.
+Always initialize the keys in the same order.
+
+ZKE
+31 - 25
+E46 Central Body Electronics
+
+FZV KEY RECHARGEABLE BATTERY
+From KL R, the battery inside the key head is charged inductively by the EWS ring antenna
+via a coil antenna integrated in the key. The charging process is controlled by electronic
+circuitry integrated in the key.
+•
+
+The service life of a radio-control key used under normal conditions corresponds to the
+vehicle lifespan.
+
+•
+
+If the FZV keys are not used (ie: stored in a drawer), the battery will be discharged after
+approx. 1.5 years.
+
+•
+
+The time required to fully charge a discharged battery is approx. 30 hours.
+
+•
+
+The remote control can be operated about 15 times after a charging period of approx.
+30 minutes (driving time).
+
+The key data is stored in a transponder chip. The transponder chip is a wireless read and
+write EEPROM. It is powered via the ring coil at the steering lock. Power is applied
+electromagnetically when the key is in the ignition switch from KL R.
+The power supply is used both for data transfer as well as for charging the battery. This has
+been made possible by new development of the transponder chip.
+As with previous systems, every press of an FZV key also provides the battery charge
+condition. When the FZV electronics receives a low power condition message three
+successive times, the GM sets a fault indicating a low battery within a specific key. The
+LCM is also informed via the bus system and alerts the driver via an instrument cluster
+matrix message.
+If the battery is recharged (used operate car), the fault will be automatically deleted when
+five successive messages are received indicating a charged battery condition.
+The battery has no affect on the EWS III communication function!
+
+ZKE - 26
+32
+E46 Central Body Electronics
+
+ZKE - 27
+33
+E46 Central Body Electronics
+
+POWER WINDOWS ( Sedan, Coupe and Sport Wagon)
+Features of the Power Window system:
+• Control of the front and rear door window motors is carried out directly by the GM.
+• One-touch operation in both directions on all windows.
+• Cable type window regulator used for all windows.
+• Anti-trap detection is provided by the pressure sensitive finger guard (same as E38/E39).
+• A new style window switch was introduced with the E46. The switch is pulled up to raise
+the windows and pushed down to lower them.
+• The rear window switches located in the rear doors can be deactivated by the pressing
+child lock out switch in the center console.
+• Convenience closing/opening of the windows from the driver's lock cylinder or
+convenience opening only from the FZV remote key (FZV operation can be owner
+customized with the Car Memory Function).
+• Window operation with the ignition switched off until a door is opened or 16 minutes has
+elapsed after the key is switched off.
+• Window load switching is through relays integral of the GM. The GM V monitors the
+current draw for end limit position. The maximum run time for the window motors is
+limited to 8 seconds. This allows the motors to be switched off if the end limit load
+sensing fails.
+
+34
+E46 Central Body Electronics
+
+GM V
+
+35
+E46 Central Body Electronics
+
+POWER WINDOWS (Convertible)
+Power window operation for the Convertible is slightly with the addition of the central power
+window switch located in the console between the window switches on the left side. The
+central switch allows all four windows to be opened with one touch operation or closed if
+the switch is held.
+The rest of the window switches allow one touch operation for opening. The driver’s window switch is the only one touch close switch due to the elimination of the anti-trap protection feature.
+The power windows are also opened when the top is lowered for approximately 1.5 seconds to ensure clearance when the top is lowered into the storage compartment. If the top
+switch is held after opening, the windows will close again.
+
+36
+E46 Central Body Electronics
+
+COMPONENTS
+NEW STYLE WINDOW SWITCHES
+The E46 power window switch design is a new push - pull type switch. Each switch
+provides the GM V with the familiar coded ground signaling strategy as previous two wire
+switches.
+Pushing a switch to the first detent and holding provides a single ground signal on one wire
+requesting the GM to operate the window motor in the down direction. When released, the
+ground signal is removed and the window motor stops.
+
+Momentarily pushing the switch to the second detent and releasing provides an additional
+ground signal on the second wire requesting the “one touch mode”, operating the window
+motor automatically. The motor runs the window down until it reaches it's end stop.
+The switch functions in the same manner for the upward run of the window motor but the
+ground signal sequencing is reversed.
+Four door vehicles have a single window switch located in the door handle trim.
+
+REAR WINDOW CHILD LOCKOUT SWITCH
+The rear window child lockout switch is incorporated in the driver's side window switch
+block. It provides a constant ground signal to the GM preventing the windows from being
+operated from the rear door switches.
+The lockout switch ground signal is overridden by the GM if the MRS crash signal is
+activated.
+
+37
+E46 Central Body Electronics
+
+SERVICE NOTE:
+Switch block removal from the console
+has changed on the E46.
+The console trim must be removed
+from the console base. The switch
+blocks can be removed by pushing the
+lock tabs and dropping the switch
+from the trim.
+
+POWER WINDOW MOTORS
+The window motors are mounted on the
+cable regulators (E38/E39). The window
+motor control circuit consists of two wires for
+operating the motor in both directions.
+The motors are activated by relays in the GM.
+The relays provide either power or ground
+depending on the direction of window travel.
+The GM controls the polarity of the motor
+based on a request to run the window
+(window switch, Convenience Opening/
+Closing).
+The windows are run to their limit stops which is detected by an amperage increase in the
+control circuit. Additionally, the window run cycle is limited to an 8 second duration if in
+case the amperage increase is not detected or there is a malfunction with the regulator.
+WINDOW MOTOR LIMIT STOP FUNCTION
+If the windows are run up and down continuously a limit stop function is activated to
+prevent the window motors from overheating. The GM monitors the number of times the
+window motors are activated. It counts each cycle and stores the number in memory.
+If the repetitive window activation (up/down) exceeds one minute, the GM deactivates the
+internal relays and disregards any further input requests. The GM provides motor activation
+after a short duration but not for the full one minute monitoring cycle.
+Over time, the GM slowly reverses the stored count of activation until the stored number
+equals 0.
+38
+E46 Central Body Electronics
+
+WINDOW ANTI-TRAP DETECTION( Sedan, Coupe and Sport Wagon)
+The window anti-trap detection feature is only active in the one touch and convenience
+close modes of operation. If the window switch is pushed/pulled and held, the Anti-trap
+feature will not function.
+The rubber pressure guards are located at the
+top edge of each door frame for the Sedan and
+Sport Wagon and are incorporated into the felt
+edge protector in the Coupe. Each guard
+consists of two contact strips that close when
+subjected to pressure. This provides anti-trap
+detection and signal generation to the GM V.
+When the contact strip closes, the window
+immediately (10ms) reverses direction as with
+previous anti-trap systems. The contact strip
+does not require that the anti-trap feature be
+initialized prior to operation.
+The E46 pressure sensor finger guard has a
+resistance of 3.0 KOhm and it is monitored for
+open circuit. When pressed, the monitored
+resistance changes to <1KOhm. Faults with the anti-trap system require that the window
+switch be held to close the window.
+
+CONVENIENCE OPENING/CLOSING
+As with previous ZKE systems, the GM V provides the convenience open/close feature
+providing control of the power windows (and sunroof) from outside the vehicle with the key
+in the driver’s door lock. The FZV provides the same function for the opening only.
+•
+
+The anti-trap feature is active during convenience closing from the driver’s door lock.
+
+•
+
+The convenience open feature provides outside activation of the windows and sunroof
+in the same manner.
+
+•
+
+If the GM receives a request to operate convenience close or open for more than 110
+seconds, the function is deactivated and a fault code is stored.
+
+•
+
+The Car Memory Feature can activate and deactivate the Convenience Open Feature
+from the FZV’s control.
+
+39
+E46 Central Body Electronics
+
+SUNROOF
+The E46 optional sunroof is mechanically similar to previous systems. All of the electronic
+controls and relays are contained in the sunroof module (SHD). The module is connected
+to the K-Bus for comfort closing/opening, unloader signalling during engine startup,
+diagnosis and fault memory purposes
+
+K BUS
+
+SUNROOF SWITCH
+Mounted in the sunroof motor trim cover is the sunroof switch. Also similar to previous
+systems, the switch provides coded ground signals for system operation.
+The following switch signals are generated over three wires through coded combinations:
+•
+•
+•
+•
+•
+•
+
+Rest position
+Slide open request (press and hold switch - first
+detent of open position)
+Automatic slide open request (press further to
+second detent and release)
+Tilt open (press and hold)
+Slide close request (press and hold switch - first
+detent of close direction)
+Automatic slide close request (press further to
+second detent and release)
+
+40
+E46 Central Body Electronics
+
+SUNROOF MOTOR/MODULE (SHD)
+The combined motor module has a 13 pin
+connector for interfacing the switch, and
+vehicle harness (power ground and K bus.)
+The motor contains two hall effect sensors
+that monitor the motor shaft rotation
+providing sunroof panel position.
+The hall sensors also provide the end limit cut
+out function for the SHD once the system is
+initialized. The SHD counts the pulses and
+cuts the motor out prior to the detected end
+run of the sunroof panel.
+INITIALIZATION
+Initialization is required for the SHD to learn the end positions of the motor's travel. The hall
+sensors provide pulses for motor rotation, the SHD counts the pulses and determines
+where the panel is by memorizing the stored pulses.
+If the system is not initialized, the sunroof will only operate in the tilt up and slide close
+positions. Initialize as follows:
+•
+
+Press and hold the sunroof switch in either the tilt up or slide close positions for 15
+seconds.
+
+•
+
+The sunroof motor operates momentarily signifying initialization acceptance.
+
+The SHD memorizes the pulses from the hall sensors on the next activation of the motor
+by driving the panel to its end run positions. The SHD senses an amperage increase and
+determines the end run position. The counted number of pulses is then used as the basis
+for calculating the panel position.
+ANTI TRAP FEATURE
+The anti-trap feature of the sunroof uses a hall sensor to detect obstructions while the
+sunroof is closing (pulse frequency slowed down) in the automatic close function. The antitrap feature is shut down prior to full closing (4mm from full closed) to allow the sunroof to
+seat into the seal.
+Additionally, the anti-trap feature is not functional when the switch is held in the manual
+close position.
+41
+E46 Central Body Electronics
+
+SHD SELF DIAGNOSIS
+The SHD monitors its operation and stores fault codes if a defect is determined: The SHD
+monitors the following conditions:
+•
+
+SHD motor relays: The relays are checked for sticking contacts (plausibility) and non
+functional contacts.
+
+•
+
+Hall effect position sensors: The SHD must detect a pulse frequency from the hall
+effect sensor(s) during operation.
+
+•
+
+Sunroof Switch: The SHD monitors the signal plausibility of the coded signaling from
+the sunroof switch.
+
+SUNROOF FAULT RESPONSE CHARACTERISTICS
+If a fault occurs with any of these functions, the SHD responds as follows:
+•
+•
+•
+
+Overrides the end run detection.
+Switches the motor off if the relay contacts stick for more than 500 ms.
+Switches the motor off if pulses are not received.
+
+EMERGENCY OPERATION OF SUNROOF
+If the sunroof motor does not respond to the switch signals, the hex key in the trunk lid tool
+kit is used to manually turn the motor shaft drive as on previous systems
+
+42
+E46 Central Body Electronics
+
+INTERIOR LIGHTING
+The GM controls the interior lighting automatically with the status change of several
+monitored inputs. The lighting can also be manually controlled using the interior light switch.
+FT lock
+
+Hallsensor
+
+KI.30
+
+TK
+
+BT lock
+TKFT
+
+TKBT
+
+GM V
+
+FH lock
+
+Hallsensor
+
+TK
+
+TK
+
+Hallsensor
+
+BH lock
+
+TKFH
+
+TKBH
+
+TK
+
+Hallsensor
+
+IB
+CS
+
+SIB
+VA
+
+VB 31
+
+Footwell
+light
+
+VB 31
+
+Interior/
+reading light unit
+
+Interior/
+reading light
+
+Interior/
+reading light
+
+VB 58g
+
+IL
+
+IL
+
+IL
+
+VB 31
+LL
+
+LL
+
+VB 31
+LL
+
+VB 31
+
+LL
+
+COMPONENTS
+DOOR CONTACTS
+As mentioned in the Central Locking Section, the new style door lock actuators contain a
+hall effect sensor for the purpose of monitoring door open/closed status (hall sensor 3 in
+the driver's door actuator). The hall effect sensor is located directly behind the rotary latch
+plate encased in the actuator. The sensor is activated by the rotary latch plate's position.
+•
+
+Door closed, the rotary latch plate is in the latched position. Current flow through the
+hall sensor is < 5 mA.
+
+•
+
+Door open, the rotary latch plate is in the open position. Current flow through the hall
+sensor is > 12 mA.
+
+A change in current flow informs the General module when a door is opened or closed.
+43
+E46 Central Body Electronics
+
+INTERIOR LIGHT UNIT ASSEMBLIES
+Front seat interior/map light unit:
+The overhead front seat interior light
+unit contains a single main interior
+light. The light is controlled by the
+GM automatically or by momentarily
+pressing interior light switch located
+on the light assembly.
+The switch provides a momentary
+ground signal that the GM
+recognizes as a request to either
+turn the light on (if off) or turn the
+light off (if on).
+If the switch is held for more than 3 seconds, the GM interprets the continuous ground
+signal as a request to turn the interior light circuit off for the Workshop Mode as on previous
+systems. The workshop mode is stored in memory and will not come back on even if the
+GM is removed from it's power supply and reconnected. The switch must be pressed to
+turn the lights back on.
+There are two reading/map lights also located in the assembly. Each map light is
+mechanically controlled by depressing it's corresponding on/off switch. The power supply
+for the map lights is supplied by the GM through the Consumer Cut Off circuit.
+
+Rear seat interior/reading light units:
+In each C pillar trim panel is an interior/reading light unit. These units each contain an
+interior light that is controlled with the front interior light and a mechanically switched
+reading light on the consumer cut off circuit.
+Front footwell lights:
+In each front footwell, there is also a courtesy light. These lights are only operated when
+the GM provides power to the interior lighting circuit.
+
+44
+E46 Central Body Electronics
+
+AUTOMATIC CONTROL FUNCTION
+The GM provides 12 volts (linear application providing soft on feature) to the interior lighting
+circuit when the one of the following input signal statuses change:
+•
+
+Door contact hall sensor active (door opened)
+
+•
+
+An Unlock request from the driver's door key lock hall sensors are received. This only
+occurs if the ignition switch is off.
+
+•
+
+An Unlock request is from the FZV keyless entry system is received via the K bus. This
+only occurs if the ignition switch is off as well.
+
+•
+
+The ignition switch is switched off and the vehicle exterior lights (LSZ) have been on for
+a minimum of 2 minutes prior. This information is provided to the GM via the K bus.
+
+•
+
+Active crash signal from the MRS control module.
+
+•
+
+Lock button of FZV key is pressed with the vehicle is already locked (interior search
+function).
+
+The GM gradually reduces the full 12 volt power supply (linear reduction providing soft off)
+until the lights are off when the following input signal statuses change:
+•
+
+•
+
+Immediately after the ignition switch is turned to KL R with the driver's door hall sensor
+door contact closed.
+When the vehicle is locked (single or double) with the door contacts closed.
+
+•
+
+When the vehicle door contacts are closed. The lights remain on for 20 seconds and
+then go to soft off.
+
+•
+
+After the interior search function is activated, the lights will automatically turn off (soft off)
+after 8 seconds.
+
+•
+
+After 16 minutes with a door contact active (open door) and the key off, the lights are
+switched off (consumer cutoff function).
+
+•
+
+The component activation function of the DIS also has the ability to switch the lights.
+
+The Interior lighting output circuit of the GM is approximately 3.5 amps with all lights on.
+
+<#>
+45
+E46 Central Body Electronics
+
+ANTI-THEFT (DWA) SYSTEM
+(BMW Center installed accessory)
+All E46 vehicles are factory prepared (prewired and GM programmed) to provide the DWA
+function. The DWA system components are available as a retailer installed optional
+accessory. Once the DWA system components are installed the GM must be encode to
+recognize the installed components and carry out DWA functions. This is done with the
+ZCS “Retrofit” program function using the DIS or MoDiC.
+The GM utilizes existing components and/or circuits as part of the DWA system:
+•
+•
+•
+•
+•
+
+Door lock hall effect sensor contacts (door open/closed).
+Trunk lid switch contact (monitored for closed trunk).
+Trunk lock key position switch (located on the trunk lock, this switch signal prevents
+DWA from activating if armed when the trunk is opened with the key).
+Hood switch (monitored for closed hood, located under the hood).
+DWA status LED (part of rear view mirror).
+
+The DWA optional accessory kit includes the following:
+•
+•
+•
+
+Tilt sensor (pre wiring in area of installation in right trunk area).
+UIS Interior compartment monitoring sensor (pre wiring in area of installation in center
+headliner).
+DWA siren (pre wiring in area of installation right cowl area next to IHKA housing).
+Hood switch
+KI.R
+MHK
+
+Driver's Door
+Actuator (FT)
+
+Hallsensor
+
+KI.30
+
+Passenger Door
+Actuator (BT)
+TK
+
+TKFT
+TKBT
+
+TK
+
+Hallsensor
+
+Left Rear Door Actuator (FH)
+
+GM V
+Hallsensor
+
+TK
+
+Right Rear Door Actuator (BH)
+
+TKFH
+TKBH
+
+TK
+
+Hallsensor
+
+DWA - LED
+DWAL
+NG
+INRS
+
+GRL
+
+HKK
+
+Tilt sensor
+SIRENE
+
+ERHK
+
+GM
+
+STDWA
+
+Valet
+Switch
+UIS sensor
+
+Siren
+
+DWA
+Cancel
+Switch
+
+M
+Lock
+
+46
+E46 Central Body Electronics
+
+Trunk
+actuator
+
+COMPONENTS
+DOOR CONTACTS
+As mentioned in the Central Locking Section, the door lock contact hall effect sensors
+provide status of door open/closed.
+•
+
+When the door latch is closed, current flow through the sensor is <5 mA (0).
+
+•
+
+When the door is open, current flow through the sensor is >12 mA (1).
+
+The GM will activate the siren if a door open signal becomes active when the DWA is
+armed.
+TRUNK LID SWITCH CONTACTS
+The trunk switch contact is located in the trunk lock actuator assembly. When closed, the
+trunk contact provides a ground signal to the GM signifying a "closed trunk". The GM will
+activate the siren if the trunk switch contact ground signal opens when the DWA is armed.
+TRUNK LOCK KEY POSITION SWITCH
+Mounted on the trunk lock cylinder are two switches:
+•
+
+Valet position switch: With the
+key lock in the valet position, this
+switch provides a ground signal to
+the GM. The GM locks out the
+interior trunk release button
+preventing the trunk from being
+opened.
+
+•
+
+Trunk opened with key switch:
+When the trunk is opened
+mechanically with the key, this
+switch provides a ground signal to
+the GM preventing the DWA from
+activating if armed.
+
+47
+E46 Central Body Electronics
+
+HOOD CONTACT SWITCH
+
+HOOD SWITCH
+
+Located on the right side engine
+compartment, the hood contact switch
+provides a ground signal to the GM
+signifying an open hood.
+The plunger of this switch can be pulled
+up past a detent causing the switch
+contact to open. This feature can be
+used to simulate a closed hood with the
+hood open when diagnosing the DWA
+system.
+DWA LED
+As on previous systems, the DWA indicator is located in the rear view mirror. The LED is
+equipped in all E46 vehicles and is not part of the retailer installed accessory DWA system.
+The LED is provided with constant battery voltage (KL 30). The GM provides a switched
+ground signal providing the various blinking signals used to convey DWA status to the
+vehicle operator (covered further on).
+
+48
+E46 Central Body Electronics
+
+TILT SENSOR
+Located in the right trunk area
+above the battery, the tilt sensor is
+an electronic sensing device with
+the sole purpose of monitoring
+the vehicle's parked angle when
+DWA is armed.
+
+The sensor requires three signal wires to perform its function:
+•
+
+KL 30 - Constant battery voltage
+
+•
+
+Signal "STDWA"; switched ground input signal provided by the GM indicating DWA
+armed/disarmed status. The tilt sensor is used as a splice location for the STDWA
+signal to the Siren and UIS interior protection sensor.
+
+•
+
+Signal "NG"; switched ground output signal provided to the GM. The signal is used for
+two purposes,
+1. As a momentary acknowledgment that the tilt sensor received STDWA and is
+currently monitoring the vehicle angle.
+2. If the tilt sensor detects a change in the vehicle's angle when DWA is armed, signal
+NG is switched to inform the GM to activate the siren.
+
+When the tilt sensor receives the STDWA signal from the GM it memorizes the vehicle's
+parked angle. The angle of the vehicle is monitored by the solid state electronics. Once
+armed, if the angle changes, the tilt sensor provides a switched ground signal to the GM to
+activate DWA.
+
+49
+E46 Central Body Electronics
+
+INTERIOR PROTECTION (UIS)
+The E46 uses an interior protection sensor known as UIS. Similar to the FIS previously
+equipped on the E38/E39, the UIS monitors the vehicle interior for motion through
+ultrasonic sound waves. The UIS is a combined transmitter and receiver.
+
+The interior sensor is mounted in the center of the headliner panel even with the "B" pillar.
+Due to the design of the vehicles interior, the sensor is uni-directional and must be installed
+in the proper direction to ensure proper operation of the system (trim cover ensures
+directional installation).
+Every time the DWA system is armed (signal
+STDWA), the sensor adapts to what ever
+objects might be stationary in the interior.
+The sensor emits ultra sonic waves in a
+programmed timed cycle. It receives echos
+of the emitted waves.
+The UIS amplifies the received sound wave signals and compares them with the
+transmitted waves. The UIS also checks the incoming echos for background hiss (wind
+noise through a partially open window) and adapts for this.
+• If the echos are consistently similar, no movement is detected,
+• If the echos are altered, (inconsistent), the UIS determines motion in the interior
+compartment.
+If motion is detected, the UIS changes to a constant cycle and the echo is compared again.
+If the inconsistency is still present the UIS sends the activate siren signal (INRS) to the GM.
+As with the tilt sensor, the UIS is also switched OFF when the vehicle is locked two times
+within ten seconds. This allows the sensor to be switched OFF for transportation purposes.
+50
+E46 Central Body Electronics
+
+ALARM SIREN
+The siren from the DWA accessory kit is
+installed in the vehicle cowl on the
+passenger side of the vehicle. This
+location provides a secure position with
+loud acoustic output.
+The siren contains electronic circuitry
+for producing the warning tone when
+the alarm is triggered. The siren also
+contains a rechargeable battery that is
+used to power the siren when the alarm
+is triggered.
+
+SIREN INSTALLATION
+
+The rechargeable battery will allow the siren to sound if it or the
+vehicle’s battery is dis-connected. The siren battery is recharged,
+from the vehicle’s battery when DWA is not in the armed state.
+The siren has four wires connecting it to the system; KL 30, KL 31,
+Signal STDWA (arm/disarm signal from GM), and Signal SIRENE
+(activate siren output signal to the GM)
+The arm/disarm output signal from the GM (STDWA) is provided to the Tilt sensor, UIS
+sensor and the siren simultaneously. The arm/disarm signal is a switched ground that
+signals the components of DWA armed/disarmed status.
+The activate siren signal (SIRENE) is high whether DWA is armed or disarmed. If a
+monitored input activates the alarm, the high signal to the siren is switched to a 50% duty
+cycle at the GM. The control circuitry in the siren activates the siren driver. If the DWA is
+armed and the battery is disconnected the siren recognizes the normally high “SIRENE”
+signal as suddenly going low, the siren is also activated.
+KL 30 UIS SENSOR
+
+SIRENE
+
+KL 30
+INRS
+
+ACTIVATE
+
+KL 30
+NG
+
+STDWA
+
+ACTIVATE
+ARM / DISARM SIGNAL
+
+GM V
+
+DWA SIREN
+
+TILT SENSOR
+
+51
+E46 Central Body Electronics
+
+DWA ARMING/DISARMING
+•
+
+The DWA is armed every time the vehicle is locked from the outside with the door lock
+cylinder or FZV key.
+
+•
+
+The LED in the rear view mirror flashes as an acknowledgment along with the exterior
+lights and a momentary chirp from the siren.
+
+•
+
+The GM monitors all required input signals for closed status (door closed, trunk closed,
+etc.) The inputs must be in a closed status for a minimum of 3 seconds for the GM to
+include them as an activation component. If after 3 seconds any input signal not in the
+closed status is excluded (this is acknowledged by the DWA LED) preventing false alarm
+activation's.
+
+•
+
+If the DWA is armed a second time within 10 seconds, the tilt sensor and interior
+protection sensor are also excluded as alarm activation components. This function is
+useful if the vehicle is transported on a train or flat bed truck to prevent false alarm
+activation's.
+
+•
+
+While armed the trunk can be opened with out the alarm being triggered as follows:
+-
+
+If opened with the trunk remote button via the FZV, the GM prevents the alarm from
+activating. (This feature is customizable under the Car Memory function).
+
+-
+
+If opened with the key at the trunk lock cylinder the trunk key position switch signals
+the GM and in the same manner prevents the alarm from activating.
+In either case, when the trunk is returned to the closed position, it is no longer
+considered as an activation signal.
+
+Panic Mode Operation: When the trunk button is pressed and held, the GM is signaled
+to activate the siren for the Panic Mode. The panic mode is function with either an armed
+or disarmed DWA system.
+EMERGENCY DISARMING
+Emergency disarming occurs automatically if a key is used to turn the ignition switch on and
+the EWS accepts it. The EWS signals the GM to unlock the doors and deactivate the DWA.
+
+52
+E46 Central Body Electronics
+
+ALARM INDICATION
+When the alarm is triggered, the siren will sound for 30 seconds. At the same time the low
+beam headlights and four way flashers will flash for 5 minutes. The GM signals the the LSZ
+via the K bus to flash the lights.
+Following an alarm trigger, the system will reset and trigger again if further tampering is
+done to the vehicle.
+DWA LED STATUS
+DWA STATUS
+
+DWA LED CONDITION
+
+Disarmed
+
+OFF
+
+Armed
+
+Continual slow flash
+
+Armed with one or more monitored
+inputs not in closed position
+(ie: trunk not fully closed, etc)
+
+Rapid flash for 10 seconds,
+then continual slow flash.
+
+Alarm activated
+
+Rapid flash for 5 minutes,
+then continual slow flash.
+
+Rearmed in less then 10 seconds.
+
+ON for 1 second
+
+Disarmed after activated alarm
+
+Rapid flash for 10 seconds,
+then OFF.
+
+53
+E46 Central Body Electronics
+
+FRONT POWER SEATS
+SEAT CONTROLS
+Located in each seat base are the
+respective seat controls.
+The switch
+modules are contoured to fit behind the
+outboard seat base plastic trim. They each
+incorporate the seat adjustment switches
+and motor control circuitry.
+As in the past there are no serviceable
+replacement parts (switch levers, switch
+buttons, etc.) they must be replaced as a
+complete unit if necessary. They differ from
+driver's to passenger seats as follows:
+
+DRIVER’S SEAT= SEAT MEMORY CONTROL MODULE (SM)
+• In addition to the position switches, the SM also contains the memory position switches
+and monitors the seat motor positions via pulsed signals from hall effect sensors in each
+driver's seat position motor.
+• The SM communicates with the GM and Instrument cluster via the K bus to provide Car
+and Key Memory seat adjustment functions.
+• The SM is equipped with on board diagnostics which monitor motor circuits for opens,
+shorts and not plausible operation. The SM communicates with the DIS or MoDiC for
+diagnosis, and car memory encoding.
+• The electronics are protected against polarity reversal and excess voltage. A non-volatile
+memory maintains memory settings if the SM or battery is disconnected.
+
+54
+E46 Central Body Electronics
+
+PASSENGER’S SEAT (without memory)
+• The passenger seat control switch is purely a mechanical switching module that activates
+the passenger seat motors without position monitoring capabilities.
+• Due to it's limited operation requirements, the passenger seat control switch is not
+equipped with on board diagnostics.
+• The Passenger Seat control switch is equipped with an overload protection function. If
+excessive amperage is drawn due to a defective motor or a switch is stuck driving a
+motor to its' end limit , the function activates opening the motor control circuit.
+
+KL30
+
+SEAT
+SWITCH
+
+SEAT
+MODULE
+
+KL30
+
+KL31
+
+KL31
+
+80
+60
+
+K-BUS
+
+GMV
+
+3
+
+100
+
+2
+
+40
+
+120
+
+20
+
+140
+
+4
+5
+6
+
+1
+0
+
+D-BUS
+
+7
+
+INSTRUMENT
+CLUSTER
+
+55
+E46 Central Body Electronics
+
+SEAT POSITION MOTORS
+There are either 3 or 4 electric motors in the front seats depending on the seat model.
+The motors differ from driver’s to passenger seats as follows:
+Driver’s seat motors:
+•
+
+Each motor is individually controlled by the SM via a two wire circuit providing motor
+activation in both directions.
+
+•
+
+Each position motor incorporates a hall effect sensor that provides a single pulsed
+square wave signal for each revolution of the motor. The hall sensor is required for the
+memory feature of the driver’s seat and as feedback for motor load protection.
+
+•
+
+When a motor is activated, the
+SM also memorizes what
+direction the seat switch was
+moved to since it can not
+determine the exact seat
+position based on the hall sensor
+signal alone. This is required if
+the exact position is needed for
+memory storage.
+
+Passenger seat motors:
+•
+
+Each motor is individually controlled by the Seat Control Switch.
+
+•
+
+Each position motor is connected to the seat position switch by a two wire circuit
+providing motor activation in both directions (no hall effect sensors).
+
+•
+
+Each position motor is connected to the seat position switch by a two wire circuit
+providing motor activation in both directions (no hall effect sensors).
+
+56
+E46 Central Body Electronics
+
+SEAT MOTOR ACTIVATION
+DRIVER’S SEAT ADJUSTMENT
+When a position switch
+is moved, the control
+electronics of the SM
+receives an input signal
+to move the
+corresponding motor
+until the switch is
+released.
+
+KL30
+
+MOTOR
+POLARITY
+SWITCHES
+
+The position switch is
+also memorized for the
+requested direction (ie:
+slide forward/slide
+backward).
+
+SEAT BASE
+(UP/DOWN)
+
+SEAT BASE
+(TILT)
+
+The SM includes a
+multiplexed switch unit
+that handles the
+polarity control and
+motor selection
+simultaneously.
+Only one motor can be
+activated at a time.
+
+K-BUS
+
+BACK REST
+
+SEAT BASE
+(FOWARD/BACK)
+
+KL31
+
+The multiplexer control activates the polarity contacts and then the individual motor
+contacts to run the motors individually.
+
+PASSENGER SEAT ADJUSTMENT
+Operation of the passenger seat is always possible regardless of key position. Moving a
+position switch operates a the motor control contacts directly, The switch applies voltage
+and ground path directly to operate the motor. Reversing the switch simply changes the
+motor polarity.. More than one passenger seat motor can be run simultaneously.
+
+57
+E46 Central Body Electronics
+
+DRIVER’S SEAT MEMORY FUNCTION
+As with previous systems, the seat memory feature of the SM stores three seat positions
+for recall. The positions are stored in a non-volatile memory preventing loss of positions if
+in case the SM or the battery is disconnected.
+The additional buttons on the SM (M)
+provide activation of recording memory
+position and (1-2-3) for storing or recalling a
+specific seat setting.
+Storing current seat position:
+•
+•
+•
+•
+
+Seat in desired position,
+Ignition switch in KL R,
+Press the M button until it illuminates
+Within 7 seconds press the 1,2 or 3
+button to store.
+
+The stored position can be recalled at any time by pressing the appropriate memory
+location button (1-2-3).
+MEMORY RECALL MODES OF OPERATION
+Depending on current SM input signals via K-Bus, the memory recall operates in two
+distinctly different modes:
+•
+•
+
+One-touch mode (TTB),
+or press and hold mode of operation (DTB).
+
+If the following input signal status is current, the SM resets the seat position by a
+momentary “one touch” of the selected memory button.
+•
+•
+
+Ignition switch off with the driver’s door open, or,
+KL R on, door open or closed
+
+If the following input signal status is current, the SM resets the seat position by a continuous
+”press and hold” of the selected memory button.
+•
+•
+
+Ignition switch off with the driver’s door closed
+KL 15 on, door open or closed.
+
+58
+E46 Central Body Electronics
+
+DRIVER’S SEAT MEMORY (CAR Memory Influence)
+The SM can be encoded to recall a specific seat position for a vehicle user when the GM
+signals the SM to automatically recall stored positions separate of the 1-2-3 button
+selections.
+This feature is encoded through the car memory function and activated by the key memory
+function. The SM will monitor the seat position and store it in another area of it's memory
+when the vehicle is locked with the remote keyless entry system. The GM sends a request
+to memorize the seat position and store it for FZV key user 1,2,3 or 4.
+If another user of the vehicle changes the seat position the SM restores the memory
+position the next time the specific key is used to unlock the vehicle.
+This feature can be further modified to activate the position recall based on the owner's
+selected activation scenario, for example: The owner can choose to :
+•
+•
+•
+
+Disable this feature,
+Initiate memory recall when the unlock signal is initially sent before a door is opened.
+Initiate memory recall when the unlock signal is sent but only when the driver's door is
+opened.
+
+POWER SEAT DIAGNOSIS
+The SM communicates with the DIS or MoDiC via the K bus - instrument cluster gateway
+- to the D bus. The SM monitors the seat motors and circuits as well as it's internal
+operation. Any detected faults are stored in the SM fault memory and are called up when
+diagnosing the system with the Fault Symptom diagnostic plan.
+The SM also provides status display to the DIS of its input and output control signals as
+well as component activation.
+
+59
+E46 Central Body Electronics
+
+E46 CONVERTIBLE FRONT SEATS
+Purpose of the System:
+The front seats of the E46iC are designed in such a way that all forces acting on the occupants during collision are reduced to the floor pan by the defined design characteristics of
+the seat. The front seat also incorporate the Seat Integrated belt System (SGS) and the
+“Comfort Entry Aid System”.
+
+Components of the System:
+
+ART-EBODY11
+
+Seat Integrated Belt System (SGS)
+The SGS seat is similar in design to the SGS in the E31. The backrest and seat frame are
+reinforced to allow the belt system and deflection points to be integrated into the seat. All
+of the belt fastening points move with the seat as it is adjusted. This ensures the best possible body strapping irrespective of the seat position or body size. With the short free belt
+lengths, the occupants are held quicker with any vehicle deceleration. The SGS design will
+cause all forces occurring during a collision to be channeled into the reinforced floor pan.
+
+60
+E46 Central Body Electronics
+
+Seat Belt Assembly
+The fixed anchor point and seat belt tensioner are mounted on the seat frame. The upper
+deflection point of the belt is attached to the head rest which causes the belt to be optimally positioned when the head rest is moved.
+The inertia reel locking mechanism is attached to the backrest frame of the seat. It consists of two independent triggering devices which act on the inertia reel.
+•
+
+The first triggering device locks the belt during fast cornering, heavy braking,
+roll over or during impact.
+
+•
+
+The second triggering device serves as an auxiliary safety lock and is controlled
+by the “Mass Moment of Inertia”. The position of the mass moment of inertia is a
+decisive factor for the belt to lock.
+
+The inertia reel locking mechanism is connected through a lever and a cable drive to a gear
+assembly on the seat back hinge. As the angle of the backrest is adjusted, the gear assembly and cable drive will change the angle of the inertia lock. This ensures that the lock is in
+the proper position for locking at any seat back angle.
+
+52460001
+
+61
+E46 Central Body Electronics
+
+Comfort Entry Aid
+The switch for the comfort entry aid feature is positioned at the top of the seat back. The
+switch provides an input to the seat module which activates the seat forward/backward
+motor.
+When pressed forward, the motor rapidly moves the
+seat to its most forward position.
+When the switch is pressed rearward, the seat returns
+to the previous set position.
+
+When the lever for the backrest is raised and the back
+rest is pulled forward, the back rest lock switch provides an input to the seat module. The module activates the head rest motor and it moves down to its
+lowest position. When the seat back rest is relocked,
+the module activates the head rest motor to return to
+its previous set position. This feature will only activate
+when the seat is moved forward far enough to cause
+the head rest to interfere with the sun visor as the back
+rest is pulled forward. The seat module recognizes the
+position of the seat base for activation of this feature.
+
+ART-EBODY16
+
+62
+E46 Central Body Electronics
+
+ART-E46BODY17
+
+ART-E46BODY15
+
+E46 CONVERTIBLE SEAT MEMORY SYSTEM
+Purpose of the System:
+The seat memory system uses two control modules on each front seat (driver and passenger). One processor is incorporated into the seat adjusting switch and a second
+processor is mounted under the seat. The functions of the two control modules is to
+process the following inputs and outputs to control the seat:
+•
+•
+•
+•
+•
+
+Seat adjustments
+Comfort entry aid switch
+Seat back rest lock micro switch
+Seat belt fastened
+K-bus communication with the GM V and Instrument Cluster
+
+As with previous systems, the Driver seat memory feature stores three seat positions for
+recall. The positions are stored in the non-volatile memory preventing loss of positions in
+case the SM or the battery is disconnected.
+
+Components of the System:
+Refer to the Driver’s and Passenger’s memory seat IPO.
+
+System Operation:
+The seat adjusting switch block communicates with the control module over dedicated
+lines. The output stages for seat motor movement are in the control module. The seat positions are recognized through the use of hall sensors on the motors. All components of the
+seat memory system are monitored for faults.
+Additional functions of the memory system include memorizing the position of the seat and
+headrest when the entry aid feature is activated. The seat will return to its previous set position when the entry aid switch is pressed rearward or the seat back rest is locked.
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+63
+E46 Central Body Electronics
+
+MEMORY SEAT I P O
+
+* Sport Seats only
+
+Comfort
+Entry
+
+64
+E46 Central Body Electronics
+
+PASSENGER’S SEAT MEMORY IPO
+The passenger’s front seat incorporates a control module for seat adjustment and the entry
+aid features. Only the seat forward/back and head rest adjustment motors incorporate hall
+sensors for position recognition.
+
+Comfort
+Entry
+
+65
+E46 Central Body Electronics
+
+COMPONENT LOCATIONS:
+
+52460004
+
+The memory control module for the seat is
+mounted under the seat base on the seat
+frame.
+
+52460002
+
+Three seat adjustment motors are mounted under the seat base on the seat frame as follows:
+
+TILT
+MOTOR
+
+FOWARD/BACKWARD
+MOTOR
+
+52460003
+
+66
+E46 Central Body Electronics
+
+HEIGHT MOTOR
+
+COMPONENT LOCATIONS:
+The backrest adjustment motor is mounted on the lower edge of the backrest frame.
+
+BACKREST MOTOR
+
+52E46SEAT0300
+
+The headrest adjustment motor is mounted at the upper edge of the backrest frame.
+
+HEADREST MOTOR
+
+ART-KT5424
+
+67
+E46 Central Body Electronics
+
+MIRROR MEMORY SYSTEM
+Purpose of the System:
+The function of the mirror memory system is to:
+•
+•
+•
+•
+
+Memorize mirror positions,
+Adjust mirrors,
+Control heaters for the outside mirrors.
+Communicate with the Driver’s seat memory module to recall mirror positions.
+
+Components of the System
+The mirror memory system consists of the following components:
+• Mirror adjusting switch
+• Driver’s mirror memory module
+• Passenger’s mirror memory module
+• Driver’s seat memory module
+• Mirrors with adjusting motors and
+feedback potentiometer
+
+ART-E46BODY25
+
+ART-E46BODY26
+
+68
+E46 Central Body Electronics
+
+System Operation:
+Each mirror module is responsible for mirror adjustment, storage of the mirror positions and
+mirror heating. Operation of the mirror adjusting switch remains the same for initial setting
+of the mirror positions. Feedback potentiometers are used for mirror position recognition for
+memory storage purposes. The driver’s mirror module communicates with the passenger’s
+mirror module and the seat module over the K-bus.
+When a memory position is set with the seat module, a signal is sent to the mirror modules
+over the K-bus and the current positions are stored in memory locations 1, 2 or 3 in the
+respective modules.
+When a memory button is pressed for recall of a stored position, the seat module signals
+the mirror modules over the K-bus to return the mirrors to the stored settings.
+
+ART-E46BODY28
+
+69
+E46 Central Body Electronics
+
+OPTIONAL SEAT HEATING (1999 M.Y.)
+The optionally equipped E46 Seat Heating feature is similar to previous systems with two
+preset temperature settings. The seat heating system consists of the following
+components:
+•
+•
+
+Console mounted, temperature regulating seat heater switches.
+Two section (Seat base and back) carbon fiber heating pad with temperature sensor. If
+seat heating is equipped on the sport seat, a third heating pad is incorporated into the
+thigh support.
+
+SEAT HEATING SWITCH
+Each seat push-button switch contains two LED's
+that correspond with the two preset temperature
+settings.
+•
+
+Both LED's ON,
+Higher
+temperature
+setting
+selected
+KL15
+
+•
+
+Left LED ON
+only, Lower
+temperature
+setting
+selected
+
+KL31
+
+The
+switches
+TEMPERATURE
+SENSOR
+contain
+temperature regulation
+electronics that provide
+100% current flow to
+the seat heating
+element pad when first
+activated providing fast
+heat build up. Once the
+temperature is attained, the
+electronics regulates the current flow to
+stabilize the set temperature.
+The switches provide operating current to the seat heaters until switched off. There is no
+preset time limit of operation.
+70
+E46 Central Body Electronics
+
+If the battery voltage drops below 11.4 volts, the seat heating switch cuts the power supply
+to the heating pads but the LED's in the switch remain illuminated. The seat heating
+switches restore power to the heating pads when the battery voltage raises above 12.2
+volts for more than five seconds.
+CARBON FIBER HEATING PADS
+In each seat is a two section (three section on sport seats), heating pad. The sections are
+wired in parallel . The heating pads are resistors which when provided operating power
+from the seat heating switches produce radiant heat to the following temperatures.
+•
+•
+
+High temperature setting selected (40OC at heating pad)
+Lower temperature setting selected (37OC at heating pad)
+
+The seat base heating element also contains a temperature sensor for feedback to the seat
+switch to provide the temperature regulation output control.
+DIAGNOSIS
+The seat heater switches contain a diagnostic mode of operation that provides a self check
+of the system components when activated. The diagnostic information is provided via flash
+codes from the LED's.
+Diagnostic mode activation:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Switch ignition OFF
+Press and hold the suspect seat heating switch button
+Switch the ignition ON
+Release the heating switch button
+Both LED's illuminate steady indicating the seat heating system is functioning.
+Within 10 seconds the LED will begin flashing the following codes:
+Single flash = Switch faulty due to overheating or short
+Double flash = Short or open in temperature sensor or it's circuit.
+Triple flash = Heating element shorted
+
+Normal operation of seat heating can only be resumed after cycling the ignition key.
+
+71
+E46 Central Body Electronics
+
+CENTER CONSOLE SWITCH CENTER (SZM)
+OVERVIEW
+From 2000 Model Year, E46 vehicles are
+equipped with a new Center Console Switch
+Center (SZM).
+The SZM directly controls the front seat
+heating and provides a diagnostic interface
+with the DIS/MoDiC via the K BUS.
+SZM also provides a unitized switching center
+for Dynamic Stability Control (DSC III),
+Convertible Top operation switches and
+Harman/Karden sound system button.
+The switch signal output for these systems is a direct output signal. All diagnosis functions
+are carried out through their respective control systems.
+
+SEAT HEATING OPERATION
+The front seat heaters are adjustable through three ranges of heating output temperature.
+Pressing the respective seat heater button once
+provides stage 1. All three LEDs illuminate and the
+heating elements are provided regulated output
+current producing a seat temperature of 111OF.
+Pressing the button a second time provides stage
+2. The top LED switches off and the heating elements are regulated to an output temperature of
+102OF. Pressing the button a third time provides
+stage 3. The top and middle LEDs are off and the heating elements are regulated to an output temperature of 95OF.
+The SZM monitors the seat heating element temperature via an NTC feedback signal to
+regulate the output current which maintains the seat temperature.
+Seat heating is switched off by pressing the button a fourth time, pressing and holding the
+button for more than 1 second or when the ignition is switched off.
+72
+E46 Central Body Electronics
+
+SZM MONITORING OF SEAT HEATING
+Battery Voltage: The SZM switches current supply to the heating elements off when battery voltage drops below 11.4 volts. However, the heating stage LEDs remain on.
+Regulated output current resumes when battery voltage raises above 12.2 volts for more
+than 5 seconds.
+SZM Internal Temperature: The power output stages for the seat heating elements generate a considerable amount of heat when in stage 1 operation. The SZM monitors it’s own
+internal temperatures and reduces the heating output when internal temperatures rise to a
+temperature of 185OF or switches it off completely above 203OF.
+As with battery voltage monitoring, the heating stage LEDs remain on when these temperatures are exceeded.
+Fault Monitoring: The SZM monitors the temperature sensors and heating mats for faults.
+Detected faults are stored in the SZM. Fault Symptom Troubleshooting in conjunction with
+stored faults will initiate the diagnostic paths using the DIS/MoDiC.
+The following faults can be recognized:
+•
+•
+•
+
+Shorts or opens in the wiring circuits.
+Shorts or opens in the temperature sensors
+Open in heating element.
+
+If a short is detected in the temperature sensor, the seat heating is switched off to prevent
+overheating. The Stage LEDs are also switched off with this fault present.
+
+73
+E46 Central Body Electronics
+
+SZM IPO SCHEMATIC
+CHECK
+ENGINE
+
+DRIVER’S SEAT HEATING
+
+KL 30 (BATTERY)
+-
+
++
+
+KL 31 (GROUND)
+
+KL 15 (IGNITION ON)
+PASSENGER’S SEAT HEATING
+
+KLR (ACC)
+
+58G (PANEL LIGHTING)
+
+BMW DIS
+
+KL 87 (OPERATING POWER)
+
+SZM
+
+60
+
+K BUS
+
+½
+
+0
+
+40
+20
+
+80
+
+3
+
+100
+
+120 140
+100
+160
+180
+80
+200
+
+60
+
+220
+
+40
+
+2
+
+120
+140
+
+5
+6
+
+0
+
+7
+
+km/h
+
+MPH
+
+40
+
+ELECTRONIC
+
+20 15
+
+10
+
+0
+
+!
+
++72.0 f
+
+miles
+
+CHECK
+ENGINE
+
+LSZ
+
+4
+
+1/min
+x 1000
+
+1
+
+240
+
+20
+
+OIL SERVICE
+INSPECTION
+
+o
+
+20 DIGIT READOUT
+
+prnd432
+m
+
+P
+
+!
+
+ABS
+
+DIS
+
+songaiD
+metsyS noitamrofnI dna -e
+
+DIS &
+MoDiC
+
+DIS
+
+M
+o
+
+D
+iC
+
+BMW DIS
+
+BMW
+
+CVM CONTROL
+MODULE
+
+HARMAN/KARDEN
+AMPLIFIER
+
+DSC
+
+74
+E46 Central Body Electronics
+
+DSC III
+CONTROL
+MODULE
+
+OPTIONAL SEAT BACK LUMBAR SUPPORT
+The optional air bladder lumbar support system is similar to the E38/E39 comfort seat.
+Each seat contains the following components:
+•
+•
+•
+
+•
+
+Four position circular rocker switch in the seat base trim in the area of the seat switches.
+Electrically controlled air compressor with over pressure cut out under each seat.
+Two solenoid activated air controlling valve blocks (one per air bladder). Each valve
+block includes an inlet and an outlet valve. When energized they direct air into the
+bladder(s) to inflate or relieve trapped air to deflate the bladders.
+Connecting hoses and air bladders in lower seat back
+
+OPERATION
+The lumbar support
+system can be operated
+at any time regardless of
+key position. The four
+position circular rocker
+switch provides power
+switching to operate the
+system as follows:
+
+• Position 1: The internal switch contacts provide a power and ground path for both valve
+block inlet valves and the air compressor. Both bladders inflate until the switch is
+released. If the switch is held continuously, an overpressure bypass valve opens on the
+compressor preventing damage to the bladders.
+• Position 2: Compressor activated, upper bladder inflates, lower bladder deflates
+• Position 3: Compressor activated, lower bladder inflates, upper bladder deflates
+• Position 4: Compressor is not activated. Upper and Lower bladders both deflate.
+
+DIAGNOSIS
+The seat lumbar support system is purely electro-pneumatic control system. No electronic
+diagnostic communication is possible.
+75
+E46 Central Body Electronics
+
+DUAL POWER/HEATED OUTSIDE MIRRORS
+(Sedans produced prior to 9/99 or vehicles equipped with manual seats)
+The E46 is equipped with Dual Power/Heated Outside Mirrors and Windshield Washer
+Spray Nozzle Heaters as standard equipment. Control of the mirrors is carried out directly
+by the mirror switch located in the driver's door handle. The switch also provides power to
+
+the heating element in the driver's door mirror. Passenger door mirror heating element
+power supply is provided directly. The mirrors are heated regardless of outside ambient
+temperature. The heating element resistance produces a mirror temperature of
+approximately 60oC.
+The switch utilizes the familiar four way button and a changeover switch. The switch is
+provided with operating power (KL 15) and ground.
+Each mirror has two motors providing horizontal and vertical adjustment. Pushing the four
+way button to an up/down or left/right position activates the corresponding motor.
+
+WINDSHIELD WASHER NOZZLE JET HEATERS
+The windshield washer nozzle jet heaters are provided power when the outside temperature
+switch closes at 6°C +/- 4°C. The switch open when the temperature raises to 16°C +/4°C.
+The outside temperature switch is located on the lower edge (passenger side) of the air
+dam.
+76
+E46 Central Body Electronics
+
+CONSUMER CUT OFF
+The interior lights are connected to the consumer cut off circuit. These consumers are
+connected to KL 30 and can remain on if one of the control switches are left on. This would
+prevent the ZKE from going into the sleep mode. However, the consumer cut off will switch
+Kl 30, to the interior lighting, off after 16 minutes (sleep mode active).
+To achieve "sleep mode" in the workshop:
+• Switch the ignition off
+• Close all doors, trunk and hood (mechanically close latches with doors open if necessary
+• Central lock vehicle
+• Wait 16 minutes
+If one of the following signals from the chart below are activated before the vehicle is in
+sleep mode, the 16 minute cycle starts again. After the 16 minute wait period, the vehicle
+will be in "sleep mode". To bring the system out of sleep mode, the GM responds to a
+status change of the signals from the chart below.
+
+SIGNAL
+
+ACTIVITY
+
+ORIGINATING
+MODULE
+
+K-BUS
+
+High
+
+General Module
+
+Door jamb sensors (possibility of 4)
+
+Low
+
+“
+
+Trunk lid lock cylinder microswitch
+
+High
+
+“
+
+Interior Trunk lid pushbutton microswitch
+
+Low
+
+“
+
+Central locking button
+
+Low
+
+“
+
+Hood microswitch
+
+Low
+
+“
+
+Trunk Key Position switch (DWA)
+
+Low
+
+“
+
+Interior light switch
+
+Low
+
+“
+
+UIS sensor
+
+Low
+
+“
+
+Tilt Alarm sensor
+
+Low
+
+“
+
+Driver’s door lock sensors-(lock/unlock)
+
+Driver’s door
+
+77
+E46 Central Body Electronics
+
+BATTERY STATUS
+The GM monitors KL R on a dedicated circuit. If the ignition is switched on and detected
+via the KL R circuit but the GM does not receive KL R status via the K Bus, the GM monitors
+the KL R voltage level. If after an additional 0.3 seconds there is no K Bus activity, the GM
+initiates an emergency running program.
+A substitute value for vehicle speed is used to allow the GM to operate certain functions.
+The emergency running program will terminate if the GM detects a vehicle speed or KL R
+status via the K bus.
+
+DIAGNOSIS/TROUBLESHOOTING
+The GM V contains an EEPROM fault memory. Diagnosis and troubleshooting is carried
+out with the DIS or MoDiC. The diagnostic link is through the Instrument cluster over the
+K bus to the GM.
+
+78
+E46 Central Body Electronics
+
+Review Questions
+1. List the functions directly controlled by the GM V.
+
+2. How does the GM V communicate with other control modules?
+
+3. What effect does road speed have on the wiper system? What effect does it have on
+an AIC equipped vehicle? Where does the road speed come from?
+
+4. How does the GM V recognize the key position from the drivers door? What is the best
+way to check those signals?
+
+5. What additional output does the GM V use for the E46 convertible central locking
+system?
+
+6. Describe the procedure used by the GM V to recognize an FZV key. Can the GM
+differentiate between different keys? How many can it recognize?
+
+7. Explain why the model year 2000 FZV key no longer has replaceable batteries, and
+describe the charging process.
+
+8. What “convienience” features are available from the FZV key?
+
+79
+E46 Central Body Electronics
+
+9. Describe what happens when the GM V receives the crash signal from the MRS.
+
+10. Why does the SHD (sunroof) module require initialization but the windows do not?
+
+11. How does the GM V signal the tilt sensor, UIS sensor and siren that the alarm system
+has been armed?
+
+12. When does the convertible seat “Comfort Entry Aid” system lower the headrest. Why
+does the seat base move faster with comfort entry than with the normal switch?
+
+13. What type of sensor is used to detect the position of a seat with Memory? What type
+of signal does it produce?
+
+14.How does the Seat Module communicate a request for a stored memory position with
+the mirror modules?
+
+15. Where is the outside temperature switch located and what is it used for?
+
+80
+E46 Central Body Electronics
+
+
