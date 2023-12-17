@@ -1,4 +1,6 @@
 scikit-learn
 openpyxl
 tensorflow
-pickle5
+pandas
+matplotlib
+tk-tools
