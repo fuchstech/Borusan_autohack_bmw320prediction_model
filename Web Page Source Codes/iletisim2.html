@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>İletişim</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="anasayfa.html">Anasayfa</a></li>
+                <li><a href="aracdegertahmini.html">Araç Değer Tahmini</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">Teknik Araç Rehberi</a>
+                    <div class="dropdown-content">
+                        <a href="https://chat.socialintents.com/c/chat-1702625406204">BMW F30 Oto Kılavuz Yardımı</a>
+                        <a href="https://chat.socialintents.com/c/chat-1702625406204">BMW E46 Oto Kılavuz Yardımı</a>
+                    </div>
+                </li>
+                <li><a href="sikcasorulansorular.html">Sıkça Sorulan Sorular</a></li>
+                <li><a href="iletisim2.html">İletişim</a></li>
+                <li><a href="index.html">Çıkış</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content">
+        <h1 class="section-title">İletişim</h1>
+        <div class="contact-form">
+            <label for="subject">Konu:</label>
+            <select id="subject" name="subject">
+                <option value="genel">Genel</option>
+                <option value="öneri">Öneri</option>
+                <option value="şikayet">Şikayet</option>
+            </select><br><br>
+            <label for="urgency">Aciliyet Durumu:</label>
+            <select id="urgency" name="urgency">
+                <option value="dusuk">Düşük</option>
+                <option value="orta">Orta</option>
+                <option value="yuksek">Yüksek</option>
+            </select><br><br>
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            <button class="contact-button">Gönder</button>
+        </div>
+    </section>
+    <footer>
+        <div class="social-icons">
+            <a href="https://tr.linkedin.com/company/matiricie"><img src="linkedin-logo.png" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/matiricie"><img src="instagram-logo.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

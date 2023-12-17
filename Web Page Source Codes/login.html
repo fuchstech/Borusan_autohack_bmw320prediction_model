@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Giriş Yap</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="hizmetler.html">Hizmetlerimiz</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+                <li><a href="login.html">Giriş Yap</a></li>
+                <li><a href="register.html">Kayıt Ol</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content login-content">
+        <div class="login-form">
+            <h1 class="section-title">Giriş Yapın</h1>
+            <form action="" method="POST">
+                <div class="input-container">
+                    <label for="username">E-posta:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Şifre:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="login-button">Giriş Yap</button>
+            </form>
+            <p class="forgot-password">
+                <a href="forgot_password.html" style="text-decoration: none; color: #a91100; font-weight: bold;">Şifremi
+                    Unuttum</a>
+            </p>
+            <p class="register-link"><a href="register.html">Henüz hesabınız yok mu?</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="social-icons">
+            <a href="https://tr.linkedin.com/company/matiricie"><img src="linkedin-logo.png" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/matiricie"><img src="instagram-logo.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('form').addEventListener('submit', function (e) {
+            e.preventDefault(); // Formun otomatik gönderilmesini engeller
+
+            // Kullanıcı adı ve şifre kontrolü
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            if (username === 'test@matiricie.com' && password === 'test') {
+                // Kullanıcı adı ve şifre doğru ise anasayfa.html'ye yönlendir
+                window.location.href = 'anasayfa.html';
+            } else {
+                // Kullanıcı adı veya şifre hatalı ise hata mesajı göster
+                alert('Kullanıcı adı veya şifre hatalı. Lütfen tekrar deneyin.');
+            }
+        });
+    </script>
+</body>
+
+</html>

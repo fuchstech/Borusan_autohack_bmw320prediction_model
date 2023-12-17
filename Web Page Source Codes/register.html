@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kayıt Ol</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="hizmetler.html">Hizmetlerimiz</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+                <li><a href="login.html">Giriş Yap</a></li>
+                <li><a href="register.html">Kayıt Ol</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content register-content">
+        <div class="register-form">
+            <h1 class="register-title">Kayıt Olun</h1>
+            <form action="register.php" method="POST">
+                <div class="input-container">
+                    <label for="name">Ad Soyad:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-container">
+                    <label for="email">E-posta:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Şifre:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+                </div>
+                <div class="input-containerr">
+                    <input type="checkbox" id="kvkk" name="kvkk" required>
+                    <label for="kvkk"><a href="kvkk.html">KVKK metnini okudum, kabul ediyorum.</a></label>
+                </div>
+                <div class="input-containerr">
+                    <input type="checkbox" id="red" name="red" required>
+                    <label for="red"><a href="red.html">Sorumluluk reddi beyanını okudum, kabul ediyorum.</a></label>
+
+                </div>
+                <button type="submit" class="register-button">Kayıt Ol</button>
+            </form>
+            <p class="login-link"><a href="login.html">Zaten bir hesabınız var mı? Giriş yapın</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="social-icons">
+            <a href="https://tr.linkedin.com/company/matiricie"><img src="linkedin-logo.png" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/matiricie"><img src="instagram-logo.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

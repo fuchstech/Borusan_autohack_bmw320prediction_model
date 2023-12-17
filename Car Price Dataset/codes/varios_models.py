@@ -13,7 +13,7 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import mean_squared_error, r2_score
-
+import pickle
 # Load the data
 file_path = r'C:\Users\dest4\Desktop\autohackmatiricie\Car Price Dataset\data\BMW.xlsx'  # Replace with your file path
 bmw_data = pd.read_excel(file_path)
@@ -126,6 +126,8 @@ y_pred_rf = rf_model.predict(X_test_scaled)
 print("Random Forest MSE:", mean_squared_error(y_test, y_pred_rf))
 print("Random Forest R2:", r2_score(y_test, y_pred_rf))
 
+filename = 'finalized_model.sav'
+pickle.dump(rf_model, open(filename, 'wb'))
 # K-En Yakın Komşu Modeli
 knn_model = KNeighborsRegressor(n_neighbors=5)
 knn_model.fit(X_train_scaled, y_train)
