@@ -76,8 +76,33 @@ model.add(Dense(1, activation='linear'))  # Output layer for regression
 model.compile(optimizer=Adam(learning_rate=0.001), loss='mean_squared_error')
 
 # Training the model
-history = model.fit(X_train_scaled, y_train, validation_split=0.2, epochs=10000, batch_size=32, verbose=1)
+history = model.fit(X_train_scaled, y_train, validation_split=0.2, epochs=100, batch_size=32, verbose=1)
 
 # Evaluate the model on the test set
 test_loss = model.evaluate(X_test_scaled, y_test, verbose=1)
 print(f'Test Loss: {test_loss}')
+
+
+#**********************************************************************************************************************
+#Plot predictions vs actual
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Generate predictions for the test set
+y_pred_nn = model.predict(X_test_scaled).flatten()
+
+# Selecting a subset of data for plotting for clarity
+sample_size = 20  # Adjust as needed
+indices = np.arange(sample_size)
+actual_sample = y_test.iloc[:sample_size]
+predicted_sample = y_pred_nn[:sample_size]
+
+# Plotting the actual vs predicted prices
+plt.figure(figsize=(12, 6))
+plt.plot(indices, actual_sample, label='Actual Prices', marker='o')
+plt.plot(indices, predicted_sample, label='Predicted Prices', marker='x')
+plt.xlabel('Sample Index')
+plt.ylabel('Price')
+plt.title('Actual vs Predicted Prices Comparison')
+plt.legend()
+plt.show()
