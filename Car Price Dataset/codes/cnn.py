@@ -6,7 +6,7 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import Adam
 
 # Load the data
-file_path = 'C:\Users\dest4\Desktop\autohackmatiricie\Car Price Dataset\data\BMW.xlsx'  # Replace with your file path
+file_path = r'C:\Users\dest4\Desktop\autohackmatiricie\Car Price Dataset\data\BMW.xlsx'  # Replace with your file path
 bmw_data = pd.read_excel(file_path)
 
 # Define mappings for replacements and paints
@@ -76,7 +76,7 @@ model.add(Dense(1, activation='linear'))  # Output layer for regression
 model.compile(optimizer=Adam(learning_rate=0.001), loss='mean_squared_error')
 
 # Training the model
-history = model.fit(X_train_scaled, y_train, validation_split=0.2, epochs=100, batch_size=32, verbose=1)
+history = model.fit(X_train_scaled, y_train, validation_split=0.2, epochs=10000, batch_size=32, verbose=1)
 
 # Evaluate the model on the test set
 test_loss = model.evaluate(X_test_scaled, y_test, verbose=1)
