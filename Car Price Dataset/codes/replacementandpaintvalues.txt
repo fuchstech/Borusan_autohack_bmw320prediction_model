@@ -1,0 +1,23 @@
+Paints 
+----------------
+Right Front Fender 0.5
+Right Front Door 1
+Right Rear Door 1
+Right Rear Fender 0.5
+Left Front Fender 0.5
+Left Front Door 1
+Left Rear Door 1
+Left Rear Fender 0.5
+Tailgate 1
+roof 3
+
+Replacements
+------------------
+Engine bonnet 2
+Rear Bumper 1.5
+Front Bumper 1.5
+Left Front Door 1
+Left Front Fender 0.7
+Right Front Fender 0.7
+Right Front Door 1
+Tailgate 1.3
