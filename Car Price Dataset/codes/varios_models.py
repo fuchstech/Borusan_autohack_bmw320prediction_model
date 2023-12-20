@@ -15,7 +15,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.metrics import mean_squared_error, r2_score
 import pickle
 # Load the data
-file_path = r'C:\Users\yildi\OneDrive\Masaüstü\autohackmatiricie\Car Price Dataset\data\BMW.xlsx'  # Replace with your file path
+file_path = r'C:\Users\dest4\Desktop\autohackmatiricie\Car Price Dataset\data\BMW.xlsx'  # Replace with your file path
 bmw_data = pd.read_excel(file_path)
 
 # Define mappings for replacements and paints
